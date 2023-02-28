@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Contact_Must_Have_Email</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISBLANK(Contractor__c)=FALSE,
+ISBLANK(Contractor__r.Email)
+)</errorConditionFormula>
+    <errorDisplayField>Contractor__c</errorDisplayField>
+    <errorMessage>The Contractor Contact you have selected does not have an email address. You must update that Contact with an email address prior to selecting them on a Service Appointment.</errorMessage>
+</ValidationRule>

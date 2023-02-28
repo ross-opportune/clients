@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Noise_Pick__c</fullName>
+    <externalId>false</externalId>
+    <label>High Noise</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wear correct hearing PPE</fullName>
+                <default>false</default>
+                <label>Wear correct hearing PPE</label>
+            </value>
+            <value>
+                <fullName>Manage exposure times</fullName>
+                <default>false</default>
+                <label>Manage exposure times</label>
+            </value>
+            <value>
+                <fullName>Shut down equipment</fullName>
+                <default>false</default>
+                <label>Shut down equipment</label>
+            </value>
+            <value>
+                <fullName>Use “quiet” tools</fullName>
+                <default>false</default>
+                <label>Use “quiet” tools</label>
+            </value>
+            <value>
+                <fullName>Sound barriers or curtains</fullName>
+                <default>false</default>
+                <label>Sound barriers or curtains</label>
+            </value>
+            <value>
+                <fullName>Provide or use suitable communication techniques</fullName>
+                <default>false</default>
+                <label>Provide or use suitable communication techniques</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Sub_Group__c</fullName>
+    <description>This is the Sub Groups of the Service Resources and the Sub groups they belong to</description>
+    <externalId>false</externalId>
+    <label>SA Sub Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Artificial Lift Tech</fullName>
+                <default>false</default>
+                <label>Artificial Lift Tech</label>
+            </value>
+            <value>
+                <fullName>Maintenance I&amp;E</fullName>
+                <default>false</default>
+                <label>Maintenance I&amp;E</label>
+            </value>
+            <value>
+                <fullName>Maintenance Integrity</fullName>
+                <default>false</default>
+                <label>Maintenance Integrity</label>
+            </value>
+            <value>
+                <fullName>Maintenance Mechanic</fullName>
+                <default>false</default>
+                <label>Maintenance Mechanic</label>
+            </value>
+            <value>
+                <fullName>Maintenance Pipeline</fullName>
+                <default>false</default>
+                <label>Maintenance Pipeline</label>
+            </value>
+            <value>
+                <fullName>Operations Lead</fullName>
+                <default>false</default>
+                <label>Operations Lead</label>
+            </value>
+            <value>
+                <fullName>Operations Recovery Operator</fullName>
+                <default>false</default>
+                <label>Operations Recovery Operator</label>
+            </value>
+            <value>
+                <fullName>Operations Route Operator</fullName>
+                <default>false</default>
+                <label>Operations Route Operator</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Plant</fullName>
+                <default>false</default>
+                <label>Plant</label>
+            </value>
+            <value>
+                <fullName>IOC</fullName>
+                <default>false</default>
+                <label>IOC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

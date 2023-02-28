@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Work_Orders_Waiting_for_Approval</fullName>
+    <columns>Name</columns>
+    <columns>CreatedDate</columns>
+    <columns>Asset</columns>
+    <columns>Primary__c</columns>
+    <columns>Priority</columns>
+    <columns>CreatedBy</columns>
+    <columns>Status</columns>
+    <columns>Total_Cost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Pending Approval,Pending More Info</value>
+    </filters>
+    <filters>
+        <field>Primary__c</field>
+        <operation>notEqual</operation>
+        <value>Lease Road Repair,Weed Control</value>
+    </filters>
+    <label>*Waiting for Approval</label>
+</ListView>

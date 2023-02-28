@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pigging_MPs</fullName>
+    <columns>Name</columns>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <columns>NextSuggestedMaintenanceDate</columns>
+    <columns>DoesAutoGenerateWorkOrders</columns>
+    <columns>WorkOrderGenerationStatus</columns>
+    <columns>StartDate</columns>
+    <columns>WorkType</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MaintenancePlanTitle</field>
+        <operation>contains</operation>
+        <value>pigging</value>
+    </filters>
+    <label>Pigging MPs</label>
+</ListView>

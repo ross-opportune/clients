@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operations_Work_Orders_To_Plan</fullName>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>Subject</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>WorkOrder.Artificial_Lift,WorkOrder.Downtime,WorkOrder.Non_Downtime</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>New,Approved,Planning</value>
+    </filters>
+    <label>Operations Work Orders to Plan</label>
+    <sharedTo>
+        <group>Operations_Planners</group>
+    </sharedTo>
+</ListView>

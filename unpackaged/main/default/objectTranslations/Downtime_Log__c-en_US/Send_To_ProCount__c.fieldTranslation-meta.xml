@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check to send to ProCount --></help>
+        <label><!-- Send To ProCount --></label>
+        <name>Send_To_ProCount__c</name>
+    </CustomFieldTranslation>

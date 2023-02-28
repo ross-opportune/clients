@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please enter the condition of the Air-to- Soil condition. --></help>
+        <label><!-- Condition of Air-to-Soil Interface --></label>
+        <name>Condition_of_Air_to_Soil_Interface__c</name>
+    </CustomFieldTranslation>

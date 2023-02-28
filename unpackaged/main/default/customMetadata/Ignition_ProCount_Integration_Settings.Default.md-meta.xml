@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Delete_Downtime_Logs_after_x_days__c</field>
+        <value xsi:type="xsd:double">365.0</value>
+    </values>
+    <values>
+        <field>Delete_Integration_Logs_after_x_days__c</field>
+        <value xsi:type="xsd:double">365.0</value>
+    </values>
+    <values>
+        <field>Enabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Ignition_ProCount_Send_Errors_to_Email__c</field>
+        <value xsi:type="xsd:string">bbehrens@opportune.com</value>
+    </values>
+    <values>
+        <field>ProCount_File_Name__c</field>
+        <value xsi:type="xsd:string">ProCount.csv</value>
+    </values>
+    <values>
+        <field>REST_FTP_Ignition_Download_Path__c</field>
+        <value xsi:type="xsd:string">/toSF/</value>
+    </values>
+    <values>
+        <field>REST_FTP_ProCount_Upload_Path__c</field>
+        <value xsi:type="xsd:string">/fromSF/</value>
+    </values>
+    <values>
+        <field>REST_FTP_URL__c</field>
+        <value xsi:type="xsd:string">https://sftoftpproxy.herokuapp.com</value>
+    </values>
+    <values>
+        <field>REST_FTP_api_Key__c</field>
+        <value xsi:type="xsd:string">kmzqBHacFL95aC0pM9D8biTzQOOT518C1FzoxNk7</value>
+    </values>
+    <values>
+        <field>REST_FTP_server__c</field>
+        <value xsi:type="xsd:string">ftps.ensignnr.com</value>
+    </values>
+    <values>
+        <field>REST_FTP_server_password__c</field>
+        <value xsi:type="xsd:string">j2CB3_fZgfa3Ry+5</value>
+    </values>
+    <values>
+        <field>REST_FTP_server_port__c</field>
+        <value xsi:type="xsd:double">990.0</value>
+    </values>
+    <values>
+        <field>REST_FTP_server_useTLS__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>REST_FTP_server_username__c</field>
+        <value xsi:type="xsd:string">SalesForce</value>
+    </values>
+</CustomMetadata>

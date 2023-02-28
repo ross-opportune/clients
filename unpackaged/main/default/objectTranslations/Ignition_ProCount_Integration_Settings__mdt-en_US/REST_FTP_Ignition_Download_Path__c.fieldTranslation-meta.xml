@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the ftp path to pickup Ignition files --></help>
+        <label><!-- REST_FTP_Ignition_Download_Path --></label>
+        <name>REST_FTP_Ignition_Download_Path__c</name>
+    </CustomFieldTranslation>

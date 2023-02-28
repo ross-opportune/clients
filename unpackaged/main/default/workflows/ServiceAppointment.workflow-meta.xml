@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Contractor_Work_Order_Dispatched_Notification</fullName>
+        <description>Contractor Work Order Dispatched Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contractor__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Field_Service_Lightning/Contractor_Template</template>
+    </alerts>
+</Workflow>

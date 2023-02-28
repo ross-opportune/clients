@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COA_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>COA Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CHEMICALS &amp; SUPPLIES</fullName>
+                <default>false</default>
+                <label>CHEMICALS &amp; SUPPLIES</label>
+            </value>
+            <value>
+                <fullName>CONTRACT SERVICES &amp; LABOR</fullName>
+                <default>false</default>
+                <label>CONTRACT SERVICES &amp; LABOR</label>
+            </value>
+            <value>
+                <fullName>ENERGY AND FUEL</fullName>
+                <default>false</default>
+                <label>ENERGY AND FUEL</label>
+            </value>
+            <value>
+                <fullName>ESG</fullName>
+                <default>false</default>
+                <label>ESG</label>
+            </value>
+            <value>
+                <fullName>FIELD OFFICE EXPENSE</fullName>
+                <default>false</default>
+                <label>FIELD OFFICE EXPENSE</label>
+            </value>
+            <value>
+                <fullName>MAINTENANCE</fullName>
+                <default>false</default>
+                <label>MAINTENANCE</label>
+            </value>
+            <value>
+                <fullName>MAJOR REPAIRS</fullName>
+                <default>false</default>
+                <label>MAJOR REPAIRS</label>
+            </value>
+            <value>
+                <fullName>PAWNEE PLANT</fullName>
+                <default>false</default>
+                <label>PAWNEE PLANT</label>
+            </value>
+            <value>
+                <fullName>PRODUCTION EXPENSE</fullName>
+                <default>false</default>
+                <label>PRODUCTION EXPENSE</label>
+            </value>
+            <value>
+                <fullName>SALT WATER DISPOSAL</fullName>
+                <default>false</default>
+                <label>SALT WATER DISPOSAL</label>
+            </value>
+            <value>
+                <fullName>WELL SERVICES</fullName>
+                <default>false</default>
+                <label>WELL SERVICES</label>
+            </value>
+            <value>
+                <fullName>CAPEX</fullName>
+                <default>false</default>
+                <label>CAPEX</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

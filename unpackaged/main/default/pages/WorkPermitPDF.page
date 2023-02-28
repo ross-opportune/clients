@@ -1,0 +1,354 @@
+<apex:page standardcontroller="Form__c"
+           title="Work Permit PDF"
+           lightningstylesheets="false"
+           renderAs="pdf"
+           applybodytag="false"
+           applyHTmlTag="false"
+           showHeader="false">
+    <!--applybodytag="false" is used to make sure that styles are correctly applied to the generated pdf-->
+    <!--standardcontroller="Form__c" allows getting data from the Form object without writing a class-->       
+    <head>
+ <style type="text/css">
+        @page {
+       size: A4 ;
+       <!--- margin-left: 1cm;
+       margin-right: 1cm;
+       margin-top: 1.75cm; --->
+       
+       @top-center {
+        content: element(header);
+    }
+       
+       @bottom-center{
+           content: element(footer);
+           }
+           
+       @bottom-right{
+            font-size: 10px;
+            content: "page " counter(page) " of " counter(pages);
+            }
+
+     }  
+    
+    div.header{
+         font-size: 11px;
+         font-weight: bold;
+         padding: 12px;
+         text-align: left;
+         position: running(header);
+     }
+    
+     div.footer{
+         font-size: 10px;
+         text-align: center;
+         position: running(footer);
+     }
+
+     table{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 11px;
+     page-break-inside: avoid;
+     table-layout: fixed;
+     border-spacing: 0;
+     border-collapse: collapse;
+     margin-left:auto; 
+     margin-right:auto;
+     }
+
+     .boxorange{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #FD7E14;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 25px;
+      }
+      
+      .boxblack{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #000000;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 25px;
+      }
+      
+        .boxred{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #FF0000;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 25px;
+      }
+      
+       .boxorangesmallfont{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #FD7E14;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 10px;
+      }
+
+        .boxgreysmallfont{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #D3D3D3;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 10px;
+      }
+      .boxcenter{
+        font-weight: bold;
+        text-align: center; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+      }
+      
+       .boxleftbold{
+        font-weight: bold;
+        text-align: left; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+      }
+      
+      .boxleft{
+        text-align: left; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+      }
+      
+        .boxleftsmallfont{
+        text-align: left; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+        font-size: 8px;
+      }
+
+      .center{
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center; 
+        text-overflow: ellipsis;
+      }
+
+      .centerbold{
+      font-size: 14px;
+        font-weight: bold;
+        text-align: center; 
+        text-overflow: ellipsis;
+      }
+
+      .noboxcenter{
+      border-top: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-right: 0; 
+      text-align: center; 
+      font-weight: bold;
+      }
+
+      .noborder{
+      border-top: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-right: 0; 
+      }
+
+    .small{
+     font-size: 9px;
+     }
+
+     .smallcenter{
+     font-size: 9px;
+     text-align: center;
+     }
+
+     .spacer{
+      border-bottom: 6px solid; 
+      border-top: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-right: 0; 
+      border-color: transparent;
+      }
+     
+    
+      td{
+      font-size: 11px;
+      padding: 3px;
+      text-overflow: ellipsis;
+
+      }
+      
+
+      span{
+      font-weight: normal;
+      text-overflow: ellipsis;
+      }
+      
+      .centertable {
+        margin-left:auto; 
+        margin-right:auto;
+      }
+
+</style>
+    </head>
+    <body>
+
+    <table align= "center">
+        <colgroup>
+            <col style="width: 325px"/>
+            <col style="width: 325px"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <td align = "center" rowSpan="2" colSpan="2" class="noboxcenter" style="font-size: 30 px; important;">Ensign Operating LLC <br></br> Right to Work Permit</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="height: 35px">
+            <td class="boxleft"> Issue Date: <apex:outputField value="{!Form__c.Issue_Date__c}"/></td> 
+            <td class="boxleft"> Expiration: <apex:outputField value="{!Form__c.Expiration_Date__c}"/></td>
+        </tr>
+
+        <tr style="height: 35px">
+            <td class="boxleft" colSpan="2"> Equipment Name/#: <apex:outputField value="{!Form__c.Equipment_Name__c}"/></td>
+        </tr>   
+         
+        <tr style="height:15px">
+            <td class="boxblack" colSpan="2"></td>
+        </tr>
+        
+        <tr style="height: 35px">
+            <td class="boxleft" colSpan="2"> Ensign Work Contractor: <apex:outputField value="{!Form__c.OwnerId}"/></td>
+        </tr>
+        
+        <tr style="height: 50px">
+            <td class="boxleft" colSpan="2" rowSpan="3"> Detailed Description of Work: <apex:outputText value="{!Form__c.Detailed_Description_of_Work__c}"/></td>
+        </tr>    
+        </tbody> 
+    </table>
+
+    <table align="center">
+        <colgroup>
+            <col style="width: 300 px"/>
+            <col style="width: 50 px"/>
+            <col style="width: 300 px"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <td class="boxcenter" style="font-size: 20 px; important;"> HSE Checklist </td>
+            <td class="boxcenter" style="font-size: 20 px; important;"> Yes or N/A </td>
+            <td class="boxcenter" style="font-size: 20 px; important;"> Comments </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="height: 35px">
+            <td class="boxleft"> 1.Has field verification occurred? </td>
+            <td class="boxcenter" style="width:100" > <apex:outputText value="{!Form__c.X1_Has_field_verification_occurred__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Comments_1__c}"/></td>
+        </tr>
+        
+        <tr style="height: 35px">
+            <td class="boxleft"> 2. Process equipment cleared, depressured and isolated, OR extra precautions listed. </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X2_Precautions__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Purged_with__c}"/></td>
+        </tr>
+        <tr style="height: 35px">
+            <td class="boxleft"> 3. Lock Out/Tag Out to be performed. </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X3_Lock_Out_Tag_Out_to_be_performed__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Comments_3__c}"/></td>
+        </tr>        
+        <tr style="height: 35px">
+            <td class="boxleft"> 3a. Is Lock Box being used? </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X3a_Is_Lock_Box_being_used__c}"/></td>
+            <td class="boxleft"> Location of Lock Box: <apex:outputText value="{!Form__c.Location_of_Lock_Box__c}"/></td>
+        </tr>  
+        <tr style="height: 35px">
+            <td class="boxleft"> 3b. If electrical, has try been performed? </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.If_electrical_has_try_been_performed__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Try_Step_Required__c}"/></td>
+        </tr> 
+        
+        <tr>
+            <td class="boxleft"> 4. Specific Protective Equipment beyond standard PPE required for this task. <br></br> <b> Standard PPE:</b> hard hat, safety glasses with sideshields, protective toe shoes. </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X4_Additional_PPE__c}"/></td> 
+            <td class="boxleft"><apex:outputField value="{!Form__c.Flame_Resistant_Clothing__c}"/> Flame Resistant Clothing <br></br> 
+            <apex:outputField value="{!Form__c.Hearing_Protection_WP__c}"/> Hearing Protection <br></br>
+            <apex:outputField value="{!Form__c.Personal_H2S_Monitor__c}"/> Personal H2S Monitor <br></br>
+            <apex:outputField value="{!Form__c.Goggles_or_Faceshield__c}"/> Goggles or Faceshield <br></br>
+            <apex:outputField value="{!Form__c.Proper_Gloves__c}"/> Proper Gloves <br></br>  
+            <apex:outputField value="{!Form__c.Other_WP__c}"/> Other <br></br> </td>
+        </tr>                
+        
+        <tr>
+            <td class="boxleft"> 5.Nearest Safety Shower/eye wash tested </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X5_Nearest_Safety_Shower_eye_wash_tested__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Comments_5__c}"/></td>
+        </tr> 
+        <tr>
+            <td class="boxleft"> 6.Nearest Fire Extinguisher identified </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X6_Nearest_Fire_Extinguisher_identified__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Comments_6__c}"/></td>
+        </tr>         
+        <tr>
+            <td class="boxleft"> 7.Fall Protection Required? </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X7_Fall_Protection_Required__c}"/></td>
+            <td class="boxleft"> Type: <apex:outputText value="{!Form__c.Fall_Protection_Type__c}"/></td>
+        </tr>    
+        <tr>
+            <td class="boxleft"> 8.Equipment grounded to prevent static spark. </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X8_Equipment_grounded__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Comments_8__c}"/></td>
+        </tr>   
+        <tr>
+            <td class="boxleft"> 9.Hot surfaces identified. (burn hazards) </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X9_Hot_surfaces_identified__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Comments_9__c}"/></td>
+        </tr>    
+        <tr>
+            <td class="boxleft"> 10. Slip, Trip, and Fall hazards identified.</td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X10_Slip_Trip_and_Fall_Hazards__c}"/></td>
+            <td class="boxleft"> <apex:outputText value="{!Form__c.Comments_10__c}"/></td>
+        </tr>
+        <tr>
+            <td class="boxleft"> 11.Hazardous chemicals nearby. </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X11_Hazardous_chemicals_nearby__c}"/></td>
+            <td class="boxleft"> List chemicals: <apex:outputText value="{!Form__c.List_Hazardous_Chemicals__c}"/></td>
+        </tr>
+        <tr style="height: 50px">
+            <td class="boxleft"> 12. Emergency Assembly Area Identified <br></br> </td>
+            <td class="boxcenter"> <apex:outputText value="{!Form__c.X12_Emergency_Assembly_Area_Identified__c}"/> <br></br> </td>
+            <td class="boxleft"> Primary: <apex:outputText value="{!Form__c.Primary_EmergAssemblyArea__c}"/> <br></br> Secondary: <apex:outputText value="{!Form__c.Secondary_EmergAssemblyArea__c}"/></td>
+        </tr>
+    </tbody>    
+    </table>
+
+    <table align="center">
+ 
+        <tbody>
+        <tr> 
+            <td class="boxleft" style="width: 219px"> 13.Gas Detector reading for instrument work in a classified area and vehicle entry. </td>
+            <td class="boxleft" style="width:447px" > LEL:  <apex:outputField value="{!Form__c.LEL__c}"/> (0-10%) <br></br>
+            O2:  <apex:outputField value="{!Form__c.O2__c}"/> (19.5-23.5%) </td> 
+        </tr>
+        <tr style="height: 35 px">
+            <td class="boxleft" colSpan="2" rowSpan="3"> Other Concerns, Contractor Requirements, or hazards identified: <apex:outputField value="{!Form__c.Other__c}"/><br> </br> </td>
+        </tr>   
+        <tr style="height:35px">
+            <td class="boxblack" style="width:600px"></td>
+        </tr> 
+        <tr style="height:15px">
+            <td class="boxblack" colSpan="2"></td>
+        </tr>
+        </tbody>       
+           
+    </table>
+    </body>
+</apex:page>

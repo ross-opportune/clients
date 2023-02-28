@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- I acknowledge I have reviewed the JSA --></label>
+        <name>I_acknowledge_I_have_reviewed_the_JSA__c</name>
+    </CustomFieldTranslation>

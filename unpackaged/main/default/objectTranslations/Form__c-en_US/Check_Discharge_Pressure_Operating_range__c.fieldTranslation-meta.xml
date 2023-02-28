@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check discharge pressure operating range (when pump is on) to be between 60-80 psig (can adjust as needed to achieve desired flowrate- lower pressure will increase flow rate) --></help>
+        <label><!-- Check Discharge Pressure Operating range --></label>
+        <name>Check_Discharge_Pressure_Operating_range__c</name>
+    </CustomFieldTranslation>

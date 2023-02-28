@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Eye Protection --></label>
+        <name>Eye_Protection__c</name>
+        <picklistValues>
+            <masterLabel>Face Shield</masterLabel>
+            <translation><!-- Face Shield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goggles</masterLabel>
+            <translation><!-- Goggles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Glasses</masterLabel>
+            <translation><!-- Safety Glasses --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

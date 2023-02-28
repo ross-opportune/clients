@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check pond for any shimmer/ skim oil and report any oil found --></help>
+        <label><!-- Check Pond For Shimmer --></label>
+        <name>Check_Pond_For_Shimmer__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check pond level and report a full pond and LOTO pump as needed to stay within the berms --></help>
+        <label><!-- Check Pond Level --></label>
+        <name>Check_Pond_Level__c</name>
+    </CustomFieldTranslation>

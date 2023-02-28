@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pneumatic Controller Make --></label>
+        <name>Pneumatic_Controller_Make__c</name>
+        <picklistValues>
+            <masterLabel>1001-Norriseal</masterLabel>
+            <translation><!-- 1001-Norriseal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1532 doesn’t exist</masterLabel>
+            <translation><!-- 1532 doesn’t exist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ABB I/P</masterLabel>
+            <translation><!-- ABB I/P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BelGas P8100</masterLabel>
+            <translation><!-- BelGas P8100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bmd</masterLabel>
+            <translation><!-- Bmd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CVS series 4150</masterLabel>
+            <translation><!-- CVS series 4150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FW Murphy</masterLabel>
+            <translation><!-- FW Murphy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FW Murphy pneumatic level controller.</masterLabel>
+            <translation><!-- FW Murphy pneumatic level controller. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisher C1</masterLabel>
+            <translation><!-- Fisher C1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisher I/P</masterLabel>
+            <translation><!-- Fisher I/P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisher4150</masterLabel>
+            <translation><!-- Fisher4150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisher4160</masterLabel>
+            <translation><!-- Fisher4160 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC10 liquid level controller (1st stg)</masterLabel>
+            <translation><!-- LC10 liquid level controller (1st stg) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC10 liquid level controller (2nd stg)</masterLabel>
+            <translation><!-- LC10 liquid level controller (2nd stg) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC10 liquid level controller (3rd stg)</masterLabel>
+            <translation><!-- LC10 liquid level controller (3rd stg) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mallard</masterLabel>
+            <translation><!-- Mallard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mallard 3200</masterLabel>
+            <translation><!-- Mallard 3200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mallard 3201</masterLabel>
+            <translation><!-- Mallard 3201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murphy</masterLabel>
+            <translation><!-- Murphy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murphy L1200N</masterLabel>
+            <translation><!-- Murphy L1200N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murphy liquid level controller</masterLabel>
+            <translation><!-- Murphy liquid level controller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Na</masterLabel>
+            <translation><!-- Na --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noriseal 1001</masterLabel>
+            <translation><!-- Noriseal 1001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal</masterLabel>
+            <translation><!-- Norriseal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 01-01</masterLabel>
+            <translation><!-- Norriseal 01-01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001</masterLabel>
+            <translation><!-- Norriseal 1001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001 envirosave</masterLabel>
+            <translation><!-- Norriseal 1001 envirosave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001 snap V-201 inlet vessel for 5 wells.</masterLabel>
+            <translation><!-- Norriseal 1001 snap V-201 inlet vessel for 5 wells. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001 sure seal</masterLabel>
+            <translation><!-- Norriseal 1001 sure seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001 sure seal pilot</masterLabel>
+            <translation><!-- Norriseal 1001 sure seal pilot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001 water level</masterLabel>
+            <translation><!-- Norriseal 1001 water level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001A</masterLabel>
+            <translation><!-- Norriseal 1001A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1001XL</masterLabel>
+            <translation><!-- Norriseal 1001XL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal 1100</masterLabel>
+            <translation><!-- Norriseal 1100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal EVS</masterLabel>
+            <translation><!-- Norriseal EVS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal no model on it.</masterLabel>
+            <translation><!-- Norriseal no model on it. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norriseal1001A</masterLabel>
+            <translation><!-- Norriseal1001A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens I/P</masterLabel>
+            <translation><!-- Siemens I/P --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

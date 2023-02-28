@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simultaneous_Operations__c</fullName>
+    <externalId>false</externalId>
+    <label>Simultaneous Operations</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Follow SIMOPS matrix</fullName>
+                <default>false</default>
+                <label>Follow SIMOPS matrix</label>
+            </value>
+            <value>
+                <fullName>MOC required for deviation from SIMOPS restrictions</fullName>
+                <default>false</default>
+                <label>MOC required for deviation from SIMOPS restrictions</label>
+            </value>
+            <value>
+                <fullName>Interface between groups</fullName>
+                <default>false</default>
+                <label>Interface between groups</label>
+            </value>
+            <value>
+                <fullName>Use barriers and signs to segregate activities</fullName>
+                <default>false</default>
+                <label>Use barriers and signs to segregate activities</label>
+            </value>
+            <value>
+                <fullName>Have permit signed by leader of affected groups</fullName>
+                <default>false</default>
+                <label>Have permit signed by leader of affected groups</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

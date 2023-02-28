@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Asset__c</columns>
+    <columns>Date__c</columns>
+    <columns>Associated_Well_Name__c</columns>
+    <columns>Function__c</columns>
+    <columns>Type_of_Control__c</columns>
+    <columns>Pneumatic_Controller_Make__c</columns>
+    <columns>Pneumatic_Controller_Make_Custom__c</columns>
+    <columns>Bleed_Frequency__c</columns>
+    <columns>High_Low__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

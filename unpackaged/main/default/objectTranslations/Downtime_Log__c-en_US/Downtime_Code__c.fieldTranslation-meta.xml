@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Downtime Code --></label>
+        <name>Downtime_Code__c</name>
+        <picklistValues>
+            <masterLabel>Cat. Conv. Temp. High</masterLabel>
+            <translation><!-- Cat. Conv. Temp. High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Treatment</masterLabel>
+            <translation><!-- Chemical Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compressor Issue</masterLabel>
+            <translation><!-- Compressor Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compressor Issues</masterLabel>
+            <translation><!-- Compressor Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compressor PM</masterLabel>
+            <translation><!-- Compressor PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooling Water Level Low</masterLabel>
+            <translation><!-- Cooling Water Level Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooling Water Temperature High</masterLabel>
+            <translation><!-- Cooling Water Temperature High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Down-hole Issue/ No Flow</masterLabel>
+            <translation><!-- Down-hole Issue/ No Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility  Maintenance</masterLabel>
+            <translation><!-- Facility  Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Maintenance</masterLabel>
+            <translation><!-- Facility Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flowline Maintenance</masterLabel>
+            <translation><!-- Flowline Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Force Majeure</masterLabel>
+            <translation><!-- Force Majeure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freezing Issue/ Hydrates</masterLabel>
+            <translation><!-- Freezing Issue/ Hydrates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Gas</masterLabel>
+            <translation><!-- Fuel Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fueld Gas Supply</masterLabel>
+            <translation><!-- Fueld Gas Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas  Lift</masterLabel>
+            <translation><!-- Gas  Lift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Lift</masterLabel>
+            <translation><!-- Gas Lift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Plant Shut-in</masterLabel>
+            <translation><!-- Gas Plant Shut-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Temperature High</masterLabel>
+            <translation><!-- Gas Temperature High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Discharge Pressure</masterLabel>
+            <translation><!-- High Discharge Pressure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Pipeline Pressure</masterLabel>
+            <translation><!-- High Pipeline Pressure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Sales Line Pressure</masterLabel>
+            <translation><!-- High Sales Line Pressure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Suction Pressure</masterLabel>
+            <translation><!-- High Suction Pressure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot Water Operations</masterLabel>
+            <translation><!-- Hot Water Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot-Water Operations</masterLabel>
+            <translation><!-- Hot-Water Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I&amp;E</masterLabel>
+            <translation><!-- I&amp;E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I&amp;E Issue</masterLabel>
+            <translation><!-- I&amp;E Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEL</masterLabel>
+            <translation><!-- LEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loaded Up/ Incapable of flow</masterLabel>
+            <translation><!-- Loaded Up/ Incapable of flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lube No Flow</masterLabel>
+            <translation><!-- Lube No Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lube Oil Level High</masterLabel>
+            <translation><!-- Lube Oil Level High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lube Oil Pressure High</masterLabel>
+            <translation><!-- Lube Oil Pressure High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lube Oil Temperature High</masterLabel>
+            <translation><!-- Lube Oil Temperature High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not In Use</masterLabel>
+            <translation><!-- Not In Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offset Frac (Ensign)</masterLabel>
+            <translation><!-- Offset Frac (Ensign) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offset Frac (Other Operator)</masterLabel>
+            <translation><!-- Offset Frac (Other Operator) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overspeed</masterLabel>
+            <translation><!-- Overspeed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POD Maintenance</masterLabel>
+            <translation><!-- POD Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraffin/ Scale/ Corrsion</masterLabel>
+            <translation><!-- Paraffin/ Scale/ Corrsion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraffin/Scale/Corrsion</masterLabel>
+            <translation><!-- Paraffin/Scale/Corrsion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Abandonment</masterLabel>
+            <translation><!-- Pending Abandonment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pigging Maintenance</masterLabel>
+            <translation><!-- Pigging Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline Integrity Issue</masterLabel>
+            <translation><!-- Pipeline Integrity Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Maintenance</masterLabel>
+            <translation><!-- Planned Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plunger Lift</masterLabel>
+            <translation><!-- Plunger Lift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plunger Maintenance</masterLabel>
+            <translation><!-- Plunger Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pressure Build Up</masterLabel>
+            <translation><!-- Pressure Build Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restriction</masterLabel>
+            <translation><!-- Restriction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety System</masterLabel>
+            <translation><!-- Safety System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Line Maintenance</masterLabel>
+            <translation><!-- Sales Line Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sand</masterLabel>
+            <translation><!-- Sand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled Maintenance</masterLabel>
+            <translation><!-- Scheduled Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrubber Liquid Level</masterLabel>
+            <translation><!-- Scrubber Liquid Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Separator</masterLabel>
+            <translation><!-- Separator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suction Pressure Low</masterLabel>
+            <translation><!-- Suction Pressure Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tubing/ Mechanical Failure</masterLabel>
+            <translation><!-- Tubing/ Mechanical Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vibration High</masterLabel>
+            <translation><!-- Vibration High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Workover Rig</masterLabel>
+            <translation><!-- Waiting on Workover Rig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weather Issues</masterLabel>
+            <translation><!-- Weather Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellhead Maintenance</masterLabel>
+            <translation><!-- Wellhead Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workover Rig/ Wireline/ Coiled Tubing</masterLabel>
+            <translation><!-- Workover Rig/ Wireline/ Coiled Tubing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Measured metal loss in mils found during Atmospheric Corrosion survey --></help>
+        <label><!-- Metal Loss (Mils) --></label>
+        <name>Metal_Loss_Mils__c</name>
+    </CustomFieldTranslation>

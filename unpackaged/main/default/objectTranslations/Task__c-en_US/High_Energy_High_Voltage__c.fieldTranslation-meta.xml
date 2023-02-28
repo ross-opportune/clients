@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- High Energy / High Voltage --></label>
+        <name>High_Energy_High_Voltage__c</name>
+        <picklistValues>
+            <masterLabel>Discharge equipment and make electrically dead</masterLabel>
+            <translation><!-- Discharge equipment and make electrically dead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Observe safe work distances for live cables</masterLabel>
+            <translation><!-- Observe safe work distances for live cables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restrict access to authorized personnel only</masterLabel>
+            <translation><!-- Restrict access to authorized personnel only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use flash burn PPE</masterLabel>
+            <translation><!-- Use flash burn PPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use insulated gloves, tools, and mats, GFCI’s.</masterLabel>
+            <translation><!-- Use insulated gloves, tools, and mats, GFCI’s. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

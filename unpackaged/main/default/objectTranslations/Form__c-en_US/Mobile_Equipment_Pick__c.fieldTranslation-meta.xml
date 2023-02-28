@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Mobile Equipment --></label>
+        <name>Mobile_Equipment_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Adhere to road / site rules</masterLabel>
+            <translation><!-- Adhere to road / site rules --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assess equipment condition</masterLabel>
+            <translation><!-- Assess equipment condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement controls on users or access</masterLabel>
+            <translation><!-- Implement controls on users or access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limit and monitor proximity to live equipment on users or access</masterLabel>
+            <translation><!-- Limit and monitor proximity to live equipment on users or access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage overhead hazards</masterLabel>
+            <translation><!-- Manage overhead hazards --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

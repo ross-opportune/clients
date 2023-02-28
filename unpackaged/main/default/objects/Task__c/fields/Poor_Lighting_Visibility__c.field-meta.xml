@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Poor_Lighting_Visibility__c</fullName>
+    <externalId>false</externalId>
+    <label>Poor Lighting / Visibility</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Provide alternate lighting</fullName>
+                <default>false</default>
+                <label>Provide alternate lighting</label>
+            </value>
+            <value>
+                <fullName>Wait or defer until visibility improves</fullName>
+                <default>false</default>
+                <label>Wait or defer until visibility improves</label>
+            </value>
+            <value>
+                <fullName>Defer until visibility improves</fullName>
+                <default>false</default>
+                <label>Defer until visibility improves</label>
+            </value>
+            <value>
+                <fullName>Know distance from poles and other equipment while driving</fullName>
+                <default>false</default>
+                <label>Know distance from poles and other equipment while driving</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

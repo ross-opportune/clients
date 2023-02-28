@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This controls the number of Service Appointments created when this Work Order is changed to Planned Status. --></help>
+        <label><!-- Crew Size --></label>
+        <name>Crew_Size__c</name>
+    </CustomFieldTranslation>

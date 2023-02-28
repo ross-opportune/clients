@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reading is in PPM --></help>
+        <label><!-- Gano Pod Test Chloride Level  @ Surface --></label>
+        <name>Gano_Pod_Frac_Chloride_Level_Surface__c</name>
+    </CustomFieldTranslation>

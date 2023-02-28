@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Personnel --></label>
+        <name>Personnel__c</name>
+        <picklistValues>
+            <masterLabel>Address applicable limitations (fatigue, exhaustion)</masterLabel>
+            <translation><!-- Address applicable limitations (fatigue, exhaustion) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage language barriers</masterLabel>
+            <translation><!-- Manage language barriers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mentor / coach / supervise</masterLabel>
+            <translation><!-- Mentor / coach / supervise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform induction or training for new workers</masterLabel>
+            <translation><!-- Perform induction or training for new workers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seat belts while driving</masterLabel>
+            <translation><!-- Seat belts while driving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verify competencies, skills and experience</masterLabel>
+            <translation><!-- Verify competencies, skills and experience --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

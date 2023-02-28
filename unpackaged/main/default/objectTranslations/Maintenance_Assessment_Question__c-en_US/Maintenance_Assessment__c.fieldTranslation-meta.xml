@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Maintenance Assessment --></label>
+        <name>Maintenance_Assessment__c</name>
+        <relationshipLabel><!-- Maintenance Assessment Questions --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Optional enter the number of days to keep integration logs. Records will be deleted after this number of days based on last modified date. 0 or less disables the job --></help>
+        <label><!-- Delete_Integration_Logs_after_x_days --></label>
+        <name>Delete_Integration_Logs_after_x_days__c</name>
+    </CustomFieldTranslation>

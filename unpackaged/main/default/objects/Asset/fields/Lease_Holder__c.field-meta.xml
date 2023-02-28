@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Holder__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This Check Box will indicate whether a well is a Lease Holder well.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do Not Modify Unless Authorized. This Check Box will indicate whether a well is a Lease Holder well. Do Not Modify unless Authorized.</inlineHelpText>
+    <label>Lease Holder</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

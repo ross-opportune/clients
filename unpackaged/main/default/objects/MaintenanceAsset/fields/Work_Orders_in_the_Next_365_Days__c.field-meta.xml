@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Orders_in_the_Next_365_Days__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( MaintenancePlan.FrequencyType, &#39;Days&#39;), 365 / MaintenancePlan.Frequency,
+IF( ISPICKVAL( MaintenancePlan.FrequencyType, &#39;Weeks&#39;), (1 / (MaintenancePlan.Frequency * 7)) * 365,
+IF( ISPICKVAL( MaintenancePlan.FrequencyType, &#39;Months&#39;),(1 / (MaintenancePlan.Frequency * 30)) * 365,
+IF(
+AND(
+ISPICKVAL(MaintenancePlan.FrequencyType, &#39;Years&#39;),
+TODAY() &lt;= NextSuggestedMaintenanceDate, NextSuggestedMaintenanceDate &lt;= (TODAY()+365)
+), 1,
+0
+))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Work Orders in the Next 365 Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

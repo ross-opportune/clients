@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALS_View_of_WOs</fullName>
+    <columns>Name</columns>
+    <columns>Asset</columns>
+    <columns>Primary__c</columns>
+    <columns>Cost__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <columns>Notes__c</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>WorkOrder.Artificial_Lift</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>New,Planned,In Progress,Completed,Cannot Complete</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2021 12:00 AM</value>
+    </filters>
+    <label>ALS View of WOs All WOs in 2021</label>
+</ListView>

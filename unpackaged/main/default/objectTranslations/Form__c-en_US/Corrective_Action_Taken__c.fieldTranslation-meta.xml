@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Corrective Action Taken --></label>
+        <name>Corrective_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>Clean &amp; Adjust</masterLabel>
+            <translation><!-- Clean &amp; Adjust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment/Parts Replaced</masterLabel>
+            <translation><!-- Equipment/Parts Replaced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removed Equipment</masterLabel>
+            <translation><!-- Removed Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tightened Fittings</masterLabel>
+            <translation><!-- Tightened Fittings --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

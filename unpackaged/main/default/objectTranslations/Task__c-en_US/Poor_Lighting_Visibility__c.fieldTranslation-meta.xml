@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Poor Lighting / Visibility --></label>
+        <name>Poor_Lighting_Visibility__c</name>
+        <picklistValues>
+            <masterLabel>Defer until visibility improves</masterLabel>
+            <translation><!-- Defer until visibility improves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Know distance from poles and other equipment while driving</masterLabel>
+            <translation><!-- Know distance from poles and other equipment while driving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provide alternate lighting</masterLabel>
+            <translation><!-- Provide alternate lighting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wait or defer until visibility improves</masterLabel>
+            <translation><!-- Wait or defer until visibility improves --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

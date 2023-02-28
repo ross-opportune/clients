@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Equipment grounded to prevent static spark? --></help>
+        <label><!-- 8. Equipment grounded? --></label>
+        <name>X8_Equipment_grounded__c</name>
+    </CustomFieldTranslation>

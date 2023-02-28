@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Function --></label>
+        <name>Function__c</name>
+        <picklistValues>
+            <masterLabel>Flow Rate</masterLabel>
+            <translation><!-- Flow Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level</masterLabel>
+            <translation><!-- Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pressure Control</masterLabel>
+            <translation><!-- Pressure Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temperature</masterLabel>
+            <translation><!-- Temperature --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

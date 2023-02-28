@@ -1,0 +1,5 @@
+Work Order: {!WorkOrder.WorkOrderNumber}
+AFE #: {!WorkOrder.AFE_Number__c}
+Location: {!WorkOrder.Asset}
+Description: {!WorkOrder.Description}
+Notes: {!WorkOrder.Approver_Planner_Notes__c}

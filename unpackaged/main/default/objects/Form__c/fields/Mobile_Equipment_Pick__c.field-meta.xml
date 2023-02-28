@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_Equipment_Pick__c</fullName>
+    <externalId>false</externalId>
+    <label>Mobile Equipment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assess equipment condition</fullName>
+                <default>false</default>
+                <label>Assess equipment condition</label>
+            </value>
+            <value>
+                <fullName>Implement controls on users or access</fullName>
+                <default>false</default>
+                <label>Implement controls on users or access</label>
+            </value>
+            <value>
+                <fullName>Limit and monitor proximity to live equipment on users or access</fullName>
+                <default>false</default>
+                <label>Limit and monitor proximity to live equipment on users or access</label>
+            </value>
+            <value>
+                <fullName>Manage overhead hazards</fullName>
+                <default>false</default>
+                <label>Manage overhead hazards</label>
+            </value>
+            <value>
+                <fullName>Adhere to road / site rules</fullName>
+                <default>false</default>
+                <label>Adhere to road / site rules</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Gloves --></label>
+        <name>Gloves__c</name>
+        <picklistValues>
+            <masterLabel>Chemical</masterLabel>
+            <translation><!-- Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cotton</masterLabel>
+            <translation><!-- Cotton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impact Protection</masterLabel>
+            <translation><!-- Impact Protection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leather</masterLabel>
+            <translation><!-- Leather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

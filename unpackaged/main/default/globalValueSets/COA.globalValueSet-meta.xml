@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ESG</fullName>
+        <default>false</default>
+        <label>ESG</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - AMINE</fullName>
+        <default>false</default>
+        <label>LOE - AMINE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - ARTIFICIAL LIFT EQUIPMENT - DOWNHOLE</fullName>
+        <default>false</default>
+        <label>LOE - ARTIFICIAL LIFT EQUIPMENT - DOWNHOLE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - ARTIFICIAL LIFT EQUIPMENT - SURFACE</fullName>
+        <default>false</default>
+        <label>LOE - ARTIFICIAL LIFT EQUIPMENT - SURFACE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - ARTIFICIAL LIFT SERVICES</fullName>
+        <default>false</default>
+        <label>LOE - ARTIFICIAL LIFT SERVICES</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - COMMUNITY RELATIONS</fullName>
+        <default>false</default>
+        <label>LOE - COMMUNITY RELATIONS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - COMPRESSOR MAINTENANCE</fullName>
+        <default>false</default>
+        <label>LOE - COMPRESSOR MAINTENANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - COMPRESSOR RENTAL</fullName>
+        <default>false</default>
+        <label>LOE - COMPRESSOR RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - CONTRACT LABOR</fullName>
+        <default>false</default>
+        <label>LOE - CONTRACT LABOR</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - CORROSION CHEMICALS</fullName>
+        <default>false</default>
+        <label>LOE - CORROSION CHEMICALS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - DIRT WORK/CIVIL</fullName>
+        <default>false</default>
+        <label>LOE - DIRT WORK/CIVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - ENERGY, DIESEL &amp; FUEL</fullName>
+        <default>false</default>
+        <label>LOE - ENERGY, DIESEL &amp; FUEL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - EQUIPMENT RENTAL</fullName>
+        <default>false</default>
+        <label>LOE - EQUIPMENT RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - FACILITY MAINT</fullName>
+        <default>false</default>
+        <label>LOE - FACILITY MAINT</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - GENERATORS</fullName>
+        <default>false</default>
+        <label>LOE - GENERATORS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - H2S SCAVENGER</fullName>
+        <default>false</default>
+        <label>LOE - H2S SCAVENGER</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - HOT OIL SERVICES</fullName>
+        <default>false</default>
+        <label>LOE - HOT OIL SERVICES</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - HSE</fullName>
+        <default>false</default>
+        <label>LOE - HSE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - I&amp;E</fullName>
+        <default>false</default>
+        <label>LOE - I&amp;E</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - LEASE USE &amp; FLARE GAS</fullName>
+        <default>false</default>
+        <label>LOE - LEASE USE &amp; FLARE GAS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MAINTENANCE OTHER</fullName>
+        <default>false</default>
+        <label>LOE - MAINTENANCE OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MEASURMENT</fullName>
+        <default>false</default>
+        <label>LOE - MEASURMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - METHANOL</fullName>
+        <default>false</default>
+        <label>LOE - METHANOL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MISCELLANEOUS EXPENSE</fullName>
+        <default>false</default>
+        <label>LOE - MISCELLANEOUS EXPENSE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - CIVIL MATERIALS</fullName>
+        <default>false</default>
+        <label>LOE - MR - CIVIL MATERIALS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - COMPANY LABOR</fullName>
+        <default>false</default>
+        <label>LOE - MR - COMPANY LABOR</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - COMPRESSORS</fullName>
+        <default>false</default>
+        <label>LOE - MR - COMPRESSORS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - CONTRACT LABOR - I&amp;E</fullName>
+        <default>false</default>
+        <label>LOE - MR - CONTRACT LABOR - I&amp;E</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - CONTRACT LABOR - MECHANICAL</fullName>
+        <default>false</default>
+        <label>LOE - MR - CONTRACT LABOR - MECHANICAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - CONTRACT SERVICES - OTHER</fullName>
+        <default>false</default>
+        <label>LOE - MR - CONTRACT SERVICES - OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - DAMAGES/ROW</fullName>
+        <default>false</default>
+        <label>LOE - MR - DAMAGES/ROW</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - DIRT WORK/CIVIL</fullName>
+        <default>false</default>
+        <label>LOE - MR - DIRT WORK/CIVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - ENGINEERING</fullName>
+        <default>false</default>
+        <label>LOE - MR - ENGINEERING</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - HSE</fullName>
+        <default>false</default>
+        <label>LOE - MR - HSE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - INSPECTION/TESTING</fullName>
+        <default>false</default>
+        <label>LOE - MR - INSPECTION/TESTING</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - INSTRUMENTATION AND ELECTRICAL</fullName>
+        <default>false</default>
+        <label>LOE - MR - INSTRUMENTATION AND ELECTRICAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - LAND, SURVEY</fullName>
+        <default>false</default>
+        <label>LOE - MR - LAND, SURVEY</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - LEGAL</fullName>
+        <default>false</default>
+        <label>LOE - MR - LEGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - LIFTING/CRANES</fullName>
+        <default>false</default>
+        <label>LOE - MR - LIFTING/CRANES</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - LINEPIPE</fullName>
+        <default>false</default>
+        <label>LOE - MR - LINEPIPE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - METERING/MEASUREMENT</fullName>
+        <default>false</default>
+        <label>LOE - MR - METERING/MEASUREMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - NON-CONTROLLABLE</fullName>
+        <default>false</default>
+        <label>LOE - MR - NON-CONTROLLABLE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - OVERHEAD</fullName>
+        <default>false</default>
+        <label>LOE - MR - OVERHEAD</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - PUMPS</fullName>
+        <default>false</default>
+        <label>LOE - MR - PUMPS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - RENTAL EQUIPMENT</fullName>
+        <default>false</default>
+        <label>LOE - MR - RENTAL EQUIPMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - ROW</fullName>
+        <default>false</default>
+        <label>LOE - MR - ROW</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - SCADA/AUTOMATION</fullName>
+        <default>false</default>
+        <label>LOE - MR - SCADA/AUTOMATION</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - SEPARATION EQUIPMENT</fullName>
+        <default>false</default>
+        <label>LOE - MR - SEPARATION EQUIPMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - SUPERVISION</fullName>
+        <default>false</default>
+        <label>LOE - MR - SUPERVISION</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - TANKS</fullName>
+        <default>false</default>
+        <label>LOE - MR - TANKS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - TRANSPORTATION/TRUCKING</fullName>
+        <default>false</default>
+        <label>LOE - MR - TRANSPORTATION/TRUCKING</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - UTILITIES</fullName>
+        <default>false</default>
+        <label>LOE - MR - UTILITIES</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - VALVES AND FITTINGS</fullName>
+        <default>false</default>
+        <label>LOE - MR - VALVES AND FITTINGS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - MR - WELLHEAD EQUIPMENT</fullName>
+        <default>false</default>
+        <label>LOE - MR - WELLHEAD EQUIPMENT</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - OFFICE UTILITIES</fullName>
+        <default>false</default>
+        <label>LOE - OFFICE UTILITIES</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - OTHER CHEMICALS</fullName>
+        <default>false</default>
+        <label>LOE - OTHER CHEMICALS</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - PARAFFIN</fullName>
+        <default>false</default>
+        <label>LOE - PARAFFIN</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - PAWNEE PLANT</fullName>
+        <default>false</default>
+        <label>LOE - PAWNEE PLANT</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - SPILL CONTROL/PREVENTION</fullName>
+        <default>false</default>
+        <label>LOE - SPILL CONTROL/PREVENTION</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - SUPERVISION</fullName>
+        <default>false</default>
+        <label>LOE - SUPERVISION</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - SWD</fullName>
+        <default>false</default>
+        <label>LOE - SWD</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - SWD PIPE</fullName>
+        <default>false</default>
+        <label>LOE - SWD PIPE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - SWD TRUCKING</fullName>
+        <default>false</default>
+        <label>LOE - SWD TRUCKING</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - TOOLS/SUPPLIES</fullName>
+        <default>false</default>
+        <label>LOE - TOOLS/SUPPLIES</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - TRAINING</fullName>
+        <default>false</default>
+        <label>LOE - TRAINING</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - VACUUM TRUCK SERVICES</fullName>
+        <default>false</default>
+        <label>LOE - VACUUM TRUCK SERVICES</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - VEHICLE EXPENSE</fullName>
+        <default>false</default>
+        <label>LOE - VEHICLE EXPENSE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOE - WELL SITE POWER</fullName>
+        <default>false</default>
+        <label>LOE - WELL SITE POWER</label>
+    </customValue>
+    <customValue>
+        <fullName>WELL CONNECT</fullName>
+        <default>false</default>
+        <label>WELL CONNECT</label>
+    </customValue>
+    <customValue>
+        <fullName>INSTALL</fullName>
+        <default>false</default>
+        <label>INSTALL</label>
+    </customValue>
+    <masterLabel>COA</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

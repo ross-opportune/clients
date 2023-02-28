@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Primary__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Secondary</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Blowdown</controllingFieldValue>
+            <valueName>Casing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blowdown</controllingFieldValue>
+            <valueName>Tubing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fluid Level Shot</controllingFieldValue>
+            <valueName>Both</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fluid Level Shot</controllingFieldValue>
+            <controllingFieldValue>FWT</controllingFieldValue>
+            <controllingFieldValue>LOAD</controllingFieldValue>
+            <valueName>CSG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fluid Level Shot</controllingFieldValue>
+            <controllingFieldValue>FWT</controllingFieldValue>
+            <controllingFieldValue>LOAD</controllingFieldValue>
+            <valueName>TBG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gas Meter Calibration</controllingFieldValue>
+            <controllingFieldValue>Hot Water Treatment</controllingFieldValue>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <controllingFieldValue>LDAR</controllingFieldValue>
+            <controllingFieldValue>Lease Crew</controllingFieldValue>
+            <controllingFieldValue>Lease Road Repair</controllingFieldValue>
+            <controllingFieldValue>LOTO</controllingFieldValue>
+            <controllingFieldValue>Air Compressor</controllingFieldValue>
+            <controllingFieldValue>Battery Issue</controllingFieldValue>
+            <controllingFieldValue>Bring Compressor Online</controllingFieldValue>
+            <controllingFieldValue>Bring POD Online</controllingFieldValue>
+            <controllingFieldValue>Bring Well Online</controllingFieldValue>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <controllingFieldValue>Coriolis Meter Proving</controllingFieldValue>
+            <controllingFieldValue>Emission</controllingFieldValue>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <controllingFieldValue>Measurement</controllingFieldValue>
+            <controllingFieldValue>Methanol Injection system</controllingFieldValue>
+            <controllingFieldValue>Pigging Line</controllingFieldValue>
+            <controllingFieldValue>Pipeline</controllingFieldValue>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <controllingFieldValue>Pressure Optimization</controllingFieldValue>
+            <controllingFieldValue>PSV Testing</controllingFieldValue>
+            <controllingFieldValue>Safety System Testing</controllingFieldValue>
+            <controllingFieldValue>Swabbing</controllingFieldValue>
+            <controllingFieldValue>Tank</controllingFieldValue>
+            <controllingFieldValue>Water Turbine Meter Calibration</controllingFieldValue>
+            <controllingFieldValue>Wellhead</controllingFieldValue>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <controllingFieldValue>Pump Oil</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Water Treatment</controllingFieldValue>
+            <controllingFieldValue>Pressure Optimization</controllingFieldValue>
+            <valueName>Separator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Water Treatment</controllingFieldValue>
+            <controllingFieldValue>Pressure Optimization</controllingFieldValue>
+            <valueName>Wellhead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pumping Unit</controllingFieldValue>
+            <valueName>Adjustment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pumping Unit</controllingFieldValue>
+            <valueName>Change SPM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pumping Unit</controllingFieldValue>
+            <valueName>Check for Tag and Adjust Back Pressure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>ABB Module</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Board Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Casing Sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>DP Controllers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Gas Lift Flow Rate Control Valve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Guided Wave Radar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>HLL Sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Level Controller Pilot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>LLL Sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>PLC/HMI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <controllingFieldValue>Methanol Injection system</controllingFieldValue>
+            <valueName>Power</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Pressure Sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Solenoid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Totalflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Tubing Sensor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Valve Positioner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Valve Position Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrumentation</controllingFieldValue>
+            <valueName>Valve Tuning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDAR</controllingFieldValue>
+            <valueName>DOT Pipeline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDAR</controllingFieldValue>
+            <valueName>Plants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDAR</controllingFieldValue>
+            <valueName>PODS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDAR</controllingFieldValue>
+            <valueName>Satellites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDAR</controllingFieldValue>
+            <valueName>Tank Batteries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lease Crew</controllingFieldValue>
+            <valueName>Fence and Cattleguard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lease Crew</controllingFieldValue>
+            <valueName>Media Changeouts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lease Crew</controllingFieldValue>
+            <valueName>Valves &amp; Piping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lease Crew</controllingFieldValue>
+            <valueName>Vessel Cleanout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lease Crew</controllingFieldValue>
+            <valueName>Wind Wall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Compressor</controllingFieldValue>
+            <valueName>Dryer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Compressor</controllingFieldValue>
+            <valueName>Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Compressor</controllingFieldValue>
+            <valueName>Motor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>3rd Party Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Communicantion Signal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Ethernet Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>I/O Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Serial Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>Ubiquiti Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Emission</controllingFieldValue>
+            <valueName>Engines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Environmental</controllingFieldValue>
+            <valueName>SPCC Plan Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement</controllingFieldValue>
+            <valueName>Coriolis Measurement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement</controllingFieldValue>
+            <valueName>Gas Measurement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement</controllingFieldValue>
+            <valueName>Gas Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement</controllingFieldValue>
+            <valueName>Liquid Sampling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Measurement</controllingFieldValue>
+            <valueName>Turbine Measurement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Methanol Injection system</controllingFieldValue>
+            <valueName>Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Methanol Injection system</controllingFieldValue>
+            <valueName>Check Valves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Methanol Injection system</controllingFieldValue>
+            <valueName>Controller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Methanol Injection system</controllingFieldValue>
+            <valueName>Packing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pigging Line</controllingFieldValue>
+            <valueName>DOT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pigging Line</controllingFieldValue>
+            <valueName>Flowline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pipeline</controllingFieldValue>
+            <valueName>Cathodic Protection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pipeline</controllingFieldValue>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Barstop Plunger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Box Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Bypass Plunger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <controllingFieldValue>Install</controllingFieldValue>
+            <controllingFieldValue>Swabbing</controllingFieldValue>
+            <valueName>Intermitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Multi Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Pad Plunger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Retrieval Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Trash Plunger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plunger Service</controllingFieldValue>
+            <valueName>Worn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Install</controllingFieldValue>
+            <controllingFieldValue>Swabbing</controllingFieldValue>
+            <valueName>Gaslift/Booster</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Install</controllingFieldValue>
+            <controllingFieldValue>Swabbing</controllingFieldValue>
+            <valueName>Plunger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Install</controllingFieldValue>
+            <valueName>Pumping Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Swabbing</controllingFieldValue>
+            <valueName>Free Flowing Well</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tank</controllingFieldValue>
+            <valueName>High Liquid Level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tank</controllingFieldValue>
+            <valueName>Oil in Tanks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wellhead</controllingFieldValue>
+            <valueName>Greasing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wellhead</controllingFieldValue>
+            <valueName>Valve Replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Clear Tubing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>GLV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Perf Tubing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Plunger Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Pull BHA Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Pull BHA- Offset Frac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Routine BHA Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wireline</controllingFieldValue>
+            <valueName>Install BHA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gaslift</controllingFieldValue>
+            <valueName>Blowdown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gaslift</controllingFieldValue>
+            <valueName>Booster Compressor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gaslift</controllingFieldValue>
+            <valueName>Injection Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gaslift</controllingFieldValue>
+            <valueName>Rock GLV</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

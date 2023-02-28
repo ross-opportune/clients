@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Non Routine Work</fullName>
+        <default>false</default>
+        <label>Non Routine Work</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Meeting Outlook</fullName>
+        <default>false</default>
+        <label>Not Meeting Outlook</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Request</fullName>
+        <default>false</default>
+        <label>Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Routine Work</fullName>
+        <default>false</default>
+        <label>Routine Work</label>
+    </standardValue>
+</StandardValueSet>

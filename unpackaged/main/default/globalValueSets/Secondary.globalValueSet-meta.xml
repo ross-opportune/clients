@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>3rd Party Service</fullName>
+        <default>false</default>
+        <label>3rd Party Service</label>
+    </customValue>
+    <customValue>
+        <fullName>ABB Gas Lift App</fullName>
+        <default>false</default>
+        <label>ABB Gas Lift App</label>
+    </customValue>
+    <customValue>
+        <fullName>ABB Module</fullName>
+        <default>false</default>
+        <label>ABB Module</label>
+    </customValue>
+    <customValue>
+        <fullName>Automation</fullName>
+        <default>false</default>
+        <label>Automation</label>
+    </customValue>
+    <customValue>
+        <fullName>Barstop Plunger</fullName>
+        <default>false</default>
+        <label>Barstop Plunger</label>
+    </customValue>
+    <customValue>
+        <fullName>Blowdown</fullName>
+        <default>false</default>
+        <label>Blowdown</label>
+    </customValue>
+    <customValue>
+        <fullName>Board Issue</fullName>
+        <default>false</default>
+        <label>Board Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Booster Compressor</fullName>
+        <default>false</default>
+        <label>Booster Compressor</label>
+    </customValue>
+    <customValue>
+        <fullName>Both</fullName>
+        <default>false</default>
+        <label>Both</label>
+    </customValue>
+    <customValue>
+        <fullName>Box Issue</fullName>
+        <default>false</default>
+        <label>Box Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Bypass Plunger</fullName>
+        <default>false</default>
+        <label>Bypass Plunger</label>
+    </customValue>
+    <customValue>
+        <fullName>Casing</fullName>
+        <default>false</default>
+        <label>Casing</label>
+    </customValue>
+    <customValue>
+        <fullName>Casing Sensor</fullName>
+        <default>false</default>
+        <label>Casing Sensor</label>
+    </customValue>
+    <customValue>
+        <fullName>Cathodic Protection</fullName>
+        <default>false</default>
+        <label>Cathodic Protection</label>
+    </customValue>
+    <customValue>
+        <fullName>Check Valves</fullName>
+        <default>false</default>
+        <label>Check Valves</label>
+    </customValue>
+    <customValue>
+        <fullName>Clear Tubing</fullName>
+        <default>false</default>
+        <label>Clear Tubing</label>
+    </customValue>
+    <customValue>
+        <fullName>Communicantion Signal</fullName>
+        <default>false</default>
+        <label>Communicantion Signal</label>
+    </customValue>
+    <customValue>
+        <fullName>Controller</fullName>
+        <default>false</default>
+        <label>Controller</label>
+    </customValue>
+    <customValue>
+        <fullName>Coriolis Measurement</fullName>
+        <default>false</default>
+        <label>Coriolis Measurement</label>
+    </customValue>
+    <customValue>
+        <fullName>CSG</fullName>
+        <default>false</default>
+        <label>CSG</label>
+    </customValue>
+    <customValue>
+        <fullName>DOT</fullName>
+        <default>false</default>
+        <label>DOT</label>
+    </customValue>
+    <customValue>
+        <fullName>DOT Pipeline</fullName>
+        <default>false</default>
+        <label>DOT Pipeline</label>
+    </customValue>
+    <customValue>
+        <fullName>DP Controllers</fullName>
+        <default>false</default>
+        <label>DP Controllers</label>
+    </customValue>
+    <customValue>
+        <fullName>Dryer</fullName>
+        <default>false</default>
+        <label>Dryer</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical</fullName>
+        <default>false</default>
+        <label>Electrical</label>
+    </customValue>
+    <customValue>
+        <fullName>Engines</fullName>
+        <default>false</default>
+        <label>Engines</label>
+    </customValue>
+    <customValue>
+        <fullName>Ethernet Radio</fullName>
+        <default>false</default>
+        <label>Ethernet Radio</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence and Cattleguard</fullName>
+        <default>false</default>
+        <label>Fence and Cattleguard</label>
+    </customValue>
+    <customValue>
+        <fullName>Flowline</fullName>
+        <default>false</default>
+        <label>Flowline</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Flowing Well</fullName>
+        <default>false</default>
+        <label>Free Flowing Well</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Lift</fullName>
+        <default>false</default>
+        <label>Gas Lift</label>
+    </customValue>
+    <customValue>
+        <fullName>Gaslift/Booster</fullName>
+        <default>false</default>
+        <label>Gaslift/Booster</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Lift Flow Rate Control Valve</fullName>
+        <default>false</default>
+        <label>Gas Lift Flow Rate Control Valve</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Lift Survey</fullName>
+        <default>false</default>
+        <label>Gas Lift Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Measurement</fullName>
+        <default>false</default>
+        <label>Gas Measurement</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Sampling</fullName>
+        <default>false</default>
+        <label>Gas Sampling</label>
+    </customValue>
+    <customValue>
+        <fullName>GLV</fullName>
+        <default>false</default>
+        <label>GLV</label>
+    </customValue>
+    <customValue>
+        <fullName>Greasing</fullName>
+        <default>false</default>
+        <label>Greasing</label>
+    </customValue>
+    <customValue>
+        <fullName>Guided Wave Radar</fullName>
+        <default>false</default>
+        <label>Guided Wave Radar</label>
+    </customValue>
+    <customValue>
+        <fullName>High Liquid Level</fullName>
+        <default>false</default>
+        <label>High Liquid Level</label>
+    </customValue>
+    <customValue>
+        <fullName>HLL Sensor</fullName>
+        <default>false</default>
+        <label>HLL Sensor</label>
+    </customValue>
+    <customValue>
+        <fullName>I/O Radio</fullName>
+        <default>false</default>
+        <label>I/O Radio</label>
+    </customValue>
+    <customValue>
+        <fullName>Injection Issue</fullName>
+        <default>false</default>
+        <label>Injection Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Intermitter</fullName>
+        <default>false</default>
+        <label>Intermitter</label>
+    </customValue>
+    <customValue>
+        <fullName>Level Controller Pilot</fullName>
+        <default>false</default>
+        <label>Level Controller Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Liquid Sampling</fullName>
+        <default>false</default>
+        <label>Liquid Sampling</label>
+    </customValue>
+    <customValue>
+        <fullName>LLL Sensor</fullName>
+        <default>false</default>
+        <label>LLL Sensor</label>
+    </customValue>
+    <customValue>
+        <fullName>Media Changeouts</fullName>
+        <default>false</default>
+        <label>Media Changeouts</label>
+    </customValue>
+    <customValue>
+        <fullName>Motor</fullName>
+        <default>false</default>
+        <label>Motor</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi Inspection</fullName>
+        <default>false</default>
+        <label>Multi Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil in Tanks</fullName>
+        <default>false</default>
+        <label>Oil in Tanks</label>
+    </customValue>
+    <customValue>
+        <fullName>Optimization</fullName>
+        <default>false</default>
+        <label>Optimization</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Packing</fullName>
+        <default>false</default>
+        <label>Packing</label>
+    </customValue>
+    <customValue>
+        <fullName>Pad Plunger</fullName>
+        <default>false</default>
+        <label>Pad Plunger</label>
+    </customValue>
+    <customValue>
+        <fullName>Perf Tubing</fullName>
+        <default>false</default>
+        <label>Perf Tubing</label>
+    </customValue>
+    <customValue>
+        <fullName>Plants</fullName>
+        <default>false</default>
+        <label>Plants</label>
+    </customValue>
+    <customValue>
+        <fullName>PLC/HMI</fullName>
+        <default>false</default>
+        <label>PLC/HMI</label>
+    </customValue>
+    <customValue>
+        <fullName>Plunger</fullName>
+        <default>false</default>
+        <label>Plunger</label>
+    </customValue>
+    <customValue>
+        <fullName>Plunger Issue</fullName>
+        <default>false</default>
+        <label>Plunger Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>PODS</fullName>
+        <default>false</default>
+        <label>PODS</label>
+    </customValue>
+    <customValue>
+        <fullName>Power</fullName>
+        <default>false</default>
+        <label>Power</label>
+    </customValue>
+    <customValue>
+        <fullName>Pressure Sensor</fullName>
+        <default>false</default>
+        <label>Pressure Sensor</label>
+    </customValue>
+    <customValue>
+        <fullName>Pull BHA Issue</fullName>
+        <default>false</default>
+        <label>Pull BHA Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Pull BHA- Offset Frac</fullName>
+        <default>false</default>
+        <label>Pull BHA- Offset Frac</label>
+    </customValue>
+    <customValue>
+        <fullName>Retrieval Tool</fullName>
+        <default>false</default>
+        <label>Retrieval Tool</label>
+    </customValue>
+    <customValue>
+        <fullName>Routine BHA Inspection</fullName>
+        <default>false</default>
+        <label>Routine BHA Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Satellites</fullName>
+        <default>false</default>
+        <label>Satellites</label>
+    </customValue>
+    <customValue>
+        <fullName>Separator</fullName>
+        <default>false</default>
+        <label>Separator</label>
+    </customValue>
+    <customValue>
+        <fullName>Serial Radio</fullName>
+        <default>false</default>
+        <label>Serial Radio</label>
+    </customValue>
+    <customValue>
+        <fullName>Inspection</fullName>
+        <default>false</default>
+        <label>Single Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Solenoid</fullName>
+        <default>false</default>
+        <label>Solenoid</label>
+    </customValue>
+    <customValue>
+        <fullName>SPCC Plan Inspection</fullName>
+        <default>false</default>
+        <label>SPCC Plan Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Survey</fullName>
+        <default>false</default>
+        <label>Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Tank Batteries</fullName>
+        <default>false</default>
+        <label>Tank Batteries</label>
+    </customValue>
+    <customValue>
+        <fullName>TBG</fullName>
+        <default>false</default>
+        <label>TBG</label>
+    </customValue>
+    <customValue>
+        <fullName>Totalflow</fullName>
+        <default>false</default>
+        <label>Totalflow</label>
+    </customValue>
+    <customValue>
+        <fullName>Transfer fluid from tank to sales</fullName>
+        <default>false</default>
+        <label>Transfer fluid from tank to sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Trash Plunger</fullName>
+        <default>false</default>
+        <label>Trash Plunger</label>
+    </customValue>
+    <customValue>
+        <fullName>Troubleshoot</fullName>
+        <default>false</default>
+        <label>Troubleshoot</label>
+    </customValue>
+    <customValue>
+        <fullName>Tubing</fullName>
+        <default>false</default>
+        <label>Tubing</label>
+    </customValue>
+    <customValue>
+        <fullName>Tubing Sensor</fullName>
+        <default>false</default>
+        <label>Tubing Sensor</label>
+    </customValue>
+    <customValue>
+        <fullName>Turbine Measurement</fullName>
+        <default>false</default>
+        <label>Turbine Measurement</label>
+    </customValue>
+    <customValue>
+        <fullName>Ubiquiti Radio</fullName>
+        <default>false</default>
+        <label>Ubiquiti Radio</label>
+    </customValue>
+    <customValue>
+        <fullName>Valve Positioner</fullName>
+        <default>false</default>
+        <label>Valve Positioner</label>
+    </customValue>
+    <customValue>
+        <fullName>Valve Position Feedback</fullName>
+        <default>false</default>
+        <label>Valve Position Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>Valve Replacement</fullName>
+        <default>false</default>
+        <label>Valve Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>Valves &amp; Piping</fullName>
+        <default>false</default>
+        <label>Valves &amp; Piping</label>
+    </customValue>
+    <customValue>
+        <fullName>Valve Tuning</fullName>
+        <default>false</default>
+        <label>Valve Tuning</label>
+    </customValue>
+    <customValue>
+        <fullName>Vessel Cleanout</fullName>
+        <default>false</default>
+        <label>Vessel Cleanout</label>
+    </customValue>
+    <customValue>
+        <fullName>Wellhead</fullName>
+        <default>false</default>
+        <label>Wellhead</label>
+    </customValue>
+    <customValue>
+        <fullName>Wind Wall</fullName>
+        <default>false</default>
+        <label>Wind Wall</label>
+    </customValue>
+    <customValue>
+        <fullName>Worn</fullName>
+        <default>false</default>
+        <label>Worn</label>
+    </customValue>
+    <customValue>
+        <fullName>Install BHA</fullName>
+        <default>false</default>
+        <label>Install BHA</label>
+    </customValue>
+    <customValue>
+        <fullName>Pumping Unit</fullName>
+        <default>false</default>
+        <label>Pumping Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Rock GLV</fullName>
+        <default>false</default>
+        <label>Rock GLV</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjustment</fullName>
+        <default>false</default>
+        <label>Adjustment</label>
+    </customValue>
+    <customValue>
+        <fullName>Change SPM</fullName>
+        <default>false</default>
+        <label>Change SPM</label>
+    </customValue>
+    <customValue>
+        <fullName>Check for Tag and Adjust Back Pressure</fullName>
+        <default>false</default>
+        <label>Check for Tag and Adjust Back Pressure</label>
+    </customValue>
+    <customValue>
+        <fullName>Land Owner Issue</fullName>
+        <default>false</default>
+        <label>Land Owner Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather Related Issue</fullName>
+        <default>false</default>
+        <label>Weather Related Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Break Fix Issue</fullName>
+        <default>false</default>
+        <label>Break Fix Issue</label>
+    </customValue>
+    <masterLabel>Secondary</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

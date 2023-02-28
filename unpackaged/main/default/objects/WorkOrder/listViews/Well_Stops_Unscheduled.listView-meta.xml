@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Well_Stops_Unscheduled</fullName>
+    <columns>CreatedDate</columns>
+    <columns>SuggestedMaintenanceDate</columns>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>Subject</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>MaintenancePlan</columns>
+    <filterScope>Mine</filterScope>
+    <label>Well Stops Unscheduled</label>
+</ListView>

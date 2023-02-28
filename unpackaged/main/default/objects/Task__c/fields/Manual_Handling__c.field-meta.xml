@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Handling__c</fullName>
+    <externalId>false</externalId>
+    <label>Manual Handling</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Assess manual handling task</fullName>
+                <default>false</default>
+                <label>Assess manual handling task</label>
+            </value>
+            <value>
+                <fullName>Limit load size</fullName>
+                <default>false</default>
+                <label>Limit load size</label>
+            </value>
+            <value>
+                <fullName>Proper lifting technique</fullName>
+                <default>false</default>
+                <label>Proper lifting technique</label>
+            </value>
+            <value>
+                <fullName>Confirm stability of load and work platform</fullName>
+                <default>false</default>
+                <label>Confirm stability of load and work platform</label>
+            </value>
+            <value>
+                <fullName>Get assistance or mechanical aid to avoid pinch points</fullName>
+                <default>false</default>
+                <label>Get assistance or mechanical aid to avoid pinch points</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

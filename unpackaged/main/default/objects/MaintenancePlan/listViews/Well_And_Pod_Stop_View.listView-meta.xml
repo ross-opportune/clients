@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Well_And_Pod_Stop_View</fullName>
+    <columns>Name</columns>
+    <columns>WorkType</columns>
+    <columns>NextSuggestedMaintenanceDate</columns>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <columns>WorkOrderGenerationStatus</columns>
+    <columns>WorkOrderGenerationMethod</columns>
+    <columns>Well_Tier__c</columns>
+    <columns>Primary__c</columns>
+    <columns>Description</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary__c</field>
+        <operation>equals</operation>
+        <value>Well Stop</value>
+    </filters>
+    <label>Well And Pod Stop View</label>
+</ListView>

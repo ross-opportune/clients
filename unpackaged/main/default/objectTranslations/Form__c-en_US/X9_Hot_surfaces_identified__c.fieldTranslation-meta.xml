@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Burn hazards --></help>
+        <label><!-- 9. Hot surfaces identified. --></label>
+        <name>X9_Hot_surfaces_identified__c</name>
+    </CustomFieldTranslation>

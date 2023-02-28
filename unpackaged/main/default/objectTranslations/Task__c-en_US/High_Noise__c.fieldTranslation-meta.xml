@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- High Noise --></label>
+        <name>High_Noise__c</name>
+        <picklistValues>
+            <masterLabel>Manage exposure times</masterLabel>
+            <translation><!-- Manage exposure times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provide or use suitable communication techniques</masterLabel>
+            <translation><!-- Provide or use suitable communication techniques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shut down equipment</masterLabel>
+            <translation><!-- Shut down equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sound barriers or curtains</masterLabel>
+            <translation><!-- Sound barriers or curtains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use “quiet” tools</masterLabel>
+            <translation><!-- Use “quiet” tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wear correct hearing PPE</masterLabel>
+            <translation><!-- Wear correct hearing PPE --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

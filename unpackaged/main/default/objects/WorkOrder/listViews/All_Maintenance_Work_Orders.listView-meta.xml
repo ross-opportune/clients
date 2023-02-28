@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Maintenance_Work_Orders</fullName>
+    <columns>Total_Cost__c</columns>
+    <columns>Cost_Line_Item_Total__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Asset</columns>
+    <columns>Primary__c</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedBy</field>
+        <operation>contains</operation>
+        <value>Maintenance</value>
+    </filters>
+    <label>All Maintenance Work Orders</label>
+    <sharedTo>
+        <group>Maintenance_Planners</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAP_EX_WORK__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Please Check Box if WO is CAP EX Related</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please Check Box if WO is CAP EX Related</inlineHelpText>
+    <label>CAP EX WORK</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

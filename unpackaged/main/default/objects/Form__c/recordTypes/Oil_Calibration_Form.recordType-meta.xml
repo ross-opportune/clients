@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oil_Calibration_Form</fullName>
+    <active>true</active>
+    <label>Oil Calibration Form</label>
+    <picklistValues>
+        <picklist>Above_Ground_Valves_and_Piping__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Adequate_Thermal_Background__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Adequate_thermal_background_during_surv__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>All_dikes_berms_trenches_are_in_good_con__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>All_fugitive_emissions_compts_surveyed__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Associate_Permit_Type_Picklist__c</picklist>
+        <values>
+            <fullName>Confined Space Permit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Work Permit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Right to Work Permit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Basis_for_Delay__c</picklist>
+        <values>
+            <fullName>Additional parts to be ordered %28not an acceptable delay for OOOOa inspections%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair would be unsafe during operation of the unit%7CRepair is technically infeasible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shutdown%2FBlowdown of equipment required to complete repair and emissions from repair would be greater than the leak itself</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Below_Ground_Valves_and_Piping__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Blow_down_Fluid_from_Fuel_Pots__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Blowdown_Meter_Run__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Camera_passed_verification_check__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Check_Day_Tank_Levels__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Component_Type__c</picklist>
+        <values>
+            <fullName>Connector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enardo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gauges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level Controller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilots</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressure Regulator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressure Relief Device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pump Seal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quick Exhaust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solenoid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thief Hatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Component_Unsafe_or_Difficult_to_Monitor__c</picklist>
+        <values>
+            <fullName>Difficult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsafe</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Confined_Space_Entry_Pick__c</picklist>
+        <values>
+            <fullName>Conduct atmospheric testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Develop rescue plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discuss confined space entry safe work practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitor access or entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prohibit mobile engines near confined spaces</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protect surfaces from inadvertent contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide Observer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Consistency_of_Paraffin__c</picklist>
+        <values>
+            <fullName>Hard%2C not malleable and unable to form together if in small chunks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium%2C malleable and able to hold form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft%2C runny and unable to hold form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Containment_Structures__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Corrective_Action_Taken__c</picklist>
+        <values>
+            <fullName>Clean %26 Adjust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment%2FParts Replaced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Removed Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tightened Fittings</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deviations_from_the_monitoring_plan__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Difficult_Unsafe_to_Monitor_Components__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dropped_Objects_Pick__c</picklist>
+        <values>
+            <fullName>Secure tools %28tie-off%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use lifting equipment to raise tools to or from the work platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use signs and barriers to restrict entry or access underwork at elevation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equipment_Type__c</picklist>
+        <values>
+            <fullName>Compressor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flare%2FCombustor%2FIncinerator%2FVent Stack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease Automatic Custody Transfer%28s%29 %28LACT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous Other Equipment %28not listed above%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pig Launcher%2FReceiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VRU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vessel - 2 Phases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vessel - 3 Phases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vessel - Fuel Gas Scrubber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vessel - H2S Treatment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vessel - Process and Treatment %28Heater Treaters%2FTesters%29%7CVessel - Miscellaneous Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellhead</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equipment_and_Tools_Pick__c</picklist>
+        <values>
+            <fullName>Apply hand safety principles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brass tools necessary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspect equipment and tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protect or remove sharp edges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use correct tools and equipment for task</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use protective guards</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Excavations_Pick__c</picklist>
+        <values>
+            <fullName>De-energize underground services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have an excavation plan or safe work practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement confined space entry controls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locate underground pipes or cables by hand digging</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Eye_Protection__c</picklist>
+        <values>
+            <fullName>Face Shield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goggles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Glasses</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Facility_Changes__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fall_Protection__c</picklist>
+        <values>
+            <fullName>Fall Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall Restraint</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flir_Inspection__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gloves__c</picklist>
+        <values>
+            <fullName>Chemical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impact Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leather</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hazardous_Substances_Pick__c</picklist>
+        <values>
+            <fullName>Drain or purge equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow SDS controls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement health hazard controls %28Lead%2C Asbestos%2C Benzene%2C H2S%2C Iron Sulfide%2C Sulfur Dioxide%2C NORM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test or analyze material</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hearing_Protection__c</picklist>
+        <values>
+            <fullName>Double</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>High_Energy_High_Voltage_Pick__c</picklist>
+        <values>
+            <fullName>Discharge equipment and make electrically dead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Observe safe work distances for live cables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restrict access to authorized personnel only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use flash burn PPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use insulated gloves%2C tools%2C and mats%2C GFCI%E2%80%99s%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>High_Noise_Pick__c</picklist>
+        <values>
+            <fullName>Manage exposure times</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide or use suitable communication techniques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shut down equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sound barriers or curtains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use %E2%80%9Cquiet%E2%80%9D tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wear correct hearing PPE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>House_Keeping_in_Order__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_electrical_has_try_been_performed__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_first_attempt_not_successful_was_a_w__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ignition_Sources_Pick__c</picklist>
+        <values>
+            <fullName>Bond or earth for static electricity for cathodic protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conduct continuous gas testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement abrasive blasting controls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide firefighting equipment and fire watch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove%2C isolate%2C or contain combustible materials</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inspect_chemical_pigging_well_head_con__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interferences_encountered_accounted_for__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interferences_successfully_overcome__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>JSA_Location__c</picklist>
+        <values>
+            <fullName>Area 31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 33</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 51</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 52</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 61</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 71</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 72</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 81</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 82</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kenedy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moray Bofin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEYorktown%2FBuchel%2FWahoo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pawnee North East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pawnee Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%2EW Kennedy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SawFish%2FStingray%2FYoakum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three Rivers</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>JSA_Work_Type__c</picklist>
+        <values>
+            <fullName>ALS Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%26E Maintenance Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal Production Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline and Mechanical Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production Operations Open Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leak_placed_on_long_term_delayed_repair__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lifting_Equipment_Pick__c</picklist>
+        <values>
+            <fullName>Confirm lifting equipment condition and certification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have a documented and approved lift plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obtain approval for lifts over processing equipment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Manual_Handling_Pick__c</picklist>
+        <values>
+            <fullName>Assess manual handling task</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirm stability of load and work platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get assistance or mechanical aid to avoid pinch points</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limit load size</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proper lifting technique</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Method_of_Repair_Verification__c</picklist>
+        <values>
+            <fullName>Method 21 Soap Bubbles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OGI Camera</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mobile_Equipment_Pick__c</picklist>
+        <values>
+            <fullName>Adhere to road %2F site rules</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assess equipment condition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement controls on users or access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limit and monitor proximity to live equipment on users or access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manage overhead hazards</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Moving_Equipment_Pick__c</picklist>
+        <values>
+            <fullName>Confirm machinery guard integrity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do not work in the line of fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Observer to monitor proximity of people and equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide protective barriers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shut down or lock out equipment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Performed_within_max_viewing_distance__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Personnel_Pick__c</picklist>
+        <values>
+            <fullName>Address applicable limitations %28fatigue%2C exhaustion%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manage language barriers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mentor %2F coach %2F supervise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perform induction or training for new workers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seat belts while driving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verify competencies%2C skills and experience</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pig_Used_2__c</picklist>
+        <values>
+            <fullName>2 Cup Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Cup Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cup and Brush Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc and Brush Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poly Coated Foam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pig_Used_3__c</picklist>
+        <values>
+            <fullName>2 Cup Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Cup Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cup and Brush Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc and Brush Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poly Coated Foam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pigging_Results__c</picklist>
+        <values>
+            <fullName>Heavy paraffin%3A all ribs are full of paraffin and at least 5 gallons of paraffin in front of it</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light paraffin%3A 1 rib is full of paraffin with no paraffin in front of the pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate paraffin%3A 2 to 3 ribs are full of paraffin and at least 2 gallons in front of it</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No paraffin%3A absolutely no paraffin on the pig or in front of the pig</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pollution_Checks__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Poor_Lighting_Visibility_Pick__c</picklist>
+        <values>
+            <fullName>Defer until visibility improves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Know distance from poles and other equipment while driving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide alternate lighting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wait or defer until visibility improves</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Portable_Electrical_Equipment_Pick__c</picklist>
+        <values>
+            <fullName>Identify equip%2E classification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement continuous gas testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspect equipment and tools for condition and test date currency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protect electrical leads from impact or damage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Potential_Spills_Pick__c</picklist>
+        <values>
+            <fullName>Drain equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have spill cleanup materials and equipment on hand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hoses%2C connections in good condition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restrain and isolate hoses when not in use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spill containment equipment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pressurized_EquipmentPick__c</picklist>
+        <values>
+            <fullName>Anticipate residual pressure or fluids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Depressurize%2C drain%2C purge%2C and vent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do not work in the line of fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perform isolation %E2%80%93 LOTO%2C blinding or defeat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relieve trapped pressure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure all hoses</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Replace_Meter_Batteries_if_needed__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Respirator_Type__c</picklist>
+        <values>
+            <fullName>Dust Mask</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCBA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rock_Chokes_on_Wells__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Separators_Dumping_Correctly__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Simultaneous_Operations_Pick__c</picklist>
+        <values>
+            <fullName>Follow SIMOPS matrix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have permit signed by leader of affected groups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interface between groups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOC required for deviation from SIMOPS restrictions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use barriers and signs to segregate activities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sky_Conditions__c</picklist>
+        <values>
+            <fullName>Clear%2FSunny</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloudy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partly Cloudy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Slips_Trips_and_Falls_Pick__c</picklist>
+        <values>
+            <fullName>Barricade or rope off openings and holes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean up liquids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flag hazards as necessary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identify and shield uneven surface or projections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure or cover cables%2C cords%2C and tubing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Soap_Wells_as_Directed__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tank_Components__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tank_Integrity__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Treatment_Type__c</picklist>
+        <values>
+            <fullName>Treatment Type%3A Multi Pig-Chemical Between</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treatment Type%3A Single Pig- Chemical in the Front</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treatment Type%3A Single Pig-Chemical Behind</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Treatment_Type_and_Method__c</picklist>
+        <values>
+            <fullName>Chemical Type%3A Biocide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemical Type%3A Corrosion Inhibitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemical Type%3A Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemical Type%3A Paraffin Dispersant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_PIg_Used_1__c</picklist>
+        <values>
+            <fullName>2 Cup Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Cup Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cup and Brush Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disc and Brush Pig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poly Coated Foam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verify_Chemical_Pumps_are_Pumping__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verify_Correct_Separator_Operating_Press__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verify_Correct_Seperating_Operating_Leve__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verify_Oil_and_Gas_Meters_are_counting__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verify_Safety_System_is_in_Service__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Was_first_repair_attempted_during_the_in__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Was_first_repair_successful__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Was_the_entire_inspection_completed__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Water_Accumulation__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Weather_Pick__c</picklist>
+        <values>
+            <fullName>Cold %E2%80%93 PPE%2C heaters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heat %E2%80%93 hydration%2C breaks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement controls for slippery surfaces</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lightning %E2%80%93 tool selection%2C defer work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Were_leaks_detected__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Work_at_Heights_Pick__c</picklist>
+        <values>
+            <fullName>Discuss working at heights safe work practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full body harness is required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locking type snaphooks must be used</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verify fall restraint and arrest equipment certification</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X10_Slip_Trip_and_Fall_Hazards__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X11_Hazardous_chemicals_nearby__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X12_Emergency_Assembly_Area_Identified__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X1_Has_field_verification_occurred__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2_Precautions__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3_Lock_Out_Tag_Out_to_be_performed__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3a_Is_Lock_Box_being_used__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X4_Additional_PPE__c</picklist>
+        <values>
+            <fullName>Fire Resistant Clothing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goggles or Faceshield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hearing Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal H2S Monitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proper Gloves</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X5_Nearest_Safety_Shower_eye_wash_tested__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X6_Nearest_Fire_Extinguisher_identified__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X7_Fall_Protection_Required__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X8_Equipment_grounded__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X9_Hot_surfaces_identified__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

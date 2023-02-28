@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Well_Stop_Maintenance_Plans</fullName>
+    <columns>Name</columns>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>StartDate</columns>
+    <columns>EndDate</columns>
+    <columns>NextSuggestedMaintenanceDate</columns>
+    <columns>DoesAutoGenerateWorkOrders</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>WorkType</field>
+        <operation>equals</operation>
+        <value>Well Stop</value>
+    </filters>
+    <label>Well Stop Maintenance Plans</label>
+</ListView>

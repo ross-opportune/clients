@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Below Ground Valves and Piping --></label>
+        <name>Below_Ground_Valves_and_Piping__c</name>
+    </CustomFieldTranslation>

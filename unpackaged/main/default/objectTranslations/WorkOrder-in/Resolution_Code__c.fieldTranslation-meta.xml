@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Resolution Code --></label>
+        <name>Resolution_Code__c</name>
+        <picklistValues>
+            <masterLabel>BOL - No Issue</masterLabel>
+            <translation><!-- BOL - No Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOL - Separator</masterLabel>
+            <translation><!-- BOL - Separator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibrate – Bring any out of tolerance condition into tolerance</masterLabel>
+            <translation><!-- Calibrate – Bring any out of tolerance condition into tolerance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I&amp;E</masterLabel>
+            <translation><!-- I&amp;E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair – Manual maintenance action performed to restore an item to an acceptable operating state</masterLabel>
+            <translation><!-- Repair – Manual maintenance action performed to restore an item to an acceptable operating state --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace – Replacement of the item by a new, or refurbished, of the same type and make</masterLabel>
+            <translation><!-- Replace – Replacement of the item by a new, or refurbished, of the same type and make --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned</masterLabel>
+            <translation><!-- Returned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slug</masterLabel>
+            <translation><!-- Slug --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

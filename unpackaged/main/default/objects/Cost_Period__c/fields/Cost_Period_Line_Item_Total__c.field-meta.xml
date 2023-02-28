@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Period_Line_Item_Total__c</fullName>
+    <externalId>false</externalId>
+    <label>Maintenance Cost Period Line Item Total</label>
+    <summarizedField>Cost_Period_Line_Item__c.Cost__c</summarizedField>
+    <summaryForeignKey>Cost_Period_Line_Item__c.Cost_Period__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Simultaneous Operations --></label>
+        <name>Simultaneous_Operations_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Follow SIMOPS matrix</masterLabel>
+            <translation><!-- Follow SIMOPS matrix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Have permit signed by leader of affected groups</masterLabel>
+            <translation><!-- Have permit signed by leader of affected groups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface between groups</masterLabel>
+            <translation><!-- Interface between groups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOC required for deviation from SIMOPS restrictions</masterLabel>
+            <translation><!-- MOC required for deviation from SIMOPS restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use barriers and signs to segregate activities</masterLabel>
+            <translation><!-- Use barriers and signs to segregate activities --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Department__c</fullName>
+    <description>This Field is a High Level break out of which side the Resource is on</description>
+    <externalId>false</externalId>
+    <label>SA Department</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Operations North</fullName>
+                <default>false</default>
+                <label>Operations North</label>
+            </value>
+            <value>
+                <fullName>Artificial Lift</fullName>
+                <default>false</default>
+                <label>Artificial Lift</label>
+            </value>
+            <value>
+                <fullName>Operations South</fullName>
+                <default>false</default>
+                <label>Operations South</label>
+            </value>
+            <value>
+                <fullName>IOC</fullName>
+                <default>false</default>
+                <label>IOC</label>
+            </value>
+            <value>
+                <fullName>Route Operators</fullName>
+                <default>false</default>
+                <label>Route Operators</label>
+            </value>
+            <value>
+                <fullName>Recovery Operators</fullName>
+                <default>false</default>
+                <label>Recovery Operators</label>
+            </value>
+            <value>
+                <fullName>Plant Operators</fullName>
+                <default>false</default>
+                <label>Plant Operators</label>
+            </value>
+            <value>
+                <fullName>Operations Lead</fullName>
+                <default>false</default>
+                <label>Operations Lead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

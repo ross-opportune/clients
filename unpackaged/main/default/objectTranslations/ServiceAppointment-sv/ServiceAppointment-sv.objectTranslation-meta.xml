@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <quickActions>
+        <label><!-- Complete Service Appointment --></label>
+        <name>Complete_Service_Appointment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- The Contractor Contact you have selected does not have an email address. You must update that Contact with an email address prior to selecting them on a Service Appointment. --></errorMessage>
+        <name>Contractor_Contact_Must_Have_Email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Oops! It doesn&apos;t look like you have access to edit these fields. If you need to complete the Service Appointment, please use the &apos;Complete Service Appointment&apos; button in the top right of the page. If you need anything else, please contact your Ensign rep. --></errorMessage>
+        <name>Vendor_Editing_Rules_Other_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Oops! Please update the status using the &apos;Complete Service Appointment&apos; button in the top right corner. If you have any questions, please reach out to your Ensign representative. --></errorMessage>
+        <name>Vendor_Status_Update</name>
+    </validationRules>
+</CustomObjectTranslation>

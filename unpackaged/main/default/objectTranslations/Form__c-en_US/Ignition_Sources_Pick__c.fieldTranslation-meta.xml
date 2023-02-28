@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ignition Sources --></label>
+        <name>Ignition_Sources_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Bond or earth for static electricity for cathodic protection</masterLabel>
+            <translation><!-- Bond or earth for static electricity for cathodic protection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conduct continuous gas testing</masterLabel>
+            <translation><!-- Conduct continuous gas testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement abrasive blasting controls</masterLabel>
+            <translation><!-- Implement abrasive blasting controls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provide firefighting equipment and fire watch</masterLabel>
+            <translation><!-- Provide firefighting equipment and fire watch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove, isolate, or contain combustible materials</masterLabel>
+            <translation><!-- Remove, isolate, or contain combustible materials --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Consistency of Paraffin --></label>
+        <name>Consistency_of_Paraffin__c</name>
+        <picklistValues>
+            <masterLabel>Hard, not malleable and unable to form together if in small chunks</masterLabel>
+            <translation><!-- Hard, not malleable and unable to form together if in small chunks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium, malleable and able to hold form</masterLabel>
+            <translation><!-- Medium, malleable and able to hold form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soft, runny and unable to hold form</masterLabel>
+            <translation><!-- Soft, runny and unable to hold form --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

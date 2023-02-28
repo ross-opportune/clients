@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failure_Fix_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Failure/Fix Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MEC-GENERAL</fullName>
+                <default>false</default>
+                <label>MEC-GENERAL</label>
+            </value>
+            <value>
+                <fullName>Not Completed: MEC-LEAKAGE</fullName>
+                <default>false</default>
+                <label>MEC-LEAKAGE</label>
+            </value>
+            <value>
+                <fullName>MEC-VIBRATION</fullName>
+                <default>false</default>
+                <label>MEC-VIBRATION</label>
+            </value>
+            <value>
+                <fullName>MEC-CLEARANCE/ALIGNMENT</fullName>
+                <default>false</default>
+                <label>MEC-CLEARANCE/ALIGNMEN</label>
+            </value>
+            <value>
+                <fullName>MEC-DEFORMATION</fullName>
+                <default>false</default>
+                <label>MEC-DEFORMATION</label>
+            </value>
+            <value>
+                <fullName>MEC-LOOSENESS</fullName>
+                <default>false</default>
+                <label>MEC-LOOSENESS</label>
+            </value>
+            <value>
+                <fullName>MEC-STICKING</fullName>
+                <default>false</default>
+                <label>MEC-STICKING</label>
+            </value>
+            <value>
+                <fullName>MAT-GENERAL</fullName>
+                <default>false</default>
+                <label>MAT-GENERAL</label>
+            </value>
+            <value>
+                <fullName>MAT-CAVITATION</fullName>
+                <default>false</default>
+                <label>MAT-CAVITATION</label>
+            </value>
+            <value>
+                <fullName>MAT-CORROSION</fullName>
+                <default>false</default>
+                <label>MAT-CORROSION</label>
+            </value>
+            <value>
+                <fullName>MAT-EROSION</fullName>
+                <default>false</default>
+                <label>MAT-EROSION</label>
+            </value>
+            <value>
+                <fullName>MAT-WEAR</fullName>
+                <default>false</default>
+                <label>MAT-WEAR</label>
+            </value>
+            <value>
+                <fullName>MAT-BREAKAGE</fullName>
+                <default>false</default>
+                <label>MAT-BREAKAGE</label>
+            </value>
+            <value>
+                <fullName>MAT-FATIGUE</fullName>
+                <default>false</default>
+                <label>MAT-FATIGUE</label>
+            </value>
+            <value>
+                <fullName>MAT-OVERHEATING</fullName>
+                <default>false</default>
+                <label>MAT-OVERHEATING</label>
+            </value>
+            <value>
+                <fullName>MAT-BURST</fullName>
+                <default>false</default>
+                <label>MAT-BURST</label>
+            </value>
+            <value>
+                <fullName>INS-GENERAL</fullName>
+                <default>false</default>
+                <label>INS-GENERAL</label>
+            </value>
+            <value>
+                <fullName>INS-CONTROL FAILURE</fullName>
+                <default>false</default>
+                <label>INS-CONTROL FAILURE</label>
+            </value>
+            <value>
+                <fullName>INS-NO SIGNAL/ALARM</fullName>
+                <default>false</default>
+                <label>INS-NO SIGNAL/ALARM</label>
+            </value>
+            <value>
+                <fullName>INS-FAULTY SIGNAL/ALARM</fullName>
+                <default>false</default>
+                <label>INS-FAULTY SIGNAL/ALARM</label>
+            </value>
+            <value>
+                <fullName>INS-CALIBRATION</fullName>
+                <default>false</default>
+                <label>INS-CALIBRATION</label>
+            </value>
+            <value>
+                <fullName>INS-SOFTWARE FAILURE</fullName>
+                <default>false</default>
+                <label>INS-SOFTWARE FAILURE</label>
+            </value>
+            <value>
+                <fullName>INS-COMMON MODE FAILURE</fullName>
+                <default>false</default>
+                <label>INS-COMMON MODE FAILURE</label>
+            </value>
+            <value>
+                <fullName>ELC-GENERAL</fullName>
+                <default>false</default>
+                <label>ELC-GENERAL</label>
+            </value>
+            <value>
+                <fullName>ELC-SHORT CIRCUITING</fullName>
+                <default>false</default>
+                <label>ELC-SHORT CIRCUITING</label>
+            </value>
+            <value>
+                <fullName>ELC-OPEN CIRCUIT</fullName>
+                <default>false</default>
+                <label>ELC-OPEN CIRCUIT</label>
+            </value>
+            <value>
+                <fullName>ELC-NO POWER/VOLTAGE</fullName>
+                <default>false</default>
+                <label>ELC-NO POWER/VOLTAGE</label>
+            </value>
+            <value>
+                <fullName>ELC-FAULTY POWER/VOLTAGE</fullName>
+                <default>false</default>
+                <label>ELC-FAULTY POWER/VOLTAGE</label>
+            </value>
+            <value>
+                <fullName>ELC-EARTH/ISOLATION FAULT</fullName>
+                <default>false</default>
+                <label>ELC-EARTH/ISOLATION FAULT</label>
+            </value>
+            <value>
+                <fullName>EXT-GENERAL</fullName>
+                <default>false</default>
+                <label>EXT-GENERAL</label>
+            </value>
+            <value>
+                <fullName>EXT-BLOCKAGE/PLUGGED</fullName>
+                <default>false</default>
+                <label>EXT-BLOCKAGE/PLUGGED</label>
+            </value>
+            <value>
+                <fullName>EXT-CONTAMINATION</fullName>
+                <default>false</default>
+                <label>EXT-CONTAMINATION</label>
+            </value>
+            <value>
+                <fullName>EXT-EXTERNAL INFLUENCES</fullName>
+                <default>false</default>
+                <label>EXT-EXTERNAL INFLUENCES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

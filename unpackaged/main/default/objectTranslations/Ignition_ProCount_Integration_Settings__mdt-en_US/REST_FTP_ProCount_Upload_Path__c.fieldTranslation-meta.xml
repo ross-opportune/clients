@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the ftp location to put ProCount files --></help>
+        <label><!-- REST_FTP_ProCount_Upload_Path --></label>
+        <name>REST_FTP_ProCount_Upload_Path__c</name>
+    </CustomFieldTranslation>

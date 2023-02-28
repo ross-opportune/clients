@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bleed Frequency --></label>
+        <name>Bleed_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Continuous</masterLabel>
+            <translation><!-- Continuous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermittent</masterLabel>
+            <translation><!-- Intermittent --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Failure/Fix Code --></label>
+        <name>Failure_Fix_Code__c</name>
+        <picklistValues>
+            <masterLabel>ELC-EARTH/ISOLATION FAULT</masterLabel>
+            <translation><!-- ELC-EARTH/ISOLATION FAULT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELC-FAULTY POWER/VOLTAGE</masterLabel>
+            <translation><!-- ELC-FAULTY POWER/VOLTAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELC-GENERAL</masterLabel>
+            <translation><!-- ELC-GENERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELC-NO POWER/VOLTAGE</masterLabel>
+            <translation><!-- ELC-NO POWER/VOLTAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELC-OPEN CIRCUIT</masterLabel>
+            <translation><!-- ELC-OPEN CIRCUIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELC-SHORT CIRCUITING</masterLabel>
+            <translation><!-- ELC-SHORT CIRCUITING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXT-BLOCKAGE/PLUGGED</masterLabel>
+            <translation><!-- EXT-BLOCKAGE/PLUGGED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXT-CONTAMINATION</masterLabel>
+            <translation><!-- EXT-CONTAMINATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXT-EXTERNAL INFLUENCES</masterLabel>
+            <translation><!-- EXT-EXTERNAL INFLUENCES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXT-GENERAL</masterLabel>
+            <translation><!-- EXT-GENERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-CALIBRATION</masterLabel>
+            <translation><!-- INS-CALIBRATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-COMMON MODE FAILURE</masterLabel>
+            <translation><!-- INS-COMMON MODE FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-CONTROL FAILURE</masterLabel>
+            <translation><!-- INS-CONTROL FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-FAULTY SIGNAL/ALARM</masterLabel>
+            <translation><!-- INS-FAULTY SIGNAL/ALARM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-GENERAL</masterLabel>
+            <translation><!-- INS-GENERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-NO SIGNAL/ALARM</masterLabel>
+            <translation><!-- INS-NO SIGNAL/ALARM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-SOFTWARE FAILURE</masterLabel>
+            <translation><!-- INS-SOFTWARE FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-BREAKAGE</masterLabel>
+            <translation><!-- MAT-BREAKAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-BURST</masterLabel>
+            <translation><!-- MAT-BURST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-CAVITATION</masterLabel>
+            <translation><!-- MAT-CAVITATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-CORROSION</masterLabel>
+            <translation><!-- MAT-CORROSION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-EROSION</masterLabel>
+            <translation><!-- MAT-EROSION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-FATIGUE</masterLabel>
+            <translation><!-- MAT-FATIGUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-GENERAL</masterLabel>
+            <translation><!-- MAT-GENERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-OVERHEATING</masterLabel>
+            <translation><!-- MAT-OVERHEATING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAT-WEAR</masterLabel>
+            <translation><!-- MAT-WEAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC-CLEARANCE/ALIGNMEN</masterLabel>
+            <translation><!-- MEC-CLEARANCE/ALIGNMEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC-DEFORMATION</masterLabel>
+            <translation><!-- MEC-DEFORMATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC-GENERAL</masterLabel>
+            <translation><!-- MEC-GENERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC-LEAKAGE</masterLabel>
+            <translation><!-- MEC-LEAKAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC-LOOSENESS</masterLabel>
+            <translation><!-- MEC-LOOSENESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC-STICKING</masterLabel>
+            <translation><!-- MEC-STICKING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEC-VIBRATION</masterLabel>
+            <translation><!-- MEC-VIBRATION --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

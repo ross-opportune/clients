@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Forms</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Frac Pond Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Gas Calibration Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>JSA</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- JSA Review --></label>
+            <section>JSA Review</section>
+        </sections>
+        <sections>
+            <label><!-- JSA Review and Work Site Verfiication --></label>
+            <section>JSA Review and Work Site Verfiication</section>
+        </sections>
+        <sections>
+            <label><!-- Stop Work Obligation --></label>
+            <section>Stop Work Obligation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LDAR Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection Completion Detials --></label>
+            <section>Inspection Completion Detials</section>
+        </sections>
+        <sections>
+            <label><!-- Leaks --></label>
+            <section>Leaks</section>
+        </sections>
+        <sections>
+            <label><!-- OGI Camera Inspection Detials --></label>
+            <section>OGI Camera Inspection Detials</section>
+        </sections>
+        <sections>
+            <label><!-- Unable to Inspect Equipment --></label>
+            <section>Unable to Inspect Equipment</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintenance Assessment Checklist - Engines</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Oil Calibration Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pigging Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SPCC Site Inspection</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Well Stop</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Permit</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- HSE Checklist --></label>
+            <section>HSE Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Frac Pond Form --></label>
+        <name>Frac_Pond_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Gas Calibration Form --></label>
+        <name>Gas_Calibration_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- JSA --></label>
+        <name>JSA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LDAR --></label>
+        <name>LDAR</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Maintenance Assessment Checklist - Engines --></description>
+        <label><!-- Maintenance Assessment Checklist - Engines --></label>
+        <name>Maintenance_Assessment_Checklist_Engines</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oil Calibration Form --></label>
+        <name>Oil_Calibration_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pigging Form --></label>
+        <name>Pigging_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SPCC Site Inspection --></label>
+        <name>SPCC_Site_Inspection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Well Stop --></label>
+        <name>Well_Stop</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Work Permit --></label>
+        <name>Work_Permit</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

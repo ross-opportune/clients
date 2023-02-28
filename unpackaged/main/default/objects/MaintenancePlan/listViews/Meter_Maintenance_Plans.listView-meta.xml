@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meter_Maintenance_Plans</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <columns>Proving_Plan__c</columns>
+    <columns>Calibration_Plan__c</columns>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>DoesAutoGenerateWorkOrders</columns>
+    <columns>EndDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Maintenance_Assets__c</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Primary__c</field>
+        <operation>equals</operation>
+        <value>Coriolis Meter Proving,Gas Meter Calibration</value>
+    </filters>
+    <filters>
+        <field>MaintenancePlanTitle</field>
+        <operation>notContain</operation>
+        <value>Do Not Use</value>
+    </filters>
+    <label>Meter Maintenance Plans</label>
+</ListView>

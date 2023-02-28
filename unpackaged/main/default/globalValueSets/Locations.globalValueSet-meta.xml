@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Area 31</fullName>
+        <default>false</default>
+        <label>Area 31</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 33</fullName>
+        <default>false</default>
+        <label>Area 33</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 51</fullName>
+        <default>false</default>
+        <label>Area 51</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 52</fullName>
+        <default>false</default>
+        <label>Area 52</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 61</fullName>
+        <default>false</default>
+        <label>Area 61</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 71</fullName>
+        <default>false</default>
+        <label>Area 71</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 72</fullName>
+        <default>false</default>
+        <label>Area 72</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 81</fullName>
+        <default>false</default>
+        <label>Area 81</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 82</fullName>
+        <default>false</default>
+        <label>Area 82</label>
+    </customValue>
+    <customValue>
+        <fullName>Kenedy</fullName>
+        <default>false</default>
+        <label>Kenedy</label>
+    </customValue>
+    <customValue>
+        <fullName>Moray Bofin</fullName>
+        <default>false</default>
+        <label>Moray Bofin</label>
+    </customValue>
+    <customValue>
+        <fullName>NEYorktown/Buchel/Wahoo</fullName>
+        <default>false</default>
+        <label>NEYorktown/Buchel/Wahoo</label>
+    </customValue>
+    <customValue>
+        <fullName>Pawnee North East</fullName>
+        <default>false</default>
+        <label>Pawnee North East</label>
+    </customValue>
+    <customValue>
+        <fullName>Pawnee Plant</fullName>
+        <default>false</default>
+        <label>Pawnee Plant</label>
+    </customValue>
+    <customValue>
+        <fullName>S.W Kennedy</fullName>
+        <default>false</default>
+        <label>S.W Kennedy</label>
+    </customValue>
+    <customValue>
+        <fullName>SAT 1</fullName>
+        <default>false</default>
+        <label>SAT 1</label>
+    </customValue>
+    <customValue>
+        <fullName>SAT 2</fullName>
+        <default>false</default>
+        <label>SAT 2</label>
+    </customValue>
+    <customValue>
+        <fullName>SAT 3</fullName>
+        <default>false</default>
+        <label>SAT 3</label>
+    </customValue>
+    <customValue>
+        <fullName>SAT 4</fullName>
+        <default>false</default>
+        <label>SAT 4</label>
+    </customValue>
+    <customValue>
+        <fullName>SAT 5</fullName>
+        <default>false</default>
+        <label>SAT 5</label>
+    </customValue>
+    <customValue>
+        <fullName>SAT 6</fullName>
+        <default>false</default>
+        <label>SAT 6</label>
+    </customValue>
+    <customValue>
+        <fullName>SawFish/Stingray/Yoakum</fullName>
+        <default>false</default>
+        <label>SawFish/Stingray/Yoakum</label>
+    </customValue>
+    <customValue>
+        <fullName>Three Rivers</fullName>
+        <default>false</default>
+        <label>Three Rivers</label>
+    </customValue>
+    <customValue>
+        <fullName>Offices</fullName>
+        <default>false</default>
+        <label>Offices</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>844</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>844</label>
+    </customValue>
+    <customValue>
+        <fullName>Pawnee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pawnee</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>Cuero</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cuero</label>
+    </customValue>
+    <customValue>
+        <fullName>Buchel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Buchel</label>
+    </customValue>
+    <masterLabel>Locations</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

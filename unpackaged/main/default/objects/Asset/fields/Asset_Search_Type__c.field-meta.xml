@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Search_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Asset Search Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Area</fullName>
+                <default>false</default>
+                <label>Area</label>
+            </value>
+            <value>
+                <fullName>Burner</fullName>
+                <default>false</default>
+                <label>Burner</label>
+            </value>
+            <value>
+                <fullName>CGP</fullName>
+                <default>false</default>
+                <label>CGP</label>
+            </value>
+            <value>
+                <fullName>Containment</fullName>
+                <default>false</default>
+                <label>Containment</label>
+            </value>
+            <value>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+                <label>Electrical</label>
+            </value>
+            <value>
+                <fullName>Engine/Compressor</fullName>
+                <default>false</default>
+                <label>Engine/Compressor</label>
+            </value>
+            <value>
+                <fullName>Exchanger</fullName>
+                <default>false</default>
+                <label>Exchanger</label>
+            </value>
+            <value>
+                <fullName>Flowline</fullName>
+                <default>false</default>
+                <label>Flowline</label>
+            </value>
+            <value>
+                <fullName>Gas Plant</fullName>
+                <default>false</default>
+                <label>Gas Plant</label>
+            </value>
+            <value>
+                <fullName>Header</fullName>
+                <default>false</default>
+                <label>Header</label>
+            </value>
+            <value>
+                <fullName>Instrumentation</fullName>
+                <default>false</default>
+                <label>Instrumentation</label>
+            </value>
+            <value>
+                <fullName>Meter</fullName>
+                <default>false</default>
+                <label>Meter</label>
+            </value>
+            <value>
+                <fullName>Pad</fullName>
+                <default>false</default>
+                <label>Pad</label>
+            </value>
+            <value>
+                <fullName>Pawnee Plant</fullName>
+                <default>false</default>
+                <label>Pawnee Plant</label>
+            </value>
+            <value>
+                <fullName>Pigging</fullName>
+                <default>false</default>
+                <label>Pigging</label>
+            </value>
+            <value>
+                <fullName>Piping</fullName>
+                <default>false</default>
+                <label>Piping</label>
+            </value>
+            <value>
+                <fullName>Pneu Blowcase</fullName>
+                <default>false</default>
+                <label>Pneu Blowcase</label>
+            </value>
+            <value>
+                <fullName>Pneumatics</fullName>
+                <default>false</default>
+                <label>Pneumatics</label>
+            </value>
+            <value>
+                <fullName>POD</fullName>
+                <default>false</default>
+                <label>POD</label>
+            </value>
+            <value>
+                <fullName>PUMP</fullName>
+                <default>false</default>
+                <label>PUMP</label>
+            </value>
+            <value>
+                <fullName>Pumping Unit</fullName>
+                <default>false</default>
+                <label>Pumping Unit</label>
+            </value>
+            <value>
+                <fullName>Rectifier</fullName>
+                <default>false</default>
+                <label>Rectifier</label>
+            </value>
+            <value>
+                <fullName>Relief Valve</fullName>
+                <default>false</default>
+                <label>Relief Valve</label>
+            </value>
+            <value>
+                <fullName>Satellite</fullName>
+                <default>false</default>
+                <label>Satellite</label>
+            </value>
+            <value>
+                <fullName>Separator</fullName>
+                <default>false</default>
+                <label>Separator</label>
+            </value>
+            <value>
+                <fullName>Separator H2S Scavenger</fullName>
+                <default>false</default>
+                <label>Separator H2S Scavenger</label>
+            </value>
+            <value>
+                <fullName>Skid FG Conditioner</fullName>
+                <default>false</default>
+                <label>Skid FG Conditioner</label>
+            </value>
+            <value>
+                <fullName>Skid Instrument Air Unit</fullName>
+                <default>false</default>
+                <label>Skid Instrument Air Unit</label>
+            </value>
+            <value>
+                <fullName>STAT Office</fullName>
+                <default>false</default>
+                <label>STAT Office</label>
+            </value>
+            <value>
+                <fullName>Sump</fullName>
+                <default>false</default>
+                <label>Sump</label>
+            </value>
+            <value>
+                <fullName>Tank</fullName>
+                <default>false</default>
+                <label>Tank</label>
+            </value>
+            <value>
+                <fullName>Tower</fullName>
+                <default>false</default>
+                <label>Tower</label>
+            </value>
+            <value>
+                <fullName>Valve Ctrl</fullName>
+                <default>false</default>
+                <label>Valve Ctrl</label>
+            </value>
+            <value>
+                <fullName>Volume Pot</fullName>
+                <default>false</default>
+                <label>Volume Pot</label>
+            </value>
+            <value>
+                <fullName>Well</fullName>
+                <default>false</default>
+                <label>Well</label>
+            </value>
+            <value>
+                <fullName>Wellhead</fullName>
+                <default>false</default>
+                <label>Wellhead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

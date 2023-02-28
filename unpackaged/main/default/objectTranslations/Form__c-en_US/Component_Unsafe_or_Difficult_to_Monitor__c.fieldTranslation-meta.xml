@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Component Unsafe or Difficult to Monitor --></label>
+        <name>Component_Unsafe_or_Difficult_to_Monitor__c</name>
+        <picklistValues>
+            <masterLabel>Difficult</masterLabel>
+            <translation><!-- Difficult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsafe</masterLabel>
+            <translation><!-- Unsafe --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Moving_Equipment__c</fullName>
+    <externalId>false</externalId>
+    <label>Moving Equipment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Confirm machinery guard integrity</fullName>
+                <default>false</default>
+                <label>Confirm machinery guard integrity</label>
+            </value>
+            <value>
+                <fullName>Provide protective barriers</fullName>
+                <default>false</default>
+                <label>Provide protective barriers</label>
+            </value>
+            <value>
+                <fullName>Observer to monitor proximity of people and equipment</fullName>
+                <default>false</default>
+                <label>Observer to monitor proximity of people and equipment</label>
+            </value>
+            <value>
+                <fullName>Shut down or lock out equipment</fullName>
+                <default>false</default>
+                <label>Shut down or lock out equipment</label>
+            </value>
+            <value>
+                <fullName>Do not work in the line of fire</fullName>
+                <default>false</default>
+                <label>Do not work in the line of fire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

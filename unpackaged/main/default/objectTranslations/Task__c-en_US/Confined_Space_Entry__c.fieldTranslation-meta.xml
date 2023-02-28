@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Confined Space Entry --></label>
+        <name>Confined_Space_Entry__c</name>
+        <picklistValues>
+            <masterLabel>Conduct atmospheric testing</masterLabel>
+            <translation><!-- Conduct atmospheric testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Develop rescue plan</masterLabel>
+            <translation><!-- Develop rescue plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discuss confined space entry safe work practice</masterLabel>
+            <translation><!-- Discuss confined space entry safe work practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitor access or entry</masterLabel>
+            <translation><!-- Monitor access or entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibit mobile engines near confined spaces</masterLabel>
+            <translation><!-- Prohibit mobile engines near confined spaces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protect surfaces from inadvertent contact</masterLabel>
+            <translation><!-- Protect surfaces from inadvertent contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provide Observer</masterLabel>
+            <translation><!-- Provide Observer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

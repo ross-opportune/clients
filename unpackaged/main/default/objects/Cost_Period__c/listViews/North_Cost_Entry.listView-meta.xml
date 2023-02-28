@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>North_Cost_Entry</fullName>
+    <columns>NAME</columns>
+    <columns>COA__c</columns>
+    <columns>COA_Category__c</columns>
+    <columns>Contractor__c</columns>
+    <columns>Week_of__c</columns>
+    <columns>Region__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Forecasted_Cost__c</columns>
+    <columns>Actual_Cost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>North</value>
+    </filters>
+    <label>North Cost Entry</label>
+</ListView>

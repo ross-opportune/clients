@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Verify Oil and Gas Meters are counting --></label>
+        <name>Verify_Oil_and_Gas_Meters_are_counting__c</name>
+    </CustomFieldTranslation>

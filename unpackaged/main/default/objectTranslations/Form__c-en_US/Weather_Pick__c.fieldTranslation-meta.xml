@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Weather --></label>
+        <name>Weather_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Cold – PPE, heaters</masterLabel>
+            <translation><!-- Cold – PPE, heaters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heat – hydration, breaks</masterLabel>
+            <translation><!-- Heat – hydration, breaks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement controls for slippery surfaces</masterLabel>
+            <translation><!-- Implement controls for slippery surfaces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning – tool selection, defer work</masterLabel>
+            <translation><!-- Lightning – tool selection, defer work --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

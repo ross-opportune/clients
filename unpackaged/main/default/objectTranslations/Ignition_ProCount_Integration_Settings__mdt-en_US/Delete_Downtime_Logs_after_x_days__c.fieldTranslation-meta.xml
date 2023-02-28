@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Delete Downtime Logs after x days. Optional enter the number of days to keep downtime logs. Records will be deleted after this number of days based on last modified date. 0 or less disables the job --></help>
+        <label><!-- Delete_Downtime_Logs_after_x_days --></label>
+        <name>Delete_Downtime_Logs_after_x_days__c</name>
+    </CustomFieldTranslation>

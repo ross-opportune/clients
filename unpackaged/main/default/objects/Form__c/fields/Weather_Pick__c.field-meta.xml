@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weather_Pick__c</fullName>
+    <externalId>false</externalId>
+    <label>Weather</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Implement controls for slippery surfaces</fullName>
+                <default>false</default>
+                <label>Implement controls for slippery surfaces</label>
+            </value>
+            <value>
+                <fullName>Heat – hydration, breaks</fullName>
+                <default>false</default>
+                <label>Heat – hydration, breaks</label>
+            </value>
+            <value>
+                <fullName>Cold – PPE, heaters</fullName>
+                <default>false</default>
+                <label>Cold – PPE, heaters</label>
+            </value>
+            <value>
+                <fullName>Lightning – tool selection, defer work</fullName>
+                <default>false</default>
+                <label>Lightning – tool selection, defer work</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

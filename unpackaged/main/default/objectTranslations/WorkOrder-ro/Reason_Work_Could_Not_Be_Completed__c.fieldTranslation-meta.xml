@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason Work Could Not Be Completed --></label>
+        <name>Reason_Work_Could_Not_Be_Completed__c</name>
+        <picklistValues>
+            <masterLabel>Equipment Isolation</masterLabel>
+            <translation><!-- Equipment Isolation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOC</masterLabel>
+            <translation><!-- MOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Constraint</masterLabel>
+            <translation><!-- Material Constraint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personnel Contraint</masterLabel>
+            <translation><!-- Personnel Contraint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priority Conflict</masterLabel>
+            <translation><!-- Priority Conflict --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time Constraint</masterLabel>
+            <translation><!-- Time Constraint --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

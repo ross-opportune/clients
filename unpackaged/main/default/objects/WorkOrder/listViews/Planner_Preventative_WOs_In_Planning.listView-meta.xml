@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planner_Preventative_WOs_In_Planning</fullName>
+    <columns>CreatedDate</columns>
+    <columns>SuggestedMaintenanceDate</columns>
+    <columns>Priority</columns>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>RecordType</columns>
+    <columns>Asset</columns>
+    <columns>Status</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Planning,Awaiting Material</value>
+    </filters>
+    <filters>
+        <field>WorkType</field>
+        <operation>notContain</operation>
+        <value>Artificial lift,well stop,downtime,multi inspection</value>
+    </filters>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>WorkOrder.Predictive_Maintenance,WorkOrder.Preventative_Maintenance</value>
+    </filters>
+    <label>Planner Preventative WOs In Planning</label>
+</ListView>

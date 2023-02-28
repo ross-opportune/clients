@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ignition_Sources__c</fullName>
+    <externalId>false</externalId>
+    <label>Ignition Sources</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Remove, isolate, or contain combustible materials</fullName>
+                <default>false</default>
+                <label>Remove, isolate, or contain combustible materials</label>
+            </value>
+            <value>
+                <fullName>Provide firefighting equipment and fire watch</fullName>
+                <default>false</default>
+                <label>Provide firefighting equipment and fire watch</label>
+            </value>
+            <value>
+                <fullName>Implement abrasive blasting controls</fullName>
+                <default>false</default>
+                <label>Implement abrasive blasting controls</label>
+            </value>
+            <value>
+                <fullName>Conduct continuous gas testing</fullName>
+                <default>false</default>
+                <label>Conduct continuous gas testing</label>
+            </value>
+            <value>
+                <fullName>Bond or earth for static electricity for cathodic protection</fullName>
+                <default>false</default>
+                <label>Bond or earth for static electricity for cathodic protection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

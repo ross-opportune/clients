@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ambient Temperature (Degrees F) --></label>
+        <name>Ambient_Temperature_Degrees_F__c</name>
+    </CustomFieldTranslation>

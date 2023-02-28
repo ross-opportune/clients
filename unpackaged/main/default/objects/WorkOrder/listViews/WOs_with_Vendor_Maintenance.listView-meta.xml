@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOs_with_Vendor_Maintenance</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Completed_Date__c</columns>
+    <columns>Name</columns>
+    <columns>Contractor__c</columns>
+    <columns>Asset</columns>
+    <columns>Status</columns>
+    <columns>Notes__c</columns>
+    <columns>Cost_Line_Item_Total__c</columns>
+    <columns>Total_Cost__c</columns>
+    <columns>Priority</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contractor__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <label>WOs with Vendor Maintenance</label>
+</ListView>

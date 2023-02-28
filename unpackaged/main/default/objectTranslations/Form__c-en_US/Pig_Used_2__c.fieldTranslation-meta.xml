@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pig Used #2 --></label>
+        <name>Pig_Used_2__c</name>
+        <picklistValues>
+            <masterLabel>2 Cup Pig</masterLabel>
+            <translation><!-- 2 Cup Pig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Cup Pig</masterLabel>
+            <translation><!-- 4 Cup Pig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cup and Brush Pig</masterLabel>
+            <translation><!-- Cup and Brush Pig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disc Pig</masterLabel>
+            <translation><!-- Disc Pig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disc and Brush Pig</masterLabel>
+            <translation><!-- Disc and Brush Pig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foam</masterLabel>
+            <translation><!-- Foam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poly Coated Foam</masterLabel>
+            <translation><!-- Poly Coated Foam --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EAM_WO_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>EAM WO Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>After the Fact</fullName>
+                <default>false</default>
+                <label>After the Fact</label>
+            </value>
+            <value>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+                <label>Breakdown</label>
+            </value>
+            <value>
+                <fullName>Bulletin/Warranty</fullName>
+                <default>false</default>
+                <label>Bulletin/Warranty</label>
+            </value>
+            <value>
+                <fullName>Calibration/Programming</fullName>
+                <default>false</default>
+                <label>Calibration/Programming</label>
+            </value>
+            <value>
+                <fullName>Corrective</fullName>
+                <default>false</default>
+                <label>Corrective</label>
+            </value>
+            <value>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+                <label>Data Management</label>
+            </value>
+            <value>
+                <fullName>Emergency</fullName>
+                <default>false</default>
+                <label>Emergency</label>
+            </value>
+            <value>
+                <fullName>Equipment Transfer/Replacement</fullName>
+                <default>false</default>
+                <label>Equipment Transfer/Replacement</label>
+            </value>
+            <value>
+                <fullName>Follow-up</fullName>
+                <default>false</default>
+                <label>Follow-up</label>
+            </value>
+            <value>
+                <fullName>HSE Hazard</fullName>
+                <default>false</default>
+                <label>HSE Hazard</label>
+            </value>
+            <value>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+                <label>Inspection</label>
+            </value>
+            <value>
+                <fullName>New Equipment/Upgrade</fullName>
+                <default>false</default>
+                <label>New Equipment/Upgrade</label>
+            </value>
+            <value>
+                <fullName>Predictive</fullName>
+                <default>false</default>
+                <label>Predictive</label>
+            </value>
+            <value>
+                <fullName>Preventative Maintenance</fullName>
+                <default>false</default>
+                <label>Preventative Maintenance</label>
+            </value>
+            <value>
+                <fullName>Spill / Remediation</fullName>
+                <default>false</default>
+                <label>Spill / Remediation</label>
+            </value>
+            <value>
+                <fullName>Urgent</fullName>
+                <default>false</default>
+                <label>Urgent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

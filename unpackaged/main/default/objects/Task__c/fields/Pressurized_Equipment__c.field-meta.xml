@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pressurized_Equipment__c</fullName>
+    <externalId>false</externalId>
+    <label>Pressurized Equipment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Perform isolation – LOTO, blinding or defeat</fullName>
+                <default>false</default>
+                <label>Perform isolation – LOTO, blinding or defeat</label>
+            </value>
+            <value>
+                <fullName>Depressurize, drain, purge, and vent</fullName>
+                <default>false</default>
+                <label>Depressurize, drain, purge, and vent</label>
+            </value>
+            <value>
+                <fullName>Relieve trapped pressure</fullName>
+                <default>false</default>
+                <label>Relieve trapped pressure</label>
+            </value>
+            <value>
+                <fullName>Do not work in the line of fire</fullName>
+                <default>false</default>
+                <label>Do not work in the line of fire</label>
+            </value>
+            <value>
+                <fullName>Anticipate residual pressure or fluids</fullName>
+                <default>false</default>
+                <label>Anticipate residual pressure or fluids</label>
+            </value>
+            <value>
+                <fullName>Secure all hoses</fullName>
+                <default>false</default>
+                <label>Secure all hoses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

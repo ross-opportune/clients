@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pressurized Equipment --></label>
+        <name>Pressurized_EquipmentPick__c</name>
+        <picklistValues>
+            <masterLabel>Anticipate residual pressure or fluids</masterLabel>
+            <translation><!-- Anticipate residual pressure or fluids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Depressurize, drain, purge, and vent</masterLabel>
+            <translation><!-- Depressurize, drain, purge, and vent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do not work in the line of fire</masterLabel>
+            <translation><!-- Do not work in the line of fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform isolation – LOTO, blinding or defeat</masterLabel>
+            <translation><!-- Perform isolation – LOTO, blinding or defeat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relieve trapped pressure</masterLabel>
+            <translation><!-- Relieve trapped pressure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secure all hoses</masterLabel>
+            <translation><!-- Secure all hoses --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

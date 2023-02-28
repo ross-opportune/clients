@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assets_added_in_20212</fullName>
+    <columns>Formation__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.PARENT</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>Asset_Search_Type__c</columns>
+    <columns>Asset_Type__c</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>Location__c</columns>
+    <columns>Geolocation__Longitude__s</columns>
+    <columns>Geolocation__Latitude__s</columns>
+    <columns>EUWI__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ASSET.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2022 12:00 AM</value>
+    </filters>
+    <label>Assets added in 2022</label>
+</ListView>

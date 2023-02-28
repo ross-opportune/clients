@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_Spills_Pick__c</fullName>
+    <externalId>false</externalId>
+    <label>Potential Spills</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Drain equipment</fullName>
+                <default>false</default>
+                <label>Drain equipment</label>
+            </value>
+            <value>
+                <fullName>Hoses, connections in good condition</fullName>
+                <default>false</default>
+                <label>Hoses, connections in good condition</label>
+            </value>
+            <value>
+                <fullName>Spill containment equipment</fullName>
+                <default>false</default>
+                <label>Spill containment equipment</label>
+            </value>
+            <value>
+                <fullName>Have spill cleanup materials and equipment on hand</fullName>
+                <default>false</default>
+                <label>Have spill cleanup materials and equipment on hand</label>
+            </value>
+            <value>
+                <fullName>Restrain and isolate hoses when not in use</fullName>
+                <default>false</default>
+                <label>Restrain and isolate hoses when not in use</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

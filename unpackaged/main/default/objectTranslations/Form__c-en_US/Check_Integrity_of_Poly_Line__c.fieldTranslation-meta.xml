@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check integrity of poly line by walking poly line from POD to pond --></help>
+        <label><!-- Check Integrity of Poly Line --></label>
+        <name>Check_Integrity_of_Poly_Line__c</name>
+    </CustomFieldTranslation>

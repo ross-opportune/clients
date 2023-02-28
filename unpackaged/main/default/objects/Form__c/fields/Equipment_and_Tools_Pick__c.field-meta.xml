@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_and_Tools_Pick__c</fullName>
+    <externalId>false</externalId>
+    <label>Equipment and Tools</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inspect equipment and tools</fullName>
+                <default>false</default>
+                <label>Inspect equipment and tools</label>
+            </value>
+            <value>
+                <fullName>Brass tools necessary</fullName>
+                <default>false</default>
+                <label>Brass tools necessary</label>
+            </value>
+            <value>
+                <fullName>Use protective guards</fullName>
+                <default>false</default>
+                <label>Use protective guards</label>
+            </value>
+            <value>
+                <fullName>Use correct tools and equipment for task</fullName>
+                <default>false</default>
+                <label>Use correct tools and equipment for task</label>
+            </value>
+            <value>
+                <fullName>Protect or remove sharp edges</fullName>
+                <default>false</default>
+                <label>Protect or remove sharp edges</label>
+            </value>
+            <value>
+                <fullName>Apply hand safety principles</fullName>
+                <default>false</default>
+                <label>Apply hand safety principles</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

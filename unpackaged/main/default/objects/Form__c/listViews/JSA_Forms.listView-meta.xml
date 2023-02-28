@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JSA_Forms</fullName>
+    <columns>Asset__c</columns>
+    <columns>NAME</columns>
+    <columns>Work_Order__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Count_of_Steps__c</columns>
+    <columns>JSA_Form_Name__c</columns>
+    <columns>Work_Order_Primary__c</columns>
+    <columns>Task_Leader_Name__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>JSA_Reviewer_Name__c</columns>
+    <columns>Date_JSA__c</columns>
+    <columns>JSA_Work_Type__c</columns>
+    <columns>Job_Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Form__c.JSA</value>
+    </filters>
+    <label>JSA Forms</label>
+</ListView>

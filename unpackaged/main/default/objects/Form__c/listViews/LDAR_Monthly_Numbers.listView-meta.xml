@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LDAR_Monthly_Numbers</fullName>
+    <columns>Work_Order__c</columns>
+    <columns>NAME</columns>
+    <columns>Date__c</columns>
+    <columns>Were_leaks_detected__c</columns>
+    <columns>Form_Name__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>Was_first_repair_attempted_during_the_in__c</columns>
+    <columns>Was_first_repair_successful__c</columns>
+    <columns>If_first_attempt_not_successful_was_a_w__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Form__c.LDAR</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_MONTH</value>
+    </filters>
+    <label>LDAR Monthly Numbers</label>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Work at Heights --></label>
+        <name>Work_at_Heights_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Discuss working at heights safe work practice</masterLabel>
+            <translation><!-- Discuss working at heights safe work practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full body harness is required</masterLabel>
+            <translation><!-- Full body harness is required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locking type snaphooks must be used</masterLabel>
+            <translation><!-- Locking type snaphooks must be used --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verify fall restraint and arrest equipment certification</masterLabel>
+            <translation><!-- Verify fall restraint and arrest equipment certification --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

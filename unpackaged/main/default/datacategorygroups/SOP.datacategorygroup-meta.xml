@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Production</label>
+            <name>Production</name>
+        </dataCategory>
+        <dataCategory>
+            <label>TFS</label>
+            <name>TFS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Special Operations</label>
+            <name>Special_Operations</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Maintenance</label>
+            <name>Maintenance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Gas Processing</label>
+            <name>Gas_Processing</name>
+        </dataCategory>
+        <dataCategory>
+            <label>IOC (RemOps Hub)</label>
+            <name>IOC_RemOps_Hub</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Flow Assurance</label>
+            <name>Flow_Assurance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Fleet Maintenance</label>
+            <name>Fleet_Maintenance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Facility Maintenance</label>
+            <name>Facility_Maintenance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Construction</label>
+            <name>Construction</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Compression</label>
+            <name>Compression</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>Standard Operating Procedure</description>
+    <label>SOP</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

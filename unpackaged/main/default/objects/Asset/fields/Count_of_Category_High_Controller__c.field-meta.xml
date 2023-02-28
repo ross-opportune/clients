@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_of_Category_High_Controller__c</fullName>
+    <externalId>false</externalId>
+    <label>Count of Category High Controller</label>
+    <summaryFilterItems>
+        <field>ESG_Data__c.High_Low__c</field>
+        <operation>equals</operation>
+        <value>High Controller</value>
+    </summaryFilterItems>
+    <summaryForeignKey>ESG_Data__c.Asset__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

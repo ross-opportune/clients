@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regulatory_Maintenance_Plans</fullName>
+    <columns>Name</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>Description</columns>
+    <columns>Primary__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Regulatory__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Regulatory Maintenance Plans</label>
+</ListView>

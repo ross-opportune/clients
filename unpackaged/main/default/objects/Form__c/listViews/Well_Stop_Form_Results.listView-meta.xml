@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Well_Stop_Form_Results</fullName>
+    <columns>NAME</columns>
+    <columns>Asset__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Check_Day_Tank_Levels__c</columns>
+    <columns>House_Keeping_in_Order__c</columns>
+    <columns>Blowdown_Meter_Run__c</columns>
+    <columns>Blow_down_Fluid_from_Fuel_Pots__c</columns>
+    <columns>Rock_Chokes_on_Wells__c</columns>
+    <columns>Separators_Dumping_Correctly__c</columns>
+    <columns>Tubing_Pressure__c</columns>
+    <columns>Casing_Pressure__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Form__c.Well_Stop</value>
+    </filters>
+    <label>Well Stop Form Results</label>
+</ListView>

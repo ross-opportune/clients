@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Excavations --></label>
+        <name>Excavations__c</name>
+        <picklistValues>
+            <masterLabel>De-energize underground services</masterLabel>
+            <translation><!-- De-energize underground services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Have an excavation plan or safe work practice</masterLabel>
+            <translation><!-- Have an excavation plan or safe work practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement confined space entry controls</masterLabel>
+            <translation><!-- Implement confined space entry controls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locate underground pipes or cables by hand digging</masterLabel>
+            <translation><!-- Locate underground pipes or cables by hand digging --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

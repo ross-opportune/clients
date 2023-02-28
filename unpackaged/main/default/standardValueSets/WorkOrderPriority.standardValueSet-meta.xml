@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Priority 1 – Typically begins in 1 day</fullName>
+        <default>false</default>
+        <label>Emergency- IDLH conditions, environmental concerns and the like</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Priority 2 – Typically begins in 2 days</fullName>
+        <default>false</default>
+        <label>Next Day- Production downtime impact on a Tier A well, or high production impact POD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Priority 3 – Typically begins in 3 - 7 days</fullName>
+        <default>true</default>
+        <label>1-3 Day- Production downtime impact on a Tier B or C Well</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Priority 4 – Typically begins in 30 days</fullName>
+        <default>false</default>
+        <label>4-7 Day- Pending Impact on Production</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Priority 5 – Typically begins in 60 days</fullName>
+        <default>false</default>
+        <label>14 Days No immediate impact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Emergency – work starts immediately</fullName>
+        <default>false</default>
+        <label>30 Days- Corrective Action</label>
+    </standardValue>
+</StandardValueSet>

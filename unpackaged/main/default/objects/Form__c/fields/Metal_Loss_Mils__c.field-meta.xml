@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metal_Loss_Mils__c</fullName>
+    <description>Measured metal loss in mils</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Measured metal loss in mils found during Atmospheric Corrosion survey</inlineHelpText>
+    <label>Metal Loss (Mils)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>10</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

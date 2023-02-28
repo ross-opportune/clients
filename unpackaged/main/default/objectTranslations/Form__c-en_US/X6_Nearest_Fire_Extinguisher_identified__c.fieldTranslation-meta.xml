@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 6. Nearest Fire Extinguisher identified --></label>
+        <name>X6_Nearest_Fire_Extinguisher_identified__c</name>
+    </CustomFieldTranslation>

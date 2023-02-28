@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Basis for Delay --></label>
+        <name>Basis_for_Delay__c</name>
+        <picklistValues>
+            <masterLabel>Additional parts to be ordered (not an acceptable delay for OOOOa inspections)</masterLabel>
+            <translation><!-- Additional parts to be ordered (not an acceptable delay for OOOOa inspections) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair would be unsafe during operation of the unit|Repair is technically infeasible</masterLabel>
+            <translation><!-- Repair would be unsafe during operation of the unit|Repair is technically infeasible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shutdown/Blowdown of equipment required to complete repair and emissions from repair would be greater than the leak itself</masterLabel>
+            <translation><!-- Shutdown/Blowdown of equipment required to complete repair and emissions from repair would be greater than the leak itself --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

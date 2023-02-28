@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_in_Priority__c</fullName>
+    <externalId>false</externalId>
+    <formula>Days_to_Complete__c == 0-1-2</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Completed in Priority</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

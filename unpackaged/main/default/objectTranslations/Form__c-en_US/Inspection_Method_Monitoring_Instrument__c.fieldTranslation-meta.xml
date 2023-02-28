@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Inspection Method/Monitoring Instrument --></label>
+        <name>Inspection_Method_Monitoring_Instrument__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,599 @@
+<apex:page standardcontroller="Form__c"
+           title="JSA PDF"
+           lightningstylesheets="false"
+           renderAs="pdf"
+           applybodytag="false"
+           applyHTmlTag="false"
+           showHeader="false">
+    <!--applybodytag="false" is used to make sure that styles are correctly applied to the generated pdf-->
+    <!--standardcontroller="Form__c" allows getting data from the Form object without writing a class-->       
+    <head>
+ <style type="text/css">
+        @page {
+       size: A4 Landscape;
+       <!--- margin-left: 1cm;
+       margin-right: 1cm;
+       margin-top: 1.75cm; --->
+       
+       @top-center {
+        content: element(header);
+    }
+       
+       @bottom-center{
+           content: element(footer);
+           }
+           
+       @bottom-right{
+            font-size: 10px;
+            content: "page " counter(page) " of " counter(pages);
+            }
+
+     }  
+    
+    div.header{
+         font-size: 11px;
+         font-weight: bold;
+         padding: 12px;
+         text-align: left;
+         position: running(header);
+     }
+    
+     div.footer{
+         font-size: 10px;
+         text-align: center;
+         position: running(footer);
+     }
+
+     table{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 11px;
+     page-break-inside: avoid;
+     table-layout: fixed;
+     border-spacing: 0;
+     border-collapse: collapse;
+     margin-left:auto; 
+     margin-right:auto;
+     }
+
+     .boxorange{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #FD7E14;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 25px;
+      }
+      
+        .boxred{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #FF0000;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 25px;
+      }
+      
+       .boxorangesmallfont{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #FD7E14;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 10px;
+      }
+
+        .boxgreysmallfont{
+        font-weight: bold;
+        text-align: center; 
+        background-color: #D3D3D3;
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        font-size: 10px;
+      }
+      .boxcenter{
+        font-weight: bold;
+        text-align: center; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+      }
+      
+       .boxleftbold{
+        font-weight: bold;
+        text-align: left; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+      }
+      
+      .boxleft{
+        text-align: left; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+      }
+      
+        .boxleftsmallfont{
+        text-align: left; 
+        border:2px solid #000000;
+        text-overflow: ellipsis;
+        padding: 3px;
+        font-size: 8px;
+      }
+
+      .center{
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center; 
+        text-overflow: ellipsis;
+      }
+
+      .centerbold{
+      font-size: 14px;
+        font-weight: bold;
+        text-align: center; 
+        text-overflow: ellipsis;
+      }
+
+      .noboxcenter{
+      border-top: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-right: 0; 
+      text-align: center; 
+      font-weight: bold;
+      }
+
+      .noborder{
+      border-top: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-right: 0; 
+      }
+
+    .small{
+     font-size: 9px;
+     }
+
+     .smallcenter{
+     font-size: 9px;
+     text-align: center;
+     }
+
+     .spacer{
+      border-bottom: 6px solid; 
+      border-top: 0;
+      border-left: 0;
+      border-bottom: 0;
+      border-right: 0; 
+      border-color: transparent;
+      }
+     
+    
+      td{
+      font-size: 11px;
+      padding: 3px;
+      text-overflow: ellipsis;
+
+      }
+      
+
+      span{
+      font-weight: normal;
+      text-overflow: ellipsis;
+      }
+      
+      .centertable {
+        margin-left:auto; 
+        margin-right:auto;
+      }
+
+</style>
+    </head>
+    <body>
+
+    <!--Logo and Title-->
+    <table align= "center">
+        <colgroup>
+            <col style="width: 295px"/>
+            <col style="width: 400px"/>
+            <col style="width: 295px"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <td align = "center" rowSpan="3" class="boxcenter">&nbsp;<apex:image url="{!$Resource.EnsignLogo}" width="150px;"/>&nbsp;&nbsp;</td>
+            <td align = "center" rowSpan="3" class="boxcenter" style="font-size: 20 px; important;">Job Safety Analysis (JSA)</td>
+            <td align = "center" rowSpan="3" class="boxleftbold"> Date:  <apex:outputText value="{!Form__c.Date_JSA__c}"/></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="height: 35px">
+            <td class="boxleft"> Location:    <apex:outputText value="{!Form__c.JSA_Location__c}"/></td>
+            <td class="boxleft"> Associated Permit No:  <apex:outputText value="{!Form__c.Associated_Permit_No__c}"/></td>
+            <td class="boxleft"> Associated Permit Type: <apex:outputText value="{!Form__c.Associated_Permit_Type__c}"/> </td>
+        </tr>
+        <tr style="height: 35px">
+            <td class="boxleft" colSpan="3"> Job Description: <apex:outputText value="{!Form__c.Job_Description__c}"/></td>
+        </tr>
+        <tr style="height: 35px">
+            <td class="boxleft" colSpan="3"> Identify the most serious potential injury for the task being performed: <apex:outputText value="{!Form__c.Identify_the_most_serious_potential_inju__c}"/> </td>
+        </tr>    
+        </tbody>
+        <tr>
+            <td class="spacer" colSpan="3"/>
+        </tr>
+        <tr>
+            <td class="spacer" colSpan="3"/>
+        </tr>
+    </table>
+    <table align="center">
+        <thead>
+        <tr style="height: 50px">
+            <td class="boxorange" colSpan="3"> STOP WORK OBLIGATION ACKNOWLEDGMENT </td>
+        </tr> 
+        </thead>
+        <tbody>
+         <tr>
+            <td class="spacer" colSpan="3"/>
+        </tr>
+        <tr>
+            <td class="spacer" colSpan="3"/>
+        </tr>
+        </tbody>
+        
+    </table>
+    <table align="center">
+        <tbody>
+        <tr style="height:35px">
+            <td class="boxleft" colSpan="6"> Stop-work authority permits any person at any level to halt a job or task when a hazardous situation appears imminent. </td>
+        </tr>
+        <tr style="height:45px">
+            <td class="boxleft" colSpan="4"> Acknowledge that everyone on the job has the obligation to Stop Work if the situation presents itself </td>
+            <td class="boxleft"> <apex:outputField value="{!Form__c.Acknowledge_that_everyone_on_the_job_has__c}"/> Yes </td>
+            <td class="boxleft"> <apex:outputField value="{!Form__c.No__c}"/> No </td>
+        </tr>
+         <tr>
+            <td class="spacer" colSpan="3"/>
+        </tr>
+        <tr>
+            <td class="spacer" colSpan="3"/>
+        </tr>
+        </tbody>
+    </table>
+    <table align="center">
+    <colgroup>
+            <col style="width: 500px"/>
+            <col style="width: 500px"/>
+        </colgroup>
+        <thead>
+        <tr style="height: 50px">
+            <td class="boxorange" colSpan="2"> PPE REQUIRED DURING THIS TASK </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="boxleft"><apex:outputField value="{!Form__c.Hard_Hat__c}"/> Hard Hat <br></br><br></br>
+            <apex:outputField value="{!Form__c.Safety_Shoes_Boots__c}"/> Safety Shoes/Boots <br></br><br></br>
+            <u> HEARING PROTECTION: </u> <br></br><apex:outputField value="{!Form__c.Hearing_Protection_Single_JSAPDF__c}"/> Single <br></br> <apex:outputField value="{!Form__c.Hearing_Protection_Single_JSAPDF__c}"/> Double <br></br><br></br>
+            <u> RESPIRATOR TYPE: </u> <br></br> <apex:outputfield value="{!Form__c.SCBA_JSAPDF__c}"/> SCBA <br></br> <apex:outputfield value="{!Form__c.Dust_Mask_JSAPDF__c}"/> Dust Mask<br></br><br></br>
+            <apex:outputfield value="{!Form__c.Fall_Protection_JSAPDF__c}"/> Fall Protection <br></br> <apex:outputfield value="{!Form__c.Fall_Restraint_JSAPDF__c}"/> Fall_Restraint <br></br> <br></br>
+            <apex:outputfield value="{!Form__c.Flame_Resistant_Clothing__c}"/> Flame Resistant Clothing 
+            </td>
+            <td class="boxleft"> <u>EYE PROTECTION: </u><br></br> <apex:outputField value="{!Form__c.Safety_Glasses_JSAPDF__c}"/> Safety Glasses <br></br> <apex:outputField value="{!Form__c.Face_Shield_JSAPDF__c}"/> Face Shield <br> </br> <apex:outputField value="{!Form__c.Goggles_JSAPDF__c}"/> Goggles <br></br><br></br>       
+            <u> GLOVES: </u><br></br> <apex:outputField value="{!Form__c.Gloves_Cotton_JSAPDF__c}"/> Cotton <br></br><apex:outputField value="{!Form__c.Gloves_Impact_Protection_JSAPDF__c}"/> Impact Protection <br></br><apex:outputField value="{!Form__c.Gloves_Other_JSAPDF__c}"/> Other <br></br><apex:outputField value="{!Form__c.Gloves_Chemical_JSAPDF__c}"/> Chemical <br></br><br></br>
+            <apex:outputfield value="{!Form__c.Chemical_Suit__c}"/> Chemical Suit <br></br>
+            <apex:outputfield value="{!Form__c.Apron__c}"/> Apron <br></br><br></br>
+            <apex:outputfield value="{!Form__c.Foul_Weather_Wear__c}"/> Foul Weather Wear
+            </td>       
+        </tr>   
+        <tr>
+            <td class="boxleft" colSpan="2">  Other PPE: <apex:outputText value="{!Form__c.Other_PPE__c}"/> </td>
+        </tr>
+        </tbody>
+    </table>
+   </body>
+
+   <div style="page-break-before:always;"> 
+    <table align="center">
+        <thead>
+        <tr style="height: 10px">
+            <td class="boxorangesmallfont" colSpan="2"> HAZARD IDENTIFICATION </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="height:10px">
+            <td class="boxleft" colSpan="2"> HAZARDS are identified in the table below with an icon and description. Appropriate CONTROLS are listed in the checkboxes below. Use this table to determine the HAZARDS that are present for the task and identify the CONTROLS to be implemented </td>
+        </tr>
+        <tr>    
+            <td class="boxleft" colSpan="2">REMEMBER: THIS TABLE DOES NOT INCLUDE ALL POSSIBLE HAZARDS. IT IS EXPECTED THAT THE REQUIRED PPE FOR THE ACTIVITY AND WORK CONDITIONS WILL BE USED. </td>
+        </tr>    
+        </tbody>
+        </table>
+        <br></br><br></br>
+        <table>
+        <tr style="height:50px">
+            <td class="boxgreysmallfont"> <b> PRESSURIZED EQUIPMENT </b> </td>
+            <td class="boxgreysmallfont"> <b> POOR LIGHTING/VISIBILITY </b> </td>
+            <td class="boxgreysmallfont"> <b> PERSONNEL</b> </td>    
+            <td class="boxgreysmallfont"> <b> CONFINED SPACE ENTRY </b> </td>
+            <td class="boxgreysmallfont"> <b> SIMULTANEOUS OPERATIONS </b> </td>
+            <td class="boxgreysmallfont"> <b> IGNITION SOURCES </b> </td>
+            <td class="boxgreysmallfont"> <b> HAZARDOUS SUBSTANCES </b> </td>
+        </tr>
+        <tr style="height:100px">
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.PE1_JSAPDF__c}"/> Perform isolation – LOTO, blinding or defeat <br></br>
+            <apex:outputField value="{!Form__c.PE2_JSAPDF__c}"/> Depressurize, drain, purge, and vent <br></br>
+            <apex:outputField value="{!Form__c.PE3_JSAPDF__c}"/> Relieve trapped pressure<br></br>
+            <apex:outputField value="{!Form__c.PE4_JSAPDF__c}"/> Do not work in the line of fire<br></br>
+            <apex:outputField value="{!Form__c.PE5_JSAPDF__c}"/> Anticipate residual pressure or fluids<br></br>
+            <apex:outputField value="{!Form__c.PE6_JSAPDF__c}"/> Secure all hoses<br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.PLV1_JSAPDF__c}"/> Provide alternate lighting <br></br>
+            <apex:outputField value="{!Form__c.PLV2_JSAPDF__c}"/> Wait or defer until visibility improves <br></br>
+            <apex:outputField value="{!Form__c.PLV3_JSAPDF__c}"/> Defer until visibility improves <br></br>
+            <apex:outputField value="{!Form__c.PLV4_JSAPDF__c}"/> Know distance from poles and other equipment while driving <br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.P1_JSAPDF__c}"/> Perform induction or training for new workers<br></br>
+            <apex:outputField value="{!Form__c.P2_JSAPDF__c}"/> Mentor / coach / supervise<br></br>
+            <apex:outputField value="{!Form__c.P3_JSAPDF__c}"/> Verify competencies, skills, and experience<br></br>
+            <apex:outputField value="{!Form__c.P4_JSAPDF__c}"/> Address applicable limitations (fatigue, exhaustion)<br></br>
+            <apex:outputField value="{!Form__c.P5_JSAPDF__c}"/> Manage language barriers<br></br>
+            Seat belts while driving<br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.CSE1_JSAPDF__c}"/> Discuss confined space entry safe work practice<br></br>
+            <apex:outputField value="{!Form__c.CSE2_JSAPDF__c}"/> Conduct atmospheric testing<br></br>
+            <apex:outputField value="{!Form__c.CSE3_JSAPDF__c}"/> Monitor access or entry<br></br>
+            <apex:outputField value="{!Form__c.CSE4_JSAPDF__c}"/> Protect surfaces from inadvertent contact<br></br>
+            <apex:outputField value="{!Form__c.CSE5_JSAPDF__c}"/> Prohibit mobile engines near confined spaces<br></br>
+            <apex:outputField value="{!Form__c.CSE6_JSAPDF__c}"/> Provide Observer<br></br>
+            <apex:outputField value="{!Form__c.CSE7_JSAPDF__c}"/> Develop rescue plan<br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.SO1_JSAPDF__c}"/> Follow SIMOPS Matrix MOC required for deviation from SIMOPS restrictions<br></br>
+            <apex:outputField value="{!Form__c.SO2_JSAPDF__c}"/> Interface between groups<br></br>
+            <apex:outputField value="{!Form__c.SO3_JSAPDF__c}"/> Use barriers and signs to segregate activities<br></br>
+            <apex:outputField value="{!Form__c.SO4_JSAPDF__c}"/> Have permit signed by leader of affected groups<br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.IS1_JSAPDF__c}"/> Remove, isolate, or contain combustible materials <br></br>
+            <apex:outputField value="{!Form__c.IS2_JSAPDF__c}"/> Provide firefighting equipment and fire watch <br></br>
+            <apex:outputField value="{!Form__c.IS3_JSAPDF__c}"/> Implement abrasive blasting controls <br></br>
+            <apex:outputField value="{!Form__c.IS4_JSAPDF__c}"/> Conduct continuous gas testing <br></br>
+            <apex:outputField value="{!Form__c.IS5_JSAPDF__c}"/> Bond or earth for static electricity for cathodic protection <br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.HS1_JSAPDF__c}"/> Drain or purge equipment <br></br>
+            <apex:outputField value="{!Form__c.HS2_JSAPDF__c}"/> Follow SDS controls <br></br>
+            <apex:outputField value="{!Form__c.HS3_JSAPDF__c}"/> Implement health hazard controls (Lead, Asbestos, Benzene, H2S, Iron Sulfide, Sulfur Dioxide, NORM) <br></br>
+            <apex:outputField value="{!Form__c.HS4_JSAPDF__c}"/> Test or analyze material <br></br>
+            </td>
+        </tr>    
+        <tr style="height:50px">
+            <td class="boxgreysmallfont"> <b> POTENTIAL SPILLS </b> </td>
+            <td class="boxgreysmallfont"> <b> WEATHER </b> </td>
+            <td class="boxgreysmallfont"> <b> HIGH NOISE</b> </td>    
+            <td class="boxgreysmallfont"> <b> DROPPED OBJECTS </b> </td>
+            <td class="boxgreysmallfont"> <b> LIFTING EQUIPMENT </b> </td>
+            <td class="boxgreysmallfont"> <b> WORK AT HEIGHTS </b> </td>
+            <td class="boxgreysmallfont"> <b> PORTABLE ELECTRICAL EQUIPMENT </b> </td>
+        </tr>
+        <tr style="height:100px">
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.PS1_JSAPDF__c}"/> Drain equipment <br></br>
+            <apex:outputField value="{!Form__c.PS2_JSAPDF__c}"/>  Hoses, connections in good condition <br></br>
+            <apex:outputField value="{!Form__c.PS3_JSAPDF__c}"/>  Spill containment equipment <br></br>
+            <apex:outputField value="{!Form__c.PS4_JSAPDF__c}"/>  Have spill cleanup materials and equipment on hand <br></br>
+            <apex:outputField value="{!Form__c.PS5_JSAPDF__c}"/>  Restrain and isolate hoses when not in use
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.W1_JSAPDF__c}"/>  Implement controls for slippery surfaces <br></br>
+            <apex:outputField value="{!Form__c.W2_JSAPDF__c}"/> Heat – hydration, breaks <br></br>
+            <apex:outputField value="{!Form__c.W3_JSAPDF__c}"/> Cold – PPE, heaters <br></br>
+            <apex:outputField value="{!Form__c.W4_JSAPDF__c}"/> Lightning – tool selection, defer work
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.HN1_JSAPDF__c}"/> Wear correct hearing PPE<br></br>
+            <apex:outputField value="{!Form__c.HN2_JSAPDF__c}"/> Manage exposure times<br></br>
+            <apex:outputField value="{!Form__c.HN3_JSAPDF__c}"/> Shut down equipment<br></br>
+            <apex:outputField value="{!Form__c.HN4_JSAPDF__c}"/> Use “quiet” tools, sound barriers or curtains <br></br>
+            <apex:outputField value="{!Form__c.HN5_JSAPDF__c}"/> Provide or use suitable communication technologies
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.DO1_JSAPDF__c}"/> Use signs and barriers to restrict entry or access underwork at elevation<br></br>
+            <apex:outputField value="{!Form__c.DO2_JSAPDF__c}"/> Use lifting equipment to raise tools to or from the work platform<br></br>
+            <apex:outputField value="{!Form__c.DO3_JSAPDF__c}"/> Secure tools (tie-off)
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.LE1_JSAPDF__c}"/> Confirm lifting equipment condition and certification<br></br>
+            <apex:outputField value="{!Form__c.LE2_JSAPDF__c}"/> Obtain approval for lifts over processing equipment<br></br>
+            <apex:outputField value="{!Form__c.LE3_JSAPDF__c}"/> Have a documented approved lift plan<br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.WAH1_JSAPDF__c}"/> Disciss working at heights safe work practice <br></br>
+            <apex:outputField value="{!Form__c.WAH2_JSAPDF__c}"/> Verify fall restraint and arrest equipment certification<br></br>
+            <apex:outputField value="{!Form__c.WAH3_JSAPDF__c}"/> Full body harness is required<br></br>
+            <apex:outputField value="{!Form__c.WAH4_JSAPDF__c}"/> Locking type snaphooks must be used
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.PEE1_JSAPDF__c}"/> Inspect equipment and tools for condition and test date currency <br></br>
+            <apex:outputField value="{!Form__c.PEE2_JSAPDF__c}"/> Implement continuous gas testing <br></br>
+            <apex:outputField value="{!Form__c.PEE3_JSAPDF__c}"/> Protect electrical leads from impact or damage <br></br>
+            <apex:outputField value="{!Form__c.PEE4_JSAPDF__c}"/> Identify equip. classification
+            </td>
+        </tr>
+         <tr style="height:50px">
+            <td class="boxgreysmallfont"> <b> MOVING EQUIPMENT </b> </td>
+            <td class="boxgreysmallfont"> <b> MANUAL HANDLING </b> </td>
+            <td class="boxgreysmallfont"> <b> EQUIPMENT AND TOOLS</b> </td>    
+            <td class="boxgreysmallfont"> <b> SLIPS, TRIPS, AND FALLS </b> </td>
+            <td class="boxgreysmallfont"> <b> HIGH ENERGY/ HIGH VOLTAGE </b> </td>
+            <td class="boxgreysmallfont"> <b> EXCAVATIONS </b> </td>
+            <td class="boxgreysmallfont"> <b> MOBILE EQUIPMENT </b> </td>
+        </tr>
+        <tr style="height:100px">
+            <td class="boxleftsmallfont"><apex:outputField value="{!Form__c.ME1_JSAPDF__c}"/> Confirm machinery guard integrity<br></br>
+            <apex:outputField value="{!Form__c.ME2_JSAPDF__c}"/>  Provide protective barriers<br></br>
+            <apex:outputField value="{!Form__c.ME3_JSAPDF__c}"/>  Observer to monitor proximity of people and equipment<br></br>
+            <apex:outputField value="{!Form__c.ME4_JSAPDF__c}"/>  Shut down or lock out equipment<br></br>
+            <apex:outputField value="{!Form__c.ME5_JSAPDF__c}"/>  Do not work in the line of fire<br></br>
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.MH1_JSAPDF__c}"/>  Assess manual handling task <br></br>
+            <apex:outputField value="{!Form__c.MH2_JSAPDF__c}"/> Limit load size<br></br>
+            <apex:outputField value="{!Form__c.MH3_JSAPDF__c}"/> Proper lifting technique<br></br>
+            <apex:outputField value="{!Form__c.MH4_JSAPDF__c}"/> Confirm stability of load and work platform<br></br>
+            <apex:outputField value="{!Form__c.MH5_JSAPDF__c}"/> Get assistance or mechanical aid to avoid pinch point
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.EAT1_JSAPDF__c}"/> Inspect equipment and tools<br></br>
+            <apex:outputField value="{!Form__c.EAT2_JSAPDF__c}"/> Brass tools necessary<br></br>
+            <apex:outputField value="{!Form__c.EAT3_JSAPDF__c}"/> Use protective guards<br></br>
+            <apex:outputField value="{!Form__c.EAT4_JSAPDF__c}"/> Use correct tools and equipment for task<br></br>
+            <apex:outputField value="{!Form__c.EAT5_JSAPDF__c}"/> Protect or remove sharp edges<br></br>
+            <apex:outputField value="{!Form__c.EAT6_JSAPDF__c}"/> Apply hand safety principles
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.STF1_JSAPDF__c}"/> Identify and shield uneven surface or projections<br></br>
+            <apex:outputField value="{!Form__c.STF2_JSAPDF__c}"/> Flag hazards as necessary<br></br>
+            <apex:outputField value="{!Form__c.STF3_JSAPDF__c}"/> Secure or cover cables, cords, and tubing<br></br>
+            <apex:outputField value="{!Form__c.STF4_JSAPDF__c}"/> Clean up liquids<br></br>
+            <apex:outputField value="{!Form__c.STF5_JSAPDF__c}"/> Barricade or rope off openings and holes
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.HE1_JSAPDF__c}"/> Restrict access to authorized personnel only<br></br>
+            <apex:outputField value="{!Form__c.HE2_JSAPDF__c}"/> Discharge equipment and make electrically dead<br></br>
+            <apex:outputField value="{!Form__c.HE3_JSAPDF__c}"/> Observe safe work distances for live cables<br></br>
+            <apex:outputField value="{!Form__c.HE4_JSAPDF__c}"/> Use flash burn PPE<br></br>
+            <apex:outputField value="{!Form__c.HE5_JSAPDF__c}"/> Use insulated gloves, tools, and mats, GCFI’s
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.E1_JSAPDF__c}"/> Have an excavation plan or safe work practice<br></br>
+            <apex:outputField value="{!Form__c.E2_JSAPDF__c}"/> Locate underground pipes or cables by hand digging<br></br>
+            <apex:outputField value="{!Form__c.E3_JSAPDF__c}"/> De-energize underground services<br></br>
+            <apex:outputField value="{!Form__c.E4_JSAPDF__c}"/> Implement confined space entry controls
+            </td>
+            <td class="boxleftsmallfont"> <apex:outputField value="{!Form__c.MOE1_JSAPDF__c}"/> Assess equipment condition<br></br>
+            <apex:outputField value="{!Form__c.MOE2_JSAPDF__c}"/> Implement controls on users or access<br></br>
+            <apex:outputField value="{!Form__c.MOE3_JSAPDF__c}"/> Limit and monitor proximity to live equipment on users or access<br></br>
+            <apex:outputField value="{!Form__c.MOE4_JSAPDF__c}"/> Manage overhead hazards<br></br>
+            <apex:outputField value="{!Form__c.MOE5_JSAPDF__c}"/> Adhere to road / site rules<br></br>
+            </td>
+        </tr>
+        </table>
+   
+   </div> 
+   <div style="page-break-before:always;"> 
+   <table align= "center">
+        <colgroup>
+            <col style="width: 295px"/>
+            <col style="width: 400px"/>
+            <col style="width: 295px"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <td align = "center" rowSpan="3" class="boxcenter">&nbsp;<apex:image url="{!$Resource.EnsignLogo}" width="150px;"/>&nbsp;&nbsp;</td>
+            <td align = "center" rowSpan="3" class="boxcenter" style="font-size: 20 px; important;">Job Safety Analysis (JSA)</td>
+            <td align = "center" rowSpan="3" class="boxleftbold"> Date: <apex:outputText value="{!Form__c.Date_JSA__c}"/></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="height:30px">
+        <td class="boxleft" colSpan="3"> <b> NOTE:</b> If the work scope or conditions change significantly, <b> STOP THE JOB. </b> Revise the JSA to address all hazards before proceeding.
+        </td>
+        </tr>
+        <tr style="height:50px">
+        <td class="boxorange"> TASK STEPS <br></br> (What are you doing?)</td>
+        <td class="boxorange"> POTENTIAL HAZARDS <br></br> (What could go wrong?)</td>
+        <td class="boxorange"> HAZARD CONTROLS <br></br> (How can harm be prevented?)</td>
+        </tr>
+        <tr style="height:300px">
+        <td class="boxleft"> <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Task_Step_1__c))}">
+                              Task 1:  <apex:outputText value="{!Form__c.Task_Step_1__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Task_Step_2__c))}">
+                              Task 2:  <apex:outputText value="{!Form__c.Task_Step_2__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Task_Step_3__c))}">
+                              Task 3:  <apex:outputText value="{!Form__c.Task_Step_3__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Task_Step_4__c))}">
+                              Task 4:  <apex:outputText value="{!Form__c.Task_Step_4__c}"/>
+                             </apex:outputpanel> <br></br>
+                             </td>
+        <td class="boxleft"> </td>
+        <td class="boxleft"> <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Hazard_Controls_1__c))}">
+                              Hazard Control 1:  <apex:outputText value="{!Form__c.Hazard_Controls_1__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Hazard_Controls_2__c))}">
+                              Hazard Control 2:  <apex:outputText value="{!Form__c.Hazard_Controls_2__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Hazard_Controls_3__c))}">
+                              Hazard Control 3:  <apex:outputText value="{!Form__c.Hazard_Controls_3__c}"/>
+                             </apex:outputpanel>
+                             </td>
+        </tr>
+        <tr>
+        <td class="boxleft" colSpan="3"> <b>STOP THE JOB</b> triggers - I/we will stop the job if any of the following hazards occur: 
+        <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Stop_the_Job_1__c))}">
+                              Stop the job for Task 1:  <apex:outputText value="{!Form__c.Stop_the_Job_1__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Stop_the_Job_2__c))}">
+                              Stop the job for Task 2:  <apex:outputText value="{!Form__c.Stop_the_Job_2__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Stop_the_Job_3__c))}">
+                                 Stop the job for Task 3:  <apex:outputText value="{!Form__c.Stop_the_Job_3__c}"/>
+                             </apex:outputpanel> <br></br>
+                             <apex:outputPanel rendered="{!(!ISBLANK(Form__c.Stop_the_Job_4__c))}">
+                              Stop the Job for Task 4:  <apex:outputText value="{!Form__c.Stop_the_Job_4__c}"/>
+                             </apex:outputpanel> <br></br>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+   </div>
+   <div style="page-break-before:always;"> 
+   <table align= "center">
+        <colgroup>
+            <col style="width: 295px"/>
+            <col style="width: 400px"/>
+            <col style="width: 295px"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <td align = "center" rowSpan="3" class="boxcenter">&nbsp;<apex:image url="{!$Resource.EnsignLogo}" width="150px;"/>&nbsp;&nbsp;</td>
+            <td align = "center" rowSpan="3" class="boxcenter" style="font-size: 20 px; important;">Job Safety Analysis (JSA)</td>
+            <td align = "center" rowSpan="3" class="boxleftbold"> Date: <apex:outputText value="{!Form__c.Date_JSA__c}"/></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="height:30px">
+            <td class="boxorange" colSpan="3"> <b> JSA REVIEW</b>
+            </td>
+       </tr>
+       <tr style="height:30px">     
+            <td class="boxleft" colSpan="3"> Pending confirmation by the Task Leader of site conditions, I agree that the attached JSA identifies significant Task Steps, Hazards and Controls
+            </td>
+       </tr> 
+       <tr style="height:30px">
+       <td class="boxleft" colSpan="3"> JSA REVIEWER (Supervisor or Designate): Name / Signature: <apex:outputText value="{!Form__c.JSA_Reviewer_Name__c}"/> <br></br>
+            Company: <apex:outputText value="{!Form__c.JSA_Reviewer_Company__c}"/>
+            </td>
+       </tr>    
+        <tr style="height:30px">
+            <td class="boxorange" colSpan="3"> <b> Work Site Verification</b>
+            </td>
+       </tr>
+       <tr style="height:75px">
+           <td class="boxleft" colSpan="3"> The Work Team has assessed the worksite conditions and confirms: <br></br> 
+           ▪ The JSA addresses the applicable hazards and necessary standards<br></br> 
+           ▪ The Team has the appropriate resources (people and equipment) to do the job safely <br></br> 
+           ▪ Others that could be affected by the work have been informed<br></br>  
+           ▪ Energy isolation (if applicable) has been VERIFIED and DEMONSTRATED
+           </td>
+       </tr>    
+       </tbody>
+       </table>
+       <table align= "center">
+       <tbody>
+       <tr style="height:50px">
+           <td class="boxleft"> TASK LEADER: <br></br> Name/Signature: <apex:outputText value="{!Form__c.Task_Leader_Name__c}"/> </td>
+           <td class="boxleft"> Location: <apex:outputText value="{!Form__c.JSA_Location__c}"/> <br></br> Job Description:  <apex:outputText value="{!Form__c.Job_Description__c}"/> </td>
+       </tr>
+       <tr style="height:30px">
+           <td class="boxred" colSpan="2"> COMPLETE SECTION BELOW FOR JSA </td>
+       </tr>    
+       <tr style="height:30px">
+           <td class="boxleft" colSpan="2"> I acknowledge I have reviewed the JSA, I understand my roles and responsibilities and I will comply with the instructions for this task </td>
+       </tr>
+       <tr style="height:100px">
+           <td class="boxleft" colSpan="2"> Name: <apex:outputText value="{!Form__c.Task_Leader_Name__c}"/></td>
+       </tr>
+       </tbody>
+       </table>    
+   </div>
+</apex:page>

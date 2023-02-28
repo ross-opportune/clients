@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Work_Could_Not_Be_Completed__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason Work Could Not Be Completed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equipment Isolation</fullName>
+                <default>false</default>
+                <label>Equipment Isolation</label>
+            </value>
+            <value>
+                <fullName>Material Constraint</fullName>
+                <default>false</default>
+                <label>Material Constraint</label>
+            </value>
+            <value>
+                <fullName>MOC</fullName>
+                <default>false</default>
+                <label>MOC</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Personnel Contraint</fullName>
+                <default>false</default>
+                <label>Personnel Contraint</label>
+            </value>
+            <value>
+                <fullName>Priority Conflict</fullName>
+                <default>false</default>
+                <label>Priority Conflict</label>
+            </value>
+            <value>
+                <fullName>Time Constraint</fullName>
+                <default>false</default>
+                <label>Time Constraint</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Condition of Pipe at Pipe Supports --></label>
+        <name>Condition_of_Pipe_at_Pipe_Supports__c</name>
+    </CustomFieldTranslation>

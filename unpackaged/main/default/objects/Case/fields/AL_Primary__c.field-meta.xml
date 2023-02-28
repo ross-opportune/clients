@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AL_Primary__c</fullName>
+    <externalId>false</externalId>
+    <label>AL Primary</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acid Job</fullName>
+                <default>false</default>
+                <label>Acid Job</label>
+            </value>
+            <value>
+                <fullName>Blowdown</fullName>
+                <default>false</default>
+                <label>Blowdown</label>
+            </value>
+            <value>
+                <fullName>Fluid Level Shot</fullName>
+                <default>false</default>
+                <label>Fluid Level Shot</label>
+            </value>
+            <value>
+                <fullName>FWT</fullName>
+                <default>false</default>
+                <label>FWT</label>
+            </value>
+            <value>
+                <fullName>Gaslift</fullName>
+                <default>false</default>
+                <label>Gaslift</label>
+            </value>
+            <value>
+                <fullName>Hot Water Treatment</fullName>
+                <default>false</default>
+                <label>Hot Water Treatment</label>
+            </value>
+            <value>
+                <fullName>Install</fullName>
+                <default>false</default>
+                <label>Install</label>
+            </value>
+            <value>
+                <fullName>Line Locate</fullName>
+                <default>false</default>
+                <label>Line Locate</label>
+            </value>
+            <value>
+                <fullName>LOAD</fullName>
+                <default>false</default>
+                <label>LOAD</label>
+            </value>
+            <value>
+                <fullName>Plunger Service</fullName>
+                <default>false</default>
+                <label>Plunger Service</label>
+            </value>
+            <value>
+                <fullName>Pumping Unit</fullName>
+                <default>false</default>
+                <label>Pumping Unit</label>
+            </value>
+            <value>
+                <fullName>Swabbing</fullName>
+                <default>false</default>
+                <label>Swabbing</label>
+            </value>
+            <value>
+                <fullName>Wireline</fullName>
+                <default>false</default>
+                <label>Wireline</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

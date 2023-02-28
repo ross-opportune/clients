@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Slips, Trips, and Falls --></label>
+        <name>Slips_Trips_and_Falls__c</name>
+        <picklistValues>
+            <masterLabel>Barricade or rope off openings and holes</masterLabel>
+            <translation><!-- Barricade or rope off openings and holes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean up liquids</masterLabel>
+            <translation><!-- Clean up liquids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flag hazards as necessary</masterLabel>
+            <translation><!-- Flag hazards as necessary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify and shield uneven surface or projections</masterLabel>
+            <translation><!-- Identify and shield uneven surface or projections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secure or cover cables, cords, and tubing</masterLabel>
+            <translation><!-- Secure or cover cables, cords, and tubing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

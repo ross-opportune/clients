@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_Logs</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Log__c</columns>
+    <columns>FTP_File_Name__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Download Complete,Process Completed,Upload Complete</value>
+    </filters>
+    <label>Completed Logs</label>
+</ListView>

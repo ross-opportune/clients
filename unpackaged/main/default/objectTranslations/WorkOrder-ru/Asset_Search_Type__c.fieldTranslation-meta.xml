@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Asset Search Type --></label>
+        <name>Asset_Search_Type__c</name>
+        <picklistValues>
+            <masterLabel>Area</masterLabel>
+            <translation><!-- Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burner</masterLabel>
+            <translation><!-- Burner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGP</masterLabel>
+            <translation><!-- CGP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Containment</masterLabel>
+            <translation><!-- Containment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engine/Compressor</masterLabel>
+            <translation><!-- Engine/Compressor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchanger</masterLabel>
+            <translation><!-- Exchanger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flowline</masterLabel>
+            <translation><!-- Flowline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Plant</masterLabel>
+            <translation><!-- Gas Plant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Header</masterLabel>
+            <translation><!-- Header --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instrumentation</masterLabel>
+            <translation><!-- Instrumentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meter</masterLabel>
+            <translation><!-- Meter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POD</masterLabel>
+            <translation><!-- POD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUMP</masterLabel>
+            <translation><!-- PUMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pad</masterLabel>
+            <translation><!-- Pad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pawnee Plant</masterLabel>
+            <translation><!-- Pawnee Plant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pigging</masterLabel>
+            <translation><!-- Pigging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piping</masterLabel>
+            <translation><!-- Piping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pneu Blowcase</masterLabel>
+            <translation><!-- Pneu Blowcase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pneumatics</masterLabel>
+            <translation><!-- Pneumatics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pumping Unit</masterLabel>
+            <translation><!-- Pumping Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rectifier</masterLabel>
+            <translation><!-- Rectifier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relief Valve</masterLabel>
+            <translation><!-- Relief Valve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STAT Office</masterLabel>
+            <translation><!-- STAT Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satellite</masterLabel>
+            <translation><!-- Satellite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Separator</masterLabel>
+            <translation><!-- Separator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skid FG Conditioner</masterLabel>
+            <translation><!-- Skid FG Conditioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skid Instrument Air Unit</masterLabel>
+            <translation><!-- Skid Instrument Air Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sump</masterLabel>
+            <translation><!-- Sump --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tank</masterLabel>
+            <translation><!-- Tank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tower</masterLabel>
+            <translation><!-- Tower --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valve Ctrl</masterLabel>
+            <translation><!-- Valve Ctrl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume Pot</masterLabel>
+            <translation><!-- Volume Pot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well</masterLabel>
+            <translation><!-- Well --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellhead</masterLabel>
+            <translation><!-- Wellhead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>electrical</masterLabel>
+            <translation><!-- electrical --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- COA Category --></label>
+        <name>COA_Category__c</name>
+        <picklistValues>
+            <masterLabel>CHEMICALS &amp; SUPPLIES</masterLabel>
+            <translation><!-- CHEMICALS &amp; SUPPLIES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONTRACT SERVICES &amp; LABOR</masterLabel>
+            <translation><!-- CONTRACT SERVICES &amp; LABOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENERGY AND FUEL</masterLabel>
+            <translation><!-- ENERGY AND FUEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESG</masterLabel>
+            <translation><!-- ESG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIELD OFFICE EXPENSE</masterLabel>
+            <translation><!-- FIELD OFFICE EXPENSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAINTENANCE</masterLabel>
+            <translation><!-- MAINTENANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAJOR REPAIRS</masterLabel>
+            <translation><!-- MAJOR REPAIRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAWNEE PLANT</masterLabel>
+            <translation><!-- PAWNEE PLANT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTION EXPENSE</masterLabel>
+            <translation><!-- PRODUCTION EXPENSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALT WATER DISPOSAL</masterLabel>
+            <translation><!-- SALT WATER DISPOSAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WELL SERVICE</masterLabel>
+            <translation><!-- WELL SERVICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WELL SERVICES</masterLabel>
+            <translation><!-- WELL SERVICES --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

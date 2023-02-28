@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>REST_FTP_server_useTLS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>check to use tls communication on the ftp</inlineHelpText>
+    <label>REST_FTP_server_useTLS</label>
+    <type>Checkbox</type>
+</CustomField>

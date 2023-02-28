@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Downtime Type --></label>
+        <name>Downtime_Type__c</name>
+        <picklistValues>
+            <masterLabel>Compressor Downtime</masterLabel>
+            <translation><!-- Compressor Downtime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Well Downtime</masterLabel>
+            <translation><!-- Well Downtime --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Heavy paraffin: all ribs are full of paraffin and at least 5 gallons of paraffin in front of it</fullName>
+        <default>false</default>
+        <label>Heavy paraffin: all ribs are full of paraffin and at least 5 gallons of paraffin in front of it</label>
+    </customValue>
+    <customValue>
+        <fullName>Moderate paraffin: 2 to 3 ribs are full of paraffin and at least 2 gallons in front of it</fullName>
+        <default>false</default>
+        <label>Moderate paraffin: 2 to 3 ribs are full of paraffin and at least 2 gallons in front of it</label>
+    </customValue>
+    <customValue>
+        <fullName>Light paraffin: 1 rib is full of paraffin with no paraffin in front of the pig</fullName>
+        <default>false</default>
+        <label>Light paraffin: 1 rib is full of paraffin with no paraffin in front of the pig</label>
+    </customValue>
+    <customValue>
+        <fullName>No paraffin: absolutely no paraffin on the pig or in front of the pig</fullName>
+        <default>false</default>
+        <label>No paraffin: absolutely no paraffin on the pig or in front of the pig</label>
+    </customValue>
+    <masterLabel>Pigging Results</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

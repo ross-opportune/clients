@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wells</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>Zone__c</columns>
+    <columns>Asset_Number__c</columns>
+    <columns>ASSET.PARENT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Asset_Type__c</field>
+        <operation>equals</operation>
+        <value>Well</value>
+    </filters>
+    <label>Wells</label>
+</ListView>

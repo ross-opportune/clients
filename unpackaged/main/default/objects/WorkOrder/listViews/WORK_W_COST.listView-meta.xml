@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WORK_W_COST</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Status</columns>
+    <columns>Cost_Period__c</columns>
+    <columns>Cost__c</columns>
+    <columns>Cost_Line_Item_Total__c</columns>
+    <columns>Total_Cost__c</columns>
+    <columns>WorkType</columns>
+    <columns>IsGeneratedFromMaintenancePlan</columns>
+    <filterScope>Everything</filterScope>
+    <label>WORK W/COST</label>
+</ListView>

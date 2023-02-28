@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMappings>
+        <accessLevel>Edit</accessLevel>
+        <object>ServiceAppointment</object>
+        <objectField>Contractor_User__c.Account</objectField>
+        <userField>Account</userField>
+    </accessMappings>
+    <accessMappings>
+        <accessLevel>Edit</accessLevel>
+        <object>WorkOrder</object>
+        <objectField>Contractor__c</objectField>
+        <userField>Contact.Account</userField>
+    </accessMappings>
+    <name>Share Work Orders with Account</name>
+    <profiles>Vendor Portal User</profiles>
+</SharingSet>

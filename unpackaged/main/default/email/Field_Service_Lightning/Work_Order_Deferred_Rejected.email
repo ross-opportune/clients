@@ -1,0 +1,6 @@
+Your work order request has been {!WorkOrder.Status}. Please see the details below:
+
+Work Order #: {!WorkOrder.WorkOrderNumber}
+Asset: {!WorkOrder.Asset}
+Description: {!WorkOrder.Description}
+Details: {!WorkOrder.Approver_Planner_Notes__c}

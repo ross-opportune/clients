@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pneumatic_Controller_Make__c</fullName>
+    <externalId>false</externalId>
+    <label>Pneumatic Controller Make</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABB I/P</fullName>
+                <default>false</default>
+                <label>ABB I/P</label>
+            </value>
+            <value>
+                <fullName>BelGas P8100</fullName>
+                <default>false</default>
+                <label>BelGas P8100</label>
+            </value>
+            <value>
+                <fullName>Fisher4150</fullName>
+                <default>false</default>
+                <label>Fisher4150</label>
+            </value>
+            <value>
+                <fullName>Fisher4160</fullName>
+                <default>false</default>
+                <label>Fisher4160</label>
+            </value>
+            <value>
+                <fullName>Fisher C1</fullName>
+                <default>false</default>
+                <label>Fisher C1</label>
+            </value>
+            <value>
+                <fullName>Fisher I/P</fullName>
+                <default>false</default>
+                <label>Fisher I/P</label>
+            </value>
+            <value>
+                <fullName>Norriseal1001A</fullName>
+                <default>false</default>
+                <label>Norriseal1001A</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Siemens I/P</fullName>
+                <default>false</default>
+                <label>Siemens I/P</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001</fullName>
+                <default>false</default>
+                <label>Norriseal 1001</label>
+            </value>
+            <value>
+                <fullName>Bmd</fullName>
+                <default>false</default>
+                <label>Bmd</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001 envirosave</fullName>
+                <default>false</default>
+                <label>Norriseal 1001 envirosave</label>
+            </value>
+            <value>
+                <fullName>Murphy</fullName>
+                <default>false</default>
+                <label>Murphy</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001XL</fullName>
+                <default>false</default>
+                <label>Norriseal 1001XL</label>
+            </value>
+            <value>
+                <fullName>Mallard</fullName>
+                <default>false</default>
+                <label>Mallard</label>
+            </value>
+            <value>
+                <fullName>Norriseal</fullName>
+                <default>false</default>
+                <label>Norriseal</label>
+            </value>
+            <value>
+                <fullName>Norriseal EVS</fullName>
+                <default>false</default>
+                <label>Norriseal EVS</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001 sure seal</fullName>
+                <default>false</default>
+                <label>Norriseal 1001 sure seal</label>
+            </value>
+            <value>
+                <fullName>Norriseal 01-01</fullName>
+                <default>false</default>
+                <label>Norriseal 01-01</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001A</fullName>
+                <default>false</default>
+                <label>Norriseal 1001A</label>
+            </value>
+            <value>
+                <fullName>Murphy liquid level controller</fullName>
+                <default>false</default>
+                <label>Murphy liquid level controller</label>
+            </value>
+            <value>
+                <fullName>Mallard 3201</fullName>
+                <default>false</default>
+                <label>Mallard 3201</label>
+            </value>
+            <value>
+                <fullName>1001-Norriseal</fullName>
+                <default>false</default>
+                <label>1001-Norriseal</label>
+            </value>
+            <value>
+                <fullName>LC10 liquid level controller (2nd stg)</fullName>
+                <default>false</default>
+                <label>LC10 liquid level controller (2nd stg)</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001 water level</fullName>
+                <default>false</default>
+                <label>Norriseal 1001 water level</label>
+            </value>
+            <value>
+                <fullName>FW Murphy pneumatic level controller.</fullName>
+                <default>false</default>
+                <label>FW Murphy pneumatic level controller.</label>
+            </value>
+            <value>
+                <fullName>CVS series 4150</fullName>
+                <default>false</default>
+                <label>CVS series 4150</label>
+            </value>
+            <value>
+                <fullName>Murphy L1200N</fullName>
+                <default>false</default>
+                <label>Murphy L1200N</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001 snap V-201 inlet vessel for 5 wells.</fullName>
+                <default>false</default>
+                <label>Norriseal 1001 snap V-201 inlet vessel for 5 wells.</label>
+            </value>
+            <value>
+                <fullName>Noriseal 1001</fullName>
+                <default>false</default>
+                <label>Noriseal 1001</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1001 sure seal pilot</fullName>
+                <default>false</default>
+                <label>Norriseal 1001 sure seal pilot</label>
+            </value>
+            <value>
+                <fullName>LC10 liquid level controller (3rd stg)</fullName>
+                <default>false</default>
+                <label>LC10 liquid level controller (3rd stg)</label>
+            </value>
+            <value>
+                <fullName>LC10 liquid level controller (1st stg)</fullName>
+                <default>false</default>
+                <label>LC10 liquid level controller (1st stg)</label>
+            </value>
+            <value>
+                <fullName>FW Murphy</fullName>
+                <default>false</default>
+                <label>FW Murphy</label>
+            </value>
+            <value>
+                <fullName>Norriseal 1100</fullName>
+                <default>false</default>
+                <label>Norriseal 1100</label>
+            </value>
+            <value>
+                <fullName>1532 doesn’t exist</fullName>
+                <default>false</default>
+                <label>1532 doesn’t exist</label>
+            </value>
+            <value>
+                <fullName>Norriseal no model on it.</fullName>
+                <default>false</default>
+                <label>Norriseal no model on it.</label>
+            </value>
+            <value>
+                <fullName>Mallard 3200</fullName>
+                <default>false</default>
+                <label>Mallard 3200</label>
+            </value>
+            <value>
+                <fullName>Na</fullName>
+                <default>false</default>
+                <label>Na</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

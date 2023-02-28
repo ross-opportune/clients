@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Equipment and Tools --></label>
+        <name>Equipment_and_Tools_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Apply hand safety principles</masterLabel>
+            <translation><!-- Apply hand safety principles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brass tools necessary</masterLabel>
+            <translation><!-- Brass tools necessary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspect equipment and tools</masterLabel>
+            <translation><!-- Inspect equipment and tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protect or remove sharp edges</masterLabel>
+            <translation><!-- Protect or remove sharp edges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use correct tools and equipment for task</masterLabel>
+            <translation><!-- Use correct tools and equipment for task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use protective guards</masterLabel>
+            <translation><!-- Use protective guards --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

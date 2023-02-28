@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COA__c</fullName>
+    <externalId>false</externalId>
+    <label>COA Sub Account</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>COA_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>COA</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>CHEMICALS &amp; SUPPLIES</controllingFieldValue>
+            <valueName>LOE - AMINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEMICALS &amp; SUPPLIES</controllingFieldValue>
+            <valueName>LOE - CORROSION CHEMICALS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEMICALS &amp; SUPPLIES</controllingFieldValue>
+            <valueName>LOE - H2S SCAVENGER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEMICALS &amp; SUPPLIES</controllingFieldValue>
+            <valueName>LOE - METHANOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEMICALS &amp; SUPPLIES</controllingFieldValue>
+            <valueName>LOE - OTHER CHEMICALS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEMICALS &amp; SUPPLIES</controllingFieldValue>
+            <valueName>LOE - PARAFFIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEMICALS &amp; SUPPLIES</controllingFieldValue>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - TOOLS/SUPPLIES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAWNEE PLANT</controllingFieldValue>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - COMPRESSOR MAINTENANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAWNEE PLANT</controllingFieldValue>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <valueName>LOE - COMPRESSOR RENTAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAWNEE PLANT</controllingFieldValue>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - CONTRACT LABOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAWNEE PLANT</controllingFieldValue>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - DIRT WORK/CIVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAWNEE PLANT</controllingFieldValue>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - EQUIPMENT RENTAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAWNEE PLANT</controllingFieldValue>
+            <valueName>LOE - PAWNEE PLANT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <valueName>LOE - ARTIFICIAL LIFT EQUIPMENT - DOWNHOLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <valueName>LOE - ARTIFICIAL LIFT EQUIPMENT - SURFACE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <valueName>LOE - ARTIFICIAL LIFT SERVICES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <valueName>LOE - GENERATORS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <valueName>LOE - SUPERVISION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTRACT SERVICES &amp; LABOR</controllingFieldValue>
+            <valueName>LOE - VEHICLE EXPENSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAPEX</controllingFieldValue>
+            <valueName>WELL CONNECT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAPEX</controllingFieldValue>
+            <valueName>INSTALL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>ESG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - COMMUNITY RELATIONS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - ENERGY, DIESEL &amp; FUEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - HSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - LEASE USE &amp; FLARE GAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - OFFICE UTILITIES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - SPILL CONTROL/PREVENTION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - TRAINING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ENERGY AND FUEL</controllingFieldValue>
+            <valueName>LOE - WELL SITE POWER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - CIVIL MATERIALS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - COMPANY LABOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - COMPRESSORS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - CONTRACT LABOR - I&amp;E</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - CONTRACT LABOR - MECHANICAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - CONTRACT SERVICES - OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - DAMAGES/ROW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - DIRT WORK/CIVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - ENGINEERING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - HSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - INSPECTION/TESTING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - INSTRUMENTATION AND ELECTRICAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - LAND, SURVEY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - LEGAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - LIFTING/CRANES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - LINEPIPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - METERING/MEASUREMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - NON-CONTROLLABLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - OVERHEAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - PUMPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - RENTAL EQUIPMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - ROW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - SCADA/AUTOMATION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - SEPARATION EQUIPMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - SUPERVISION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - TANKS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - TRANSPORTATION/TRUCKING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - UTILITIES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAJOR REPAIRS</controllingFieldValue>
+            <valueName>LOE - MR - VALVES AND FITTINGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WELL SERVICES</controllingFieldValue>
+            <valueName>LOE - MISCELLANEOUS EXPENSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRODUCTION EXPENSE</controllingFieldValue>
+            <valueName>LOE - HOT OIL SERVICES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PRODUCTION EXPENSE</controllingFieldValue>
+            <valueName>LOE - VACUUM TRUCK SERVICES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALT WATER DISPOSAL</controllingFieldValue>
+            <valueName>LOE - SWD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALT WATER DISPOSAL</controllingFieldValue>
+            <valueName>LOE - SWD PIPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SALT WATER DISPOSAL</controllingFieldValue>
+            <valueName>LOE - SWD TRUCKING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - FACILITY MAINT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - I&amp;E</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - MAINTENANCE OTHER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MAINTENANCE</controllingFieldValue>
+            <valueName>LOE - MEASURMENT</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

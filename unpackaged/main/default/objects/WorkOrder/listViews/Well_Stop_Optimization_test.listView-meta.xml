@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Well_Stop_Optimization_test</fullName>
+    <columns>Name</columns>
+    <columns>CreatedDate</columns>
+    <columns>SuggestedMaintenanceDate</columns>
+    <columns>Status</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>WorkType</field>
+        <operation>equals</operation>
+        <value>Well stop</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Well Stop Optimization test</label>
+</ListView>

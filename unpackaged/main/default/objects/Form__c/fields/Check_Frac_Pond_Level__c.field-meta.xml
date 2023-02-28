@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Frac_Pond_Level__c</fullName>
+    <description>Check Frac Pond Level</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check Frac Pond Level</inlineHelpText>
+    <label>Check Frac Pond Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

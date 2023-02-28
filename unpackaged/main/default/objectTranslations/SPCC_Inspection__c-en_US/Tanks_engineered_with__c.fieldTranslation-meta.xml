@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tanks engineered with: --></label>
+        <name>Tanks_engineered_with__c</name>
+        <picklistValues>
+            <masterLabel>High level sensors</masterLabel>
+            <translation><!-- High level sensors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overflow equalizing lines</masterLabel>
+            <translation><!-- Overflow equalizing lines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vacuum protection-Enardo valve</masterLabel>
+            <translation><!-- Vacuum protection-Enardo valve --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

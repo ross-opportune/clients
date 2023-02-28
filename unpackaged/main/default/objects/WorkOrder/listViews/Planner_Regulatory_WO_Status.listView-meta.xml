@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planner_Regulatory_WO_Status</fullName>
+    <columns>MaintenancePlan</columns>
+    <columns>Asset</columns>
+    <columns>CreatedDate</columns>
+    <columns>SuggestedMaintenanceDate</columns>
+    <columns>Completed_Date__c</columns>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Notes__c</columns>
+    <columns>Primary__c</columns>
+    <columns>Subject</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Maintenance_Plan_Number__c</field>
+        <operation>contains</operation>
+        <value>MP-0150,mp-0151,mp-0227,mp-0226,mp-0215,mp-0208,mp-0156,mp-0155,mp-0114,mp-0113,mp-0112,mp-0110,mp-0109,mp-0108,mp-0107,mp-0106,mp-0104,mp-0101,mp-0053,mp-0047</value>
+    </filters>
+    <filters>
+        <field>SuggestedMaintenanceDate</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2022</value>
+    </filters>
+    <label>Planner Regulatory WO Status</label>
+</ListView>

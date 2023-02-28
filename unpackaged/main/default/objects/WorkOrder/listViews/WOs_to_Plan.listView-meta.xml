@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOs_to_Plan</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Asset</columns>
+    <columns>RecordType</columns>
+    <columns>SuggestedMaintenanceDate</columns>
+    <columns>Primary__c</columns>
+    <columns>Priority</columns>
+    <columns>CreatedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Planning,Awaiting Material</value>
+    </filters>
+    <label>WOs to Plan</label>
+</ListView>

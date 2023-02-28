@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Equipment Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compressor</fullName>
+                <default>false</default>
+                <label>Compressor</label>
+            </value>
+            <value>
+                <fullName>Flare/Combustor/Incinerator/Vent Stack</fullName>
+                <default>false</default>
+                <label>Flare/Combustor/Incinerator/Vent Stack</label>
+            </value>
+            <value>
+                <fullName>Cooler</fullName>
+                <default>false</default>
+                <label>Cooler</label>
+            </value>
+            <value>
+                <fullName>Lease Automatic Custody Transfer(s) (LACT)</fullName>
+                <default>false</default>
+                <label>Lease Automatic Custody Transfer(s) (LACT)</label>
+            </value>
+            <value>
+                <fullName>Oil Tank</fullName>
+                <default>false</default>
+                <label>Oil Tank</label>
+            </value>
+            <value>
+                <fullName>Pig Launcher/Receiver</fullName>
+                <default>false</default>
+                <label>Pig Launcher/Receiver</label>
+            </value>
+            <value>
+                <fullName>Pump</fullName>
+                <default>false</default>
+                <label>Pump</label>
+            </value>
+            <value>
+                <fullName>Vessel - 2 Phases</fullName>
+                <default>false</default>
+                <label>Vessel - 2 Phases</label>
+            </value>
+            <value>
+                <fullName>Vessel - 3 Phases</fullName>
+                <default>false</default>
+                <label>Vessel - 3 Phases</label>
+            </value>
+            <value>
+                <fullName>Vessel - Fuel Gas Scrubber</fullName>
+                <default>false</default>
+                <label>Vessel - Fuel Gas Scrubber</label>
+            </value>
+            <value>
+                <fullName>Vessel - H2S Treatment</fullName>
+                <default>false</default>
+                <label>Vessel - H2S Treatment</label>
+            </value>
+            <value>
+                <fullName>Vessel - Process and Treatment (Heater Treaters/Testers)|Vessel - Miscellaneous Other</fullName>
+                <default>false</default>
+                <label>Vessel - Process and Treatment (Heater Treaters/Testers)|Vessel - Miscellaneous Other</label>
+            </value>
+            <value>
+                <fullName>VRU</fullName>
+                <default>false</default>
+                <label>VRU</label>
+            </value>
+            <value>
+                <fullName>Water Tank</fullName>
+                <default>false</default>
+                <label>Water Tank</label>
+            </value>
+            <value>
+                <fullName>Wellhead</fullName>
+                <default>false</default>
+                <label>Wellhead</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous Other Equipment (not listed above)</fullName>
+                <default>false</default>
+                <label>Miscellaneous Other Equipment (not listed above)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

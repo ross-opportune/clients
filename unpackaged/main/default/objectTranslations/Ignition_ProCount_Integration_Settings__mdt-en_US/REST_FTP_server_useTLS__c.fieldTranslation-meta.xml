@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- check to use tls communication on the ftp --></help>
+        <label><!-- REST_FTP_server_useTLS --></label>
+        <name>REST_FTP_server_useTLS__c</name>
+    </CustomFieldTranslation>

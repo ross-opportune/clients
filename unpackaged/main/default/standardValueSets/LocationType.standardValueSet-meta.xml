@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Central Facility</fullName>
+        <default>false</default>
+        <label>Central Facility</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CGP</fullName>
+        <default>false</default>
+        <label>CGP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Planned Well</fullName>
+        <default>false</default>
+        <label>Planned Well</label>
+    </standardValue>
+    <standardValue>
+        <fullName>POD</fullName>
+        <default>false</default>
+        <label>POD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Point</fullName>
+        <default>false</default>
+        <label>Sales Point</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Satellite</fullName>
+        <default>false</default>
+        <label>Satellite</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STAT Office</fullName>
+        <default>false</default>
+        <label>STAT Office</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tank Battery</fullName>
+        <default>false</default>
+        <label>Tank Battery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tower</fullName>
+        <default>false</default>
+        <label>Tower</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Well</fullName>
+        <default>false</default>
+        <label>Well</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Clinic</fullName>
+        <default>false</default>
+        <label>Medical Clinic</label>
+    </standardValue>
+</StandardValueSet>

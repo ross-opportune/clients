@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Downtime Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Downtime Logs</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Downtime Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Integration Info --></label>
+            <section>Integration Info</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must select an asset with a assigned Equip_ID__c . --></errorMessage>
+        <name>assets_must_have_a_Equipment_Id</name>
+    </validationRules>
+</CustomObjectTranslation>

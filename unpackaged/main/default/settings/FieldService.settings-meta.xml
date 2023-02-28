@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldServiceSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesAllowEditSaForCrew>true</doesAllowEditSaForCrew>
+    <doesShareSaParentWoWithAr>true</doesShareSaParentWoWithAr>
+    <doesShareSaWithAr>true</doesShareSaWithAr>
+    <enableWorkOrders>false</enableWorkOrders>
+    <enableWorkPlansAutoGeneration>false</enableWorkPlansAutoGeneration>
+    <enableWorkStepManualStatusUpdate>false</enableWorkStepManualStatusUpdate>
+    <fieldServiceNotificationsOrgPref>true</fieldServiceNotificationsOrgPref>
+    <fieldServiceOrgPref>true</fieldServiceOrgPref>
+    <isGeoCodeSyncEnabled>false</isGeoCodeSyncEnabled>
+    <isLocationHistoryEnabled>false</isLocationHistoryEnabled>
+    <o2EngineEnabled>false</o2EngineEnabled>
+    <optimizationServiceAccess>false</optimizationServiceAccess>
+    <serviceAppointmentsDueDateOffsetOrgValue>3</serviceAppointmentsDueDateOffsetOrgValue>
+    <workOrderLineItemSearchFields>Subject</workOrderLineItemSearchFields>
+    <workOrderLineItemSearchFields>ListPrice</workOrderLineItemSearchFields>
+    <workOrderLineItemSearchFields>Duration</workOrderLineItemSearchFields>
+    <workOrderLineItemSearchFields>Discount</workOrderLineItemSearchFields>
+    <workOrderLineItemSearchFields>UnitPrice</workOrderLineItemSearchFields>
+    <workOrderSearchFields>Priority</workOrderSearchFields>
+    <workOrderSearchFields>ServiceAppointmentCount</workOrderSearchFields>
+    <workOrderSearchFields>Status</workOrderSearchFields>
+    <workOrderSearchFields>Subject</workOrderSearchFields>
+    <workOrderSearchFields>Work_Sub_Type__c</workOrderSearchFields>
+</FieldServiceSettings>

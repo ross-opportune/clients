@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_of_Continuous_Bleed_Controllers__c</fullName>
+    <externalId>false</externalId>
+    <label>Count of Continuous Bleed Controllers</label>
+    <summaryFilterItems>
+        <field>ESG_Data__c.Bleed_Frequency__c</field>
+        <operation>equals</operation>
+        <value>Continuous Bleed Controllers</value>
+    </summaryFilterItems>
+    <summaryForeignKey>ESG_Data__c.Asset__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

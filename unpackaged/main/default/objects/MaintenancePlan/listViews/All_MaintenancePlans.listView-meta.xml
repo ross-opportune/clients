@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_MaintenancePlans</fullName>
+    <columns>WorkType</columns>
+    <columns>Preferred_Resource_Name__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <columns>Regulatory__c</columns>
+    <columns>Proving_Plan__c</columns>
+    <columns>Calibration_Plan__c</columns>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>Estimated_Work_Order_Cost__c</columns>
+    <columns>Asset_Type__c</columns>
+    <columns>NextSuggestedMaintenanceDate</columns>
+    <columns>StartDate</columns>
+    <columns>DoesAutoGenerateWorkOrders</columns>
+    <columns>Update_Asset_on_Date_Change__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Maintenance Plans</label>
+</ListView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order_Requests_to_Approve</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Asset</columns>
+    <columns>Primary__c</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>CreatedBy</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>WorkOrder.Work_Order_Request</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>New,Pending Approval</value>
+    </filters>
+    <label>Work Order Requests to Approve</label>
+    <sharedTo>
+        <group>Foremen</group>
+    </sharedTo>
+</ListView>

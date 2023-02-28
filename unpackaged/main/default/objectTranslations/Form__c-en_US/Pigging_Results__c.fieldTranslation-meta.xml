@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pigging Results --></label>
+        <name>Pigging_Results__c</name>
+        <picklistValues>
+            <masterLabel>Heavy paraffin: all ribs are full of paraffin and at least 5 gallons of paraffin in front of it</masterLabel>
+            <translation><!-- Heavy paraffin: all ribs are full of paraffin and at least 5 gallons of paraffin in front of it --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light paraffin: 1 rib is full of paraffin with no paraffin in front of the pig</masterLabel>
+            <translation><!-- Light paraffin: 1 rib is full of paraffin with no paraffin in front of the pig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate paraffin: 2 to 3 ribs are full of paraffin and at least 2 gallons in front of it</masterLabel>
+            <translation><!-- Moderate paraffin: 2 to 3 ribs are full of paraffin and at least 2 gallons in front of it --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No paraffin: absolutely no paraffin on the pig or in front of the pig</masterLabel>
+            <translation><!-- No paraffin: absolutely no paraffin on the pig or in front of the pig --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

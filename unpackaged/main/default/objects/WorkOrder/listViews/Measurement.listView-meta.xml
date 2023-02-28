@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Measurement</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>Asset</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>Create_by_Department__c</columns>
+    <columns>Asset_Search_Type__c</columns>
+    <columns>Primary__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary__c</field>
+        <operation>equals</operation>
+        <value>Coriolis Meter Proving,Gas Meter Calibration,Measurement</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2021 12:00 AM</value>
+    </filters>
+    <label>Measurement Issues</label>
+</ListView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flowtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Flowtype</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Flowing</fullName>
+                <default>false</default>
+                <label>Flowing</label>
+            </value>
+            <value>
+                <fullName>Gas Assist Plunger Lift</fullName>
+                <default>false</default>
+                <label>Gas Assist Plunger Lift</label>
+            </value>
+            <value>
+                <fullName>Gas Lift</fullName>
+                <default>false</default>
+                <label>Gas Lift</label>
+            </value>
+            <value>
+                <fullName>Injection</fullName>
+                <default>false</default>
+                <label>Injection</label>
+            </value>
+            <value>
+                <fullName>Intermitter</fullName>
+                <default>false</default>
+                <label>Intermitter</label>
+            </value>
+            <value>
+                <fullName>Plunger Lift</fullName>
+                <default>false</default>
+                <label>Plunger Lift</label>
+            </value>
+            <value>
+                <fullName>Plunger Lift - Gas Assist</fullName>
+                <default>false</default>
+                <label>Plunger Lift - Gas Assist</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

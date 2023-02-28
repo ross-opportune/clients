@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Actuator</fullName>
+        <default>false</default>
+        <label>Actuator</label>
+    </customValue>
+    <customValue>
+        <fullName>Area</fullName>
+        <default>false</default>
+        <label>Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Blowdown Vessel</fullName>
+        <default>false</default>
+        <label>Blowdown Vessel</label>
+    </customValue>
+    <customValue>
+        <fullName>Burner Combustor</fullName>
+        <default>false</default>
+        <label>Burner Combustor</label>
+    </customValue>
+    <customValue>
+        <fullName>Burner Flare</fullName>
+        <default>false</default>
+        <label>Burner Flare</label>
+    </customValue>
+    <customValue>
+        <fullName>Burner Incinerator</fullName>
+        <default>false</default>
+        <label>Burner Incinerator</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Facility</fullName>
+        <default>false</default>
+        <label>Central Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>CGP</fullName>
+        <default>false</default>
+        <label>CGP</label>
+    </customValue>
+    <customValue>
+        <fullName>Cntrl Pneu</fullName>
+        <default>false</default>
+        <label>Cntrl Pneu</label>
+    </customValue>
+    <customValue>
+        <fullName>Cntrol Pneu</fullName>
+        <default>false</default>
+        <label>Cntrol Pneu</label>
+    </customValue>
+    <customValue>
+        <fullName>Comp Air</fullName>
+        <default>false</default>
+        <label>Comp Air</label>
+    </customValue>
+    <customValue>
+        <fullName>Comp Reciprocating</fullName>
+        <default>false</default>
+        <label>Comp Reciprocating</label>
+    </customValue>
+    <customValue>
+        <fullName>Compressor</fullName>
+        <default>false</default>
+        <label>Compressor</label>
+    </customValue>
+    <customValue>
+        <fullName>Compressor Station</fullName>
+        <default>false</default>
+        <label>Compressor Station</label>
+    </customValue>
+    <customValue>
+        <fullName>Comp Unknown</fullName>
+        <default>false</default>
+        <label>Comp Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Contactor</fullName>
+        <default>false</default>
+        <label>Contactor</label>
+    </customValue>
+    <customValue>
+        <fullName>Containment</fullName>
+        <default>false</default>
+        <label>Containment</label>
+    </customValue>
+    <customValue>
+        <fullName>Containment Concrete</fullName>
+        <default>false</default>
+        <label>Containment Concrete</label>
+    </customValue>
+    <customValue>
+        <fullName>Containment Earthen</fullName>
+        <default>false</default>
+        <label>Containment Earthen</label>
+    </customValue>
+    <customValue>
+        <fullName>Containment Steel Lined</fullName>
+        <default>false</default>
+        <label>Containment Steel Lined</label>
+    </customValue>
+    <customValue>
+        <fullName>Containment Steel Unlined</fullName>
+        <default>false</default>
+        <label>Containment Steel Unlined</label>
+    </customValue>
+    <customValue>
+        <fullName>Department</fullName>
+        <default>false</default>
+        <label>Department</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical</fullName>
+        <default>false</default>
+        <label>Electrical</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical Location</fullName>
+        <default>false</default>
+        <label>Electrical Location</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical Overhead</fullName>
+        <default>false</default>
+        <label>Electrical Overhead</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng EG AJAX DCP180</fullName>
+        <default>false</default>
+        <label>Eng EG AJAX DCP180</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng EG AJAX DCP230</fullName>
+        <default>false</default>
+        <label>Eng EG AJAX DCP230</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng EG AJAX DCP360</fullName>
+        <default>false</default>
+        <label>Eng EG AJAX DCP360</label>
+    </customValue>
+    <customValue>
+        <fullName>Engine</fullName>
+        <default>false</default>
+        <label>Engine</label>
+    </customValue>
+    <customValue>
+        <fullName>Engine/Compressor</fullName>
+        <default>false</default>
+        <label>Engine/Compressor</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3304</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3304</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3406</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3406</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 342</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 342</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3508</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3508</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3508ULB</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3508ULB</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3512ULB</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3512ULB</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3516LE</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3516LE</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3516ULB</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3516ULB</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT 3520ULB</fullName>
+        <default>false</default>
+        <label>Eng NG CAT 3520ULB</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT G3508B-LE</fullName>
+        <default>false</default>
+        <label>Eng NG CAT G3508B-LE</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT G3508-LE</fullName>
+        <default>false</default>
+        <label>Eng NG CAT G3508-LE</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG CAT G3516J-LE</fullName>
+        <default>false</default>
+        <label>Eng NG CAT G3516J-LE</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG Unknown</fullName>
+        <default>false</default>
+        <label>Eng NG Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG  Waukesha 1197</fullName>
+        <default>false</default>
+        <label>Eng NG  Waukesha 1197</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG  Waukesha 5790</fullName>
+        <default>false</default>
+        <label>Eng NG  Waukesha 5790</label>
+    </customValue>
+    <customValue>
+        <fullName>Eng NG  Waukesha 7042</fullName>
+        <default>false</default>
+        <label>Eng NG  Waukesha 7042</label>
+    </customValue>
+    <customValue>
+        <fullName>ESD System</fullName>
+        <default>false</default>
+        <label>ESD System</label>
+    </customValue>
+    <customValue>
+        <fullName>Exchanger Unknown</fullName>
+        <default>false</default>
+        <label>Exchanger Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Exch Boiler</fullName>
+        <default>false</default>
+        <label>Exch Boiler</label>
+    </customValue>
+    <customValue>
+        <fullName>Exch Cooler</fullName>
+        <default>false</default>
+        <label>Exch Cooler</label>
+    </customValue>
+    <customValue>
+        <fullName>Exch Heater</fullName>
+        <default>false</default>
+        <label>Exch Heater</label>
+    </customValue>
+    <customValue>
+        <fullName>Filter Carbon</fullName>
+        <default>false</default>
+        <label>Filter Carbon</label>
+    </customValue>
+    <customValue>
+        <fullName>Filter Cartridge</fullName>
+        <default>false</default>
+        <label>Filter Cartridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Filter Coalescer</fullName>
+        <default>false</default>
+        <label>Filter Coalescer</label>
+    </customValue>
+    <customValue>
+        <fullName>Filter Sock</fullName>
+        <default>false</default>
+        <label>Filter Sock</label>
+    </customValue>
+    <customValue>
+        <fullName>Flowline</fullName>
+        <default>false</default>
+        <label>Flowline</label>
+    </customValue>
+    <customValue>
+        <fullName>GASLIFT</fullName>
+        <default>false</default>
+        <label>Gas Lift Flowline</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Plant</fullName>
+        <default>false</default>
+        <label>Gas Plant</label>
+    </customValue>
+    <customValue>
+        <fullName>Generator</fullName>
+        <default>false</default>
+        <label>Generator</label>
+    </customValue>
+    <customValue>
+        <fullName>Header</fullName>
+        <default>false</default>
+        <label>Header</label>
+    </customValue>
+    <customValue>
+        <fullName>Heater Treater</fullName>
+        <default>false</default>
+        <label>Heater Treater</label>
+    </customValue>
+    <customValue>
+        <fullName>Instrumentation</fullName>
+        <default>false</default>
+        <label>Instrumentation</label>
+    </customValue>
+    <customValue>
+        <fullName>Inventory Org</fullName>
+        <default>false</default>
+        <label>Inventory Org</label>
+    </customValue>
+    <customValue>
+        <fullName>LDV Diesel</fullName>
+        <default>false</default>
+        <label>LDV Diesel</label>
+    </customValue>
+    <customValue>
+        <fullName>LDV Gas</fullName>
+        <default>false</default>
+        <label>LDV Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Lift Forklift</fullName>
+        <default>false</default>
+        <label>Lift Forklift</label>
+    </customValue>
+    <customValue>
+        <fullName>MDV Diesel 350</fullName>
+        <default>false</default>
+        <label>MDV Diesel 350</label>
+    </customValue>
+    <customValue>
+        <fullName>MDV Diesel 550</fullName>
+        <default>false</default>
+        <label>MDV Diesel 550</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Clinic</fullName>
+        <default>false</default>
+        <label>Medical Clinic</label>
+    </customValue>
+    <customValue>
+        <fullName>Meter</fullName>
+        <default>false</default>
+        <label>Meter</label>
+    </customValue>
+    <customValue>
+        <fullName>Meter Coriolis</fullName>
+        <default>false</default>
+        <label>Meter Coriolis</label>
+    </customValue>
+    <customValue>
+        <fullName>Meter Multi Phase</fullName>
+        <default>false</default>
+        <label>Meter Multi Phase</label>
+    </customValue>
+    <customValue>
+        <fullName>Meter Orifice</fullName>
+        <default>false</default>
+        <label>Meter Orifice</label>
+    </customValue>
+    <customValue>
+        <fullName>Meter Turbine</fullName>
+        <default>false</default>
+        <label>Meter Turbine</label>
+    </customValue>
+    <customValue>
+        <fullName>Meter Ultrasonic</fullName>
+        <default>false</default>
+        <label>Meter Ultrasonic</label>
+    </customValue>
+    <customValue>
+        <fullName>Meter Unknown</fullName>
+        <default>false</default>
+        <label>Meter Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Motor Electric</fullName>
+        <default>false</default>
+        <label>Motor Electric</label>
+    </customValue>
+    <customValue>
+        <fullName>Pad</fullName>
+        <default>false</default>
+        <label>Pad</label>
+    </customValue>
+    <customValue>
+        <fullName>Pawnee Plant</fullName>
+        <default>false</default>
+        <label>Pawnee Plant</label>
+    </customValue>
+    <customValue>
+        <fullName>Pig Launcher</fullName>
+        <default>false</default>
+        <label>Pig Launcher</label>
+    </customValue>
+    <customValue>
+        <fullName>Pig Launcher/Receiver</fullName>
+        <default>false</default>
+        <label>Pig Launcher/Receiver</label>
+    </customValue>
+    <customValue>
+        <fullName>Pig Receiver</fullName>
+        <default>false</default>
+        <label>Pig Receiver</label>
+    </customValue>
+    <customValue>
+        <fullName>Piping</fullName>
+        <default>false</default>
+        <label>Piping</label>
+    </customValue>
+    <customValue>
+        <fullName>Planned Well</fullName>
+        <default>false</default>
+        <label>Planned Well</label>
+    </customValue>
+    <customValue>
+        <fullName>Pneu Blowcase</fullName>
+        <default>false</default>
+        <label>Pneu Blowcase</label>
+    </customValue>
+    <customValue>
+        <fullName>Pneumatic Blowcase</fullName>
+        <default>false</default>
+        <label>Pneumatic Blowcase</label>
+    </customValue>
+    <customValue>
+        <fullName>POD</fullName>
+        <default>false</default>
+        <label>POD</label>
+    </customValue>
+    <customValue>
+        <fullName>Position</fullName>
+        <default>false</default>
+        <label>Position</label>
+    </customValue>
+    <customValue>
+        <fullName>Pulsation Bottle</fullName>
+        <default>false</default>
+        <label>Pulsation Bottle</label>
+    </customValue>
+    <customValue>
+        <fullName>Pump Centrifugal</fullName>
+        <default>false</default>
+        <label>Pump Centrifugal</label>
+    </customValue>
+    <customValue>
+        <fullName>Pump Diaphram</fullName>
+        <default>false</default>
+        <label>Pump Diaphram</label>
+    </customValue>
+    <customValue>
+        <fullName>Pumping Unit</fullName>
+        <default>false</default>
+        <label>Pumping Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Pump PD</fullName>
+        <default>false</default>
+        <label>Pump PD</label>
+    </customValue>
+    <customValue>
+        <fullName>Pump Station</fullName>
+        <default>false</default>
+        <label>Pump Station</label>
+    </customValue>
+    <customValue>
+        <fullName>Rectifier</fullName>
+        <default>false</default>
+        <label>Rectifier</label>
+    </customValue>
+    <customValue>
+        <fullName>Rectifier Com</fullName>
+        <default>false</default>
+        <label>Rectifier Com</label>
+    </customValue>
+    <customValue>
+        <fullName>Rectifier Non Com</fullName>
+        <default>false</default>
+        <label>Rectifier Non Com</label>
+    </customValue>
+    <customValue>
+        <fullName>Relief Tank</fullName>
+        <default>false</default>
+        <label>Relief Tank</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Point</fullName>
+        <default>false</default>
+        <label>Sales Point</label>
+    </customValue>
+    <customValue>
+        <fullName>Satellite</fullName>
+        <default>false</default>
+        <label>Satellite</label>
+    </customValue>
+    <customValue>
+        <fullName>Separator</fullName>
+        <default>false</default>
+        <label>Separator</label>
+    </customValue>
+    <customValue>
+        <fullName>Separator 2 Phase</fullName>
+        <default>false</default>
+        <label>Separator 2 Phase</label>
+    </customValue>
+    <customValue>
+        <fullName>Separator 3 Phase</fullName>
+        <default>false</default>
+        <label>Separator 3 Phase</label>
+    </customValue>
+    <customValue>
+        <fullName>Separator H2S Scavenger</fullName>
+        <default>false</default>
+        <label>Separator H2S Scavenger</label>
+    </customValue>
+    <customValue>
+        <fullName>Separator Scrubber</fullName>
+        <default>false</default>
+        <label>Separator Scrubber</label>
+    </customValue>
+    <customValue>
+        <fullName>Separator Scrubber Unknown</fullName>
+        <default>false</default>
+        <label>Separator Scrubber Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Skid FG Conditioner</fullName>
+        <default>false</default>
+        <label>Skid FG Conditioner</label>
+    </customValue>
+    <customValue>
+        <fullName>Skid Instrument Air Unit</fullName>
+        <default>false</default>
+        <label>Skid Instrument Air Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Skid Lact Unit</fullName>
+        <default>false</default>
+        <label>Skid Lact Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Skid Meter</fullName>
+        <default>false</default>
+        <label>Skid Meter</label>
+    </customValue>
+    <customValue>
+        <fullName>Skid Unknown</fullName>
+        <default>false</default>
+        <label>Skid Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Skid VRU</fullName>
+        <default>false</default>
+        <label>Skid VRU</label>
+    </customValue>
+    <customValue>
+        <fullName>STAT Office</fullName>
+        <default>false</default>
+        <label>STAT Office</label>
+    </customValue>
+    <customValue>
+        <fullName>Still</fullName>
+        <default>false</default>
+        <label>Still</label>
+    </customValue>
+    <customValue>
+        <fullName>Sump</fullName>
+        <default>false</default>
+        <label>Sump</label>
+    </customValue>
+    <customValue>
+        <fullName>SWD</fullName>
+        <default>false</default>
+        <label>SWD</label>
+    </customValue>
+    <customValue>
+        <fullName>T/A Well</fullName>
+        <default>false</default>
+        <label>T/A Well</label>
+    </customValue>
+    <customValue>
+        <fullName>Tank</fullName>
+        <default>false</default>
+        <label>Tank</label>
+    </customValue>
+    <customValue>
+        <fullName>Tank Battery</fullName>
+        <default>false</default>
+        <label>Tank Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>Tank Gun Barrel</fullName>
+        <default>false</default>
+        <label>Tank Gun Barrel</label>
+    </customValue>
+    <customValue>
+        <fullName>Tank Storage</fullName>
+        <default>false</default>
+        <label>Tank Storage</label>
+    </customValue>
+    <customValue>
+        <fullName>Tank Unknown</fullName>
+        <default>false</default>
+        <label>Tank Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Tower</fullName>
+        <default>false</default>
+        <label>Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Transmitter Pressure</fullName>
+        <default>false</default>
+        <label>Transmitter Pressure</label>
+    </customValue>
+    <customValue>
+        <fullName>Value Ctrl</fullName>
+        <default>false</default>
+        <label>Value Ctrl</label>
+    </customValue>
+    <customValue>
+        <fullName>Valve Ctrl</fullName>
+        <default>false</default>
+        <label>Valve Ctrl</label>
+    </customValue>
+    <customValue>
+        <fullName>Valve Ctrl SDV</fullName>
+        <default>false</default>
+        <label>Valve Ctrl SDV</label>
+    </customValue>
+    <customValue>
+        <fullName>Valve Relief</fullName>
+        <default>false</default>
+        <label>Valve Relief</label>
+    </customValue>
+    <customValue>
+        <fullName>Volume Pot</fullName>
+        <default>false</default>
+        <label>Volume Pot</label>
+    </customValue>
+    <customValue>
+        <fullName>W/O Comp.</fullName>
+        <default>false</default>
+        <label>W/O Comp.</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Treating Unit</fullName>
+        <default>false</default>
+        <label>Water Treating Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Well</fullName>
+        <default>false</default>
+        <label>Water Well</label>
+    </customValue>
+    <customValue>
+        <fullName>Well</fullName>
+        <default>false</default>
+        <label>Well</label>
+    </customValue>
+    <customValue>
+        <fullName>Wellhead</fullName>
+        <default>false</default>
+        <label>Wellhead</label>
+    </customValue>
+    <customValue>
+        <fullName>Value Relief</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Value Relief</label>
+    </customValue>
+    <masterLabel>Asset Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

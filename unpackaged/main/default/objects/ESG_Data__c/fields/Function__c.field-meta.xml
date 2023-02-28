@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Function__c</fullName>
+    <externalId>false</externalId>
+    <label>Function</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Level</fullName>
+                <default>false</default>
+                <label>Level</label>
+            </value>
+            <value>
+                <fullName>Flow Rate</fullName>
+                <default>false</default>
+                <label>Flow Rate</label>
+            </value>
+            <value>
+                <fullName>Temperature</fullName>
+                <default>false</default>
+                <label>Temperature</label>
+            </value>
+            <value>
+                <fullName>Pressure Control</fullName>
+                <default>false</default>
+                <label>Pressure Control</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Water Transfer Skid PM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Water Transfer Skid PMs</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Water Transfer Skid PM Layout</layout>
+        <sections>
+            <label><!-- 1-Motor NDE --></label>
+            <section>1-Motor NDE</section>
+        </sections>
+        <sections>
+            <label><!-- 2-Motor DE --></label>
+            <section>2-Motor DE</section>
+        </sections>
+        <sections>
+            <label><!-- 3-Pump DE --></label>
+            <section>3-Pump DE</section>
+        </sections>
+        <sections>
+            <label><!-- 4-Pump NDE --></label>
+            <section>4-Pump NDE</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Single Phase amp draw (I&amp;E ONLY) --></label>
+            <section>Single Phase amp draw (I&amp;E ONLY)</section>
+        </sections>
+        <sections>
+            <label><!-- Three Phase amp draw (I&amp;E ONLY) Section --></label>
+            <section>Three Phase amp draw (I&amp;E ONLY) Section</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

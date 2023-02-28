@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Portable Electrical Equipment --></label>
+        <name>Portable_Electrical_Equipment__c</name>
+        <picklistValues>
+            <masterLabel>Identify equip. classification</masterLabel>
+            <translation><!-- Identify equip. classification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement continuous gas testing</masterLabel>
+            <translation><!-- Implement continuous gas testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspect equipment and tools for condition and test date currency</masterLabel>
+            <translation><!-- Inspect equipment and tools for condition and test date currency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protect electrical leads from impact or damage</masterLabel>
+            <translation><!-- Protect electrical leads from impact or damage --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

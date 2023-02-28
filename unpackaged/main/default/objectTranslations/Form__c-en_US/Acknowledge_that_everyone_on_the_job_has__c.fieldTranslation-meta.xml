@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Stop work acknowledgement --></label>
+        <name>Acknowledge_that_everyone_on_the_job_has__c</name>
+    </CustomFieldTranslation>

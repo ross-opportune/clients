@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Potential Spills --></label>
+        <name>Potential_Spills__c</name>
+        <picklistValues>
+            <masterLabel>Drain equipment</masterLabel>
+            <translation><!-- Drain equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Have spill cleanup materials and equipment on hand</masterLabel>
+            <translation><!-- Have spill cleanup materials and equipment on hand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoses, connections in good condition</masterLabel>
+            <translation><!-- Hoses, connections in good condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restrain and isolate hoses when not in use</masterLabel>
+            <translation><!-- Restrain and isolate hoses when not in use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spill containment equipment</masterLabel>
+            <translation><!-- Spill containment equipment --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

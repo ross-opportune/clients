@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check placement of pipe on inlet of pond to ensure it is properly anchored, located inside the berm and inside the containment boom --></help>
+        <label><!-- Check Placement of Pipe On inlet to Pond --></label>
+        <name>Check_Placement_of_Pipe_On_inlet_to_Pond__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Process equipment cleared, depressured and isolated, OR extra precautions listed. --></help>
+        <label><!-- 2. Precautions --></label>
+        <name>X2_Precautions__c</name>
+    </CustomFieldTranslation>

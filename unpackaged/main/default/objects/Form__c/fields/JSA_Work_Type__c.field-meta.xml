@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JSA_Work_Type__c</fullName>
+    <description>Work Type being Performed for JSA</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If you select other please use next box to best describe Work Type</inlineHelpText>
+    <label>JSA Work Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ALS Operations</fullName>
+                <default>false</default>
+                <label>ALS Operations</label>
+            </value>
+            <value>
+                <fullName>I&amp;E Maintenance Operations</fullName>
+                <default>false</default>
+                <label>I&amp;E Maintenance Operations</label>
+            </value>
+            <value>
+                <fullName>Normal Production Operations</fullName>
+                <default>false</default>
+                <label>Normal Production Operations</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pipeline and Mechanical Operations</fullName>
+                <default>false</default>
+                <label>Pipeline and Mechanical Operations</label>
+            </value>
+            <value>
+                <fullName>Production Operations Open Process</fullName>
+                <default>false</default>
+                <label>Production Operations Open Process</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

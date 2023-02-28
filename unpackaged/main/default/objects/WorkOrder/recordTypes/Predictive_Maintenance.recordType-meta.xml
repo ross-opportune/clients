@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Predictive_Maintenance</fullName>
+    <active>true</active>
+    <label>Predictive Maintenance</label>
+    <picklistValues>
+        <picklist>Asset_Search_Type__c</picklist>
+        <values>
+            <fullName>Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CGP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Containment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engine%2FCompressor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchanger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flowline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Header</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrumentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pawnee Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pigging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pneu Blowcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pneumatics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pumping Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rectifier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relief Valve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STAT Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satellite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid FG Conditioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid Instrument Air Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Ctrl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volume Pot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Well</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellhead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>electrical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Asset_Type__c</picklist>
+        <values>
+            <fullName>Actuator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blowdown Vessel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burner Combustor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burner Flare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burner Incinerator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CGP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cntrl Pneu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cntrol Pneu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Reciprocating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compressor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compressor Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contactor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Containment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Containment Concrete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Containment Earthen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Containment Steel Lined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Containment Steel Unlined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESD System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Overhead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng EG AJAX DCP180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng EG AJAX DCP230</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng EG AJAX DCP360</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG  Waukesha 1197</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG  Waukesha 5790</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG  Waukesha 7042</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3304</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3406</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 342</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3508</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3508ULB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3512ULB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3516LE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3516ULB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT 3520ULB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT G3508-LE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT G3508B-LE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG CAT G3516J-LE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eng NG Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engine%2FCompressor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exch Boiler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exch Cooler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exch Heater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchanger Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Carbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Cartridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Coalescer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filter Sock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flowline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GASLIFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Header</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heater Treater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrumentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inventory Org</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LDV Diesel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LDV Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lift Forklift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDV Diesel 350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDV Diesel 550</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Coriolis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Orifice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Turbine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Ultrasonic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meter Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motor Electric</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pawnee Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pig Launcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pig Launcher%2FReceiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pig Receiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned Well</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pneu Blowcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pneumatic Blowcase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Position</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulsation Bottle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pump Centrifugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pump Diaphram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pump PD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pump Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pumping Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rectifier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rectifier Com</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rectifier Non Com</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relief Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STAT Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Point</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satellite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator 2 Phase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator 3 Phase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator H2S Scavenger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator Scrubber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator Scrubber Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid FG Conditioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid Instrument Air Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid Lact Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid Meter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skid VRU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Still</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T%2FA Well</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank Battery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank Gun Barrel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transmitter Pressure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Ctrl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Ctrl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Ctrl SDV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Relief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volume Pot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W%2FO Comp%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Treating Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Well</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Well</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellhead</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>COA_Category__c</picklist>
+        <values>
+            <fullName>CHEMICALS %26 SUPPLIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTRACT SERVICES %26 LABOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENERGY AND FUEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIELD OFFICE EXPENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAINTENANCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAJOR REPAIRS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAWNEE PLANT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTION EXPENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SALT WATER DISPOSAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WELL SERVICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WELL SERVICES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>COA__c</picklist>
+        <values>
+            <fullName>ESG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - AMINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - ARTIFICIAL LIFT EQUIPMENT - DOWNHOLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - ARTIFICIAL LIFT EQUIPMENT - SURFACE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - ARTIFICIAL LIFT SERVICES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - COMMUNITY RELATIONS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - COMPRESSOR MAINTENANCE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - COMPRESSOR RENTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - CONTRACT LABOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - CORROSION CHEMICALS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - DIRT WORK%2FCIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - ENERGY%2C DIESEL %26 FUEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - EQUIPMENT RENTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - FACILITY MAINT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - GENERATORS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - H2S SCAVENGER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - HOT OIL SERVICES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - HSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - I%26E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - LEASE USE %26 FLARE GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MAINTENANCE OTHER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MEASURMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - METHANOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MISCELLANEOUS EXPENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - CIVIL MATERIALS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - COMPANY LABOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - COMPRESSORS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - CONTRACT LABOR - I%26E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - CONTRACT LABOR - MECHANICAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - CONTRACT SERVICES - OTHER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - DAMAGES%2FROW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - DIRT WORK%2FCIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - ENGINEERING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - HSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - INSPECTION%2FTESTING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - INSTRUMENTATION AND ELECTRICAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - LAND%2C SURVEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - LEGAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - LIFTING%2FCRANES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - LINEPIPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - METERING%2FMEASUREMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - NON-CONTROLLABLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - OVERHEAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - PUMPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - RENTAL EQUIPMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - ROW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - SCADA%2FAUTOMATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - SEPARATION EQUIPMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - SUPERVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - TANKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - TRANSPORTATION%2FTRUCKING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - UTILITIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - VALVES AND FITTINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - MR - WELLHEAD EQUIPMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - OFFICE UTILITIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - OTHER CHEMICALS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - PARAFFIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - SPILL CONTROL%2FPREVENTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - SUPERVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - SWD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - SWD PIPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - SWD TRUCKING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - TOOLS%2FSUPPLIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - TRAINING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - VACUUM TRUCK SERVICES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - VEHICLE EXPENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOE - WELL SITE POWER</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completion_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Completed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EAM_WO_Type__c</picklist>
+        <values>
+            <fullName>After the Fact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Breakdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulletin%2FWarranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calibration%2FProgramming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corrective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Transfer%2FReplacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSE Hazard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Equipment%2FUpgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Predictive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preventative Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spill %2F Remediation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ENR_Supervision__c</picklist>
+        <values>
+            <fullName>Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Start Of Job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supervise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Failure_Fix_Code__c</picklist>
+        <values>
+            <fullName>ELC-EARTH%2FISOLATION FAULT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELC-FAULTY POWER%2FVOLTAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELC-GENERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELC-NO POWER%2FVOLTAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELC-OPEN CIRCUIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELC-SHORT CIRCUITING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXT-BLOCKAGE%2FPLUGGED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXT-CONTAMINATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXT-EXTERNAL INFLUENCES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXT-GENERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INS-CALIBRATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INS-COMMON MODE FAILURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INS-CONTROL FAILURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INS-FAULTY SIGNAL%2FALARM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INS-GENERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INS-NO SIGNAL%2FALARM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INS-SOFTWARE FAILURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-BREAKAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-BURST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-CAVITATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-CORROSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-EROSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-FATIGUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-GENERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-OVERHEATING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAT-WEAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEC-CLEARANCE%2FALIGNMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEC-DEFORMATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEC-GENERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEC-LOOSENESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEC-STICKING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEC-VIBRATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Completed%3A MEC-LEAKAGE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Area 31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 33</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 51</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 52</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 61</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 71</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 72</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 81</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 82</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kenedy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moray Bofin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEYorktown%2FBuchel%2FWahoo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pawnee North East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pawnee Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%2EW Kennedy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAT 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SawFish%2FStingray%2FYoakum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three Rivers</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary__c</picklist>
+        <values>
+            <fullName>Air Compressor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battery Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blowdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bring Compressor Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bring POD Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bring Well Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coriolis Meter Proving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dig Watch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Meter Calibration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaslift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Water Treatment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrumentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LDAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease Crew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease Road Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Line Locate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methanol Injection system</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSV Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pigging Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plunger Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressure Optimization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pump Oil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety System Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swabbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Turbine Meter Calibration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Well Connect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellhead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wireline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Emergency %E2%80%93 work starts immediately</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority 1 %E2%80%93 Typically begins in 1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority 2 %E2%80%93 Typically begins in 2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority 3 %E2%80%93 Typically begins in 3 - 7 days</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Priority 4 %E2%80%93 Typically begins in 30 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority 5 %E2%80%93 Typically begins in 60 days</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_Work_Could_Not_Be_Completed__c</picklist>
+        <values>
+            <fullName>Equipment Isolation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Constraint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personnel Contraint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Conflict</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time Constraint</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Code__c</picklist>
+        <values>
+            <fullName>Calibrate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replace</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary__c</picklist>
+        <values>
+            <fullName>3rd Party Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABB Gas Lift App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABB Module</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barstop Plunger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Box Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bypass Plunger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casing Sensor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cathodic Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check Valves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clear Tubing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communicantion Signal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Controller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coriolis Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOT Pipeline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DP Controllers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ethernet Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fence and Cattleguard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flowline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free Flowing Well</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Lift Flow Rate Control Valve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Lift Survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaslift%2FBooster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guided Wave Radar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HLL Sensor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Liquid Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%2FO Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLL Sensor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level Controller Pilot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liquid Sampling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media Changeouts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil in Tanks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Optimization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLC%2FHMI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PODS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pad Plunger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perf Tubing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plunger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plunger Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressure Sensor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pull BHA Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pull BHA- Offset Frac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retrieval Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Routine BHA Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPCC Plan Inspection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satellites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serial Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solenoid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tank Batteries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Totalflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer fluid from tank to sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trash Plunger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troubleshoot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tubing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tubing Sensor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turbine Measurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ubiquiti Radio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Position Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Positioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valve Tuning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valves %26 Piping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vessel Cleanout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellhead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wind Wall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worn</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Start_Work_Now__c</picklist>
+        <values>
+            <fullName>Begin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Planning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

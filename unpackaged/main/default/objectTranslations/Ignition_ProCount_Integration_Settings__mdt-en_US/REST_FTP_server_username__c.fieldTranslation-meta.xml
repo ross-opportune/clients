@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- enter the ftp username --></help>
+        <label><!-- REST_FTP_server_username --></label>
+        <name>REST_FTP_server_username__c</name>
+    </CustomFieldTranslation>

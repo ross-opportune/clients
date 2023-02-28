@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Manual Handling --></label>
+        <name>Manual_Handling_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Assess manual handling task</masterLabel>
+            <translation><!-- Assess manual handling task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirm stability of load and work platform</masterLabel>
+            <translation><!-- Confirm stability of load and work platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get assistance or mechanical aid to avoid pinch points</masterLabel>
+            <translation><!-- Get assistance or mechanical aid to avoid pinch points --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limit load size</masterLabel>
+            <translation><!-- Limit load size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proper lifting technique</masterLabel>
+            <translation><!-- Proper lifting technique --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

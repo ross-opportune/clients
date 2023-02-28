@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consistency_of_Paraffin__c</fullName>
+    <externalId>false</externalId>
+    <label>Consistency of Paraffin</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hard, not malleable and unable to form together if in small chunks</fullName>
+                <default>false</default>
+                <label>Hard, not malleable and unable to form together if in small chunks</label>
+            </value>
+            <value>
+                <fullName>Medium, malleable and able to hold form</fullName>
+                <default>false</default>
+                <label>Medium, malleable and able to hold form</label>
+            </value>
+            <value>
+                <fullName>Soft, runny and unable to hold form</fullName>
+                <default>false</default>
+                <label>Soft, runny and unable to hold form</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

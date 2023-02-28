@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Workover_WOs</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Asset_Name__c</columns>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>CreatedBy</columns>
+    <columns>Primary__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary__c</field>
+        <operation>equals</operation>
+        <value>Workover</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>Closed,Canceled</value>
+    </filters>
+    <label>Workover WOs</label>
+</ListView>

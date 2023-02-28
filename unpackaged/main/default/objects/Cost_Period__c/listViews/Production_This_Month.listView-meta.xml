@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_This_Month</fullName>
+    <columns>NAME</columns>
+    <columns>Week_of__c</columns>
+    <columns>COA_Category__c</columns>
+    <columns>COA__c</columns>
+    <columns>Forecasted_Cost__c</columns>
+    <columns>Actual_Cost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Week_of__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>COA_Category__c</field>
+        <operation>notEqual</operation>
+        <value>MAINTENANCE</value>
+    </filters>
+    <label>Production - This Month</label>
+</ListView>

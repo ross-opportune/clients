@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAP_Ex_Work_Orders</fullName>
+    <booleanFilter>1 or 2</booleanFilter>
+    <columns>CAP_EX_WORK__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>AFE_Number__c</columns>
+    <columns>Subject</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>Notes__c</columns>
+    <columns>Cost_Line_Item_Total__c</columns>
+    <columns>DurationInMinutes</columns>
+    <columns>Case</columns>
+    <columns>COA__c</columns>
+    <columns>Cost_Period__c</columns>
+    <columns>Total_Cost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAP_EX_WORK__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>AFE_Number__c</field>
+        <operation>contains</operation>
+        <value>FAC</value>
+    </filters>
+    <label>CAP Ex Work Orders</label>
+</ListView>

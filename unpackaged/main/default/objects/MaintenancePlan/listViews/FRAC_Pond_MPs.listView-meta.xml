@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FRAC_Pond_MPs</fullName>
+    <columns>Name</columns>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>NextSuggestedMaintenanceDate</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <columns>Description</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MaintenancePlanTitle</field>
+        <operation>contains</operation>
+        <value>frac</value>
+    </filters>
+    <label>FRAC Pond MPs</label>
+</ListView>

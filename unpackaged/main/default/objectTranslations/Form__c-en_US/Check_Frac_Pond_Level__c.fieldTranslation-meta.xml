@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check Frac Pond Level --></help>
+        <label><!-- Check Frac Pond Level --></label>
+        <name>Check_Frac_Pond_Level__c</name>
+    </CustomFieldTranslation>

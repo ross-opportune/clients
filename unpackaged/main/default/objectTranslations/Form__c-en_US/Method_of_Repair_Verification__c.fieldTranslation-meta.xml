@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Method of Repair Verification: --></label>
+        <name>Method_of_Repair_Verification__c</name>
+        <picklistValues>
+            <masterLabel>Method 21 Soap Bubbles</masterLabel>
+            <translation><!-- Method 21 Soap Bubbles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OGI Camera</masterLabel>
+            <translation><!-- OGI Camera --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

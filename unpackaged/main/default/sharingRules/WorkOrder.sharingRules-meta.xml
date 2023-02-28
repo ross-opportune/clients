@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Closed_WOs</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Closed WOs</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>StatusCategory</field>
+            <operation>equals</operation>
+            <value>Closed,Cannot Complete,Canceled</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Maintenance_WOs</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Maintenance WOs</label>
+        <sharedTo>
+            <group>Maintenance_Planners</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Work Order Request,Corrective Maintenance,Predictive Maintenance,Preventative Maintenance</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opps_Tasks</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opps Tasks</label>
+        <sharedTo>
+            <group>Operations_Planners</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Artificial Lift,Downtime,Non-Downtime,Well Stops</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

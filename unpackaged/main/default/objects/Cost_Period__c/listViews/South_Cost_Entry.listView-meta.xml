@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>South_Cost_Entry</fullName>
+    <columns>NAME</columns>
+    <columns>COA__c</columns>
+    <columns>COA_Category__c</columns>
+    <columns>AFE_Number__c</columns>
+    <columns>Contractor__c</columns>
+    <columns>Week_of__c</columns>
+    <columns>Region__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Forecasted_Cost__c</columns>
+    <columns>Actual_Cost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Week_of__c</field>
+        <operation>equals</operation>
+        <value>LAST_MONTH</value>
+    </filters>
+    <label>South Cost Entry</label>
+</ListView>

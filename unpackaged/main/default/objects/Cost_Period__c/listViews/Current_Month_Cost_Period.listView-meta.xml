@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Month_Cost_Period</fullName>
+    <columns>AFE_Number__c</columns>
+    <columns>Week_of__c</columns>
+    <columns>NAME</columns>
+    <columns>COA_Category__c</columns>
+    <columns>COA__c</columns>
+    <columns>Forecasted_Cost__c</columns>
+    <columns>Cost_Period_Line_Item_Total__c</columns>
+    <columns>Work_Order_Cost_Total__c</columns>
+    <columns>Work_Order_Cost__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>COA_Category__c</field>
+        <operation>equals</operation>
+        <value>CHEMICALS &amp; SUPPLIES,CONTRACT SERVICES &amp; LABOR,ENERGY AND FUEL,MAJOR REPAIRS,WELL SERVICES,PRODUCTION EXPENSE,SALT WATER DISPOSAL,MAINTENANCE,ESG,FIELD OFFICE EXPENSE</value>
+    </filters>
+    <filters>
+        <field>Week_of__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>Current Month Cost Period</label>
+</ListView>

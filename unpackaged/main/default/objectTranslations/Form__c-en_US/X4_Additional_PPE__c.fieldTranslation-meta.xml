@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Specific Protective Equipment beyond standard PPE (hard hat, safety glasses with sideshields, protective toe shoes) --></help>
+        <label><!-- 4. Additional PPE --></label>
+        <name>X4_Additional_PPE__c</name>
+        <picklistValues>
+            <masterLabel>Fire Resistant Clothing</masterLabel>
+            <translation><!-- Fire Resistant Clothing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goggles or Faceshield</masterLabel>
+            <translation><!-- Goggles or Faceshield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hearing Protection</masterLabel>
+            <translation><!-- Hearing Protection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal H2S Monitor</masterLabel>
+            <translation><!-- Personal H2S Monitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proper Gloves</masterLabel>
+            <translation><!-- Proper Gloves --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

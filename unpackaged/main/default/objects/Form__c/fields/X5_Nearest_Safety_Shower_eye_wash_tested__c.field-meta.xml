@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_Nearest_Safety_Shower_eye_wash_tested__c</fullName>
+    <externalId>false</externalId>
+    <label>5. Nearest Safety Shower/eye wash tested</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_N_A</valueSetName>
+    </valueSet>
+</CustomField>

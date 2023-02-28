@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- EAM WO Type --></label>
+        <name>EAM_WO_Type__c</name>
+        <picklistValues>
+            <masterLabel>After the Fact</masterLabel>
+            <translation><!-- After the Fact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breakdown</masterLabel>
+            <translation><!-- Breakdown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulletin/Warranty</masterLabel>
+            <translation><!-- Bulletin/Warranty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calibration/Programming</masterLabel>
+            <translation><!-- Calibration/Programming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrective</masterLabel>
+            <translation><!-- Corrective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Management</masterLabel>
+            <translation><!-- Data Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency</masterLabel>
+            <translation><!-- Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Transfer/Replacement</masterLabel>
+            <translation><!-- Equipment Transfer/Replacement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow-up</masterLabel>
+            <translation><!-- Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HSE Hazard</masterLabel>
+            <translation><!-- HSE Hazard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Equipment/Upgrade</masterLabel>
+            <translation><!-- New Equipment/Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predictive</masterLabel>
+            <translation><!-- Predictive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventative Maintenance</masterLabel>
+            <translation><!-- Preventative Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spill / Remediation</masterLabel>
+            <translation><!-- Spill / Remediation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation><!-- Urgent --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

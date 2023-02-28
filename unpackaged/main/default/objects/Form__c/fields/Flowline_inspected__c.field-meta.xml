@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flowline_inspected__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This Box will indicate if the flowline was inspected at the time of job.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This Box will indicate if the flowline was inspected at the time of job.</inlineHelpText>
+    <label>Flowline inspected</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

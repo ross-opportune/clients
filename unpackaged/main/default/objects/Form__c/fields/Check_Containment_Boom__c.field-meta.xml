@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Containment_Boom__c</fullName>
+    <description>Check containment boom to ensure it is properly anchored and adjust length of anchor lines as needed as pond fills to catch and control fluids near pond inlet piping (we will have to draw containment in as pond fills)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check containment boom to ensure it is properly anchored and adjust length of anchor lines as needed as pond fills to catch and control fluids near pond inlet piping (we will have to draw containment in as pond fills)</inlineHelpText>
+    <label>Check Containment Boom</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

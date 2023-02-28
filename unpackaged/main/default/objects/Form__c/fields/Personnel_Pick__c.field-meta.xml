@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personnel_Pick__c</fullName>
+    <externalId>false</externalId>
+    <label>Personnel</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Perform induction or training for new workers</fullName>
+                <default>false</default>
+                <label>Perform induction or training for new workers</label>
+            </value>
+            <value>
+                <fullName>Mentor / coach / supervise</fullName>
+                <default>false</default>
+                <label>Mentor / coach / supervise</label>
+            </value>
+            <value>
+                <fullName>Verify competencies, skills and experience</fullName>
+                <default>false</default>
+                <label>Verify competencies, skills and experience</label>
+            </value>
+            <value>
+                <fullName>Address applicable limitations (fatigue, exhaustion)</fullName>
+                <default>false</default>
+                <label>Address applicable limitations (fatigue, exhaustion)</label>
+            </value>
+            <value>
+                <fullName>Manage language barriers</fullName>
+                <default>false</default>
+                <label>Manage language barriers</label>
+            </value>
+            <value>
+                <fullName>Seat belts while driving</fullName>
+                <default>false</default>
+                <label>Seat belts while driving</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

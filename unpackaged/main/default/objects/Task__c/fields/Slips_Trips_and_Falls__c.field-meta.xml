@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Slips_Trips_and_Falls__c</fullName>
+    <externalId>false</externalId>
+    <label>Slips, Trips, and Falls</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Identify and shield uneven surface or projections</fullName>
+                <default>false</default>
+                <label>Identify and shield uneven surface or projections</label>
+            </value>
+            <value>
+                <fullName>Flag hazards as necessary</fullName>
+                <default>false</default>
+                <label>Flag hazards as necessary</label>
+            </value>
+            <value>
+                <fullName>Secure or cover cables, cords, and tubing</fullName>
+                <default>false</default>
+                <label>Secure or cover cables, cords, and tubing</label>
+            </value>
+            <value>
+                <fullName>Clean up liquids</fullName>
+                <default>false</default>
+                <label>Clean up liquids</label>
+            </value>
+            <value>
+                <fullName>Barricade or rope off openings and holes</fullName>
+                <default>false</default>
+                <label>Barricade or rope off openings and holes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If you select other please use next box to best describe Work Type --></help>
+        <label><!-- JSA Work Type --></label>
+        <name>JSA_Work_Type__c</name>
+        <picklistValues>
+            <masterLabel>ALS Operations</masterLabel>
+            <translation><!-- ALS Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I&amp;E Maintenance Operations</masterLabel>
+            <translation><!-- I&amp;E Maintenance Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal Production Operations</masterLabel>
+            <translation><!-- Normal Production Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline and Mechanical Operations</masterLabel>
+            <translation><!-- Pipeline and Mechanical Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production Operations Open Process</masterLabel>
+            <translation><!-- Production Operations Open Process --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_PIg_Used_1__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of PIg Used #1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2 Cup Pig</fullName>
+                <default>false</default>
+                <label>2 Cup Pig</label>
+            </value>
+            <value>
+                <fullName>4 Cup Pig</fullName>
+                <default>false</default>
+                <label>4 Cup Pig</label>
+            </value>
+            <value>
+                <fullName>Cup and Brush Pig</fullName>
+                <default>false</default>
+                <label>Cup and Brush Pig</label>
+            </value>
+            <value>
+                <fullName>Disc and Brush Pig</fullName>
+                <default>false</default>
+                <label>Disc and Brush Pig</label>
+            </value>
+            <value>
+                <fullName>Disc Pig</fullName>
+                <default>false</default>
+                <label>Disc Pig</label>
+            </value>
+            <value>
+                <fullName>Foam</fullName>
+                <default>false</default>
+                <label>Foam</label>
+            </value>
+            <value>
+                <fullName>Poly Coated Foam</fullName>
+                <default>false</default>
+                <label>Poly Coated Foam</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

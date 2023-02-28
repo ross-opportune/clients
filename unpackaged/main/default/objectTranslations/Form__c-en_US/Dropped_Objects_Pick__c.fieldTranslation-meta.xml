@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Dropped Objects --></label>
+        <name>Dropped_Objects_Pick__c</name>
+        <picklistValues>
+            <masterLabel>Secure tools (tie-off)</masterLabel>
+            <translation><!-- Secure tools (tie-off) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use lifting equipment to raise tools to or from the work platform</masterLabel>
+            <translation><!-- Use lifting equipment to raise tools to or from the work platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use signs and barriers to restrict entry or access underwork at elevation</masterLabel>
+            <translation><!-- Use signs and barriers to restrict entry or access underwork at elevation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

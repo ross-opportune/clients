@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Treatment_Type_and_Method__c</fullName>
+    <externalId>false</externalId>
+    <label>Chemical Type used</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chemical Type: Corrosion Inhibitor</fullName>
+                <default>false</default>
+                <label>Corrosion Inhibitor</label>
+            </value>
+            <value>
+                <fullName>Chemical Type: Biocide</fullName>
+                <default>false</default>
+                <label>Biocide</label>
+            </value>
+            <value>
+                <fullName>Chemical Type: Paraffin Dispersant</fullName>
+                <default>false</default>
+                <label>Paraffin Dispersant</label>
+            </value>
+            <value>
+                <fullName>Chemical Type: Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOs_assigned_to_Vendors</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>AFE_Number__c</columns>
+    <columns>Contractor__c</columns>
+    <columns>Total_Cost__c</columns>
+    <columns>Subject</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contractor_Name__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2021 12:00 AM</value>
+    </filters>
+    <label>WOs assigned to Vendors</label>
+</ListView>

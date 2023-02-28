@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Resource_Name__c</fullName>
+    <description>Preferred Resource Group/Name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter A Resource Group/ Name that is Preferred to complete Work</inlineHelpText>
+    <label>Preferred Resource Group/ Name</label>
+    <length>30</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

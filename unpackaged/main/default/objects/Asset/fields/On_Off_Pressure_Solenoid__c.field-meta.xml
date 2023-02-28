@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Off_Pressure_Solenoid__c</fullName>
+    <description>Count Of On/Off Pressure or Level- Solenoid</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count Of On/Off Pressure or Level- Solenoid</inlineHelpText>
+    <label>On/Off Pressure Solenoid</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

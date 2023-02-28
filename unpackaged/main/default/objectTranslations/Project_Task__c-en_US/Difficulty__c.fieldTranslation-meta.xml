@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Difficulty --></label>
+        <name>Difficulty__c</name>
+        <picklistValues>
+            <masterLabel>Easy ( &lt;4hours)</masterLabel>
+            <translation><!-- Easy ( &lt;4hours) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard (Research, Or multiday)</masterLabel>
+            <translation><!-- Hard (Research, Or multiday) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrator Help</masterLabel>
+            <translation><!-- Integrator Help --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium (1 day)</masterLabel>
+            <translation><!-- Medium (1 day) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

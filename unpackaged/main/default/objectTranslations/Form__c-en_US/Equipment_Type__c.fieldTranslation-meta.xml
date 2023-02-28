@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Equipment Type --></label>
+        <name>Equipment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Compressor</masterLabel>
+            <translation><!-- Compressor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooler</masterLabel>
+            <translation><!-- Cooler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flare/Combustor/Incinerator/Vent Stack</masterLabel>
+            <translation><!-- Flare/Combustor/Incinerator/Vent Stack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Automatic Custody Transfer(s) (LACT)</masterLabel>
+            <translation><!-- Lease Automatic Custody Transfer(s) (LACT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous Other Equipment (not listed above)</masterLabel>
+            <translation><!-- Miscellaneous Other Equipment (not listed above) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil Tank</masterLabel>
+            <translation><!-- Oil Tank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pig Launcher/Receiver</masterLabel>
+            <translation><!-- Pig Launcher/Receiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pump</masterLabel>
+            <translation><!-- Pump --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VRU</masterLabel>
+            <translation><!-- VRU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel - 2 Phases</masterLabel>
+            <translation><!-- Vessel - 2 Phases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel - 3 Phases</masterLabel>
+            <translation><!-- Vessel - 3 Phases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel - Fuel Gas Scrubber</masterLabel>
+            <translation><!-- Vessel - Fuel Gas Scrubber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel - H2S Treatment</masterLabel>
+            <translation><!-- Vessel - H2S Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel - Process and Treatment (Heater Treaters/Testers)|Vessel - Miscellaneous Other</masterLabel>
+            <translation><!-- Vessel - Process and Treatment (Heater Treaters/Testers)|Vessel - Miscellaneous Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Tank</masterLabel>
+            <translation><!-- Water Tank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellhead</masterLabel>
+            <translation><!-- Wellhead --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

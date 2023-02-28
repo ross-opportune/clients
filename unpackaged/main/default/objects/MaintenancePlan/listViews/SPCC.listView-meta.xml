@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SPCC</fullName>
+    <columns>MaintenancePlanTitle</columns>
+    <columns>Maintenance_Assets__c</columns>
+    <columns>Name</columns>
+    <columns>NextSuggestedMaintenanceDate</columns>
+    <columns>StartDate</columns>
+    <columns>EndDate</columns>
+    <columns>WorkType</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MaintenancePlanTitle</field>
+        <operation>contains</operation>
+        <value>SPCC</value>
+    </filters>
+    <label>SPCC</label>
+</ListView>

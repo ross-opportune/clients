@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Corrective Maintenance Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Corrective Maintenance Layout (Field)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Corrective Maintenance Layout (Vendor)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opps Tasks Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opps Tasks Layout (Field)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opps Tasks Layout (Vendor)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PM Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PM Layout (Field)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PM Layout (Vendor)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Well Stop Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Well Stop Layout (Field)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Well Stop Layout (Vendor)</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Request Page Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add ESG Data --></label>
+        <name>Add_ESG_Data</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cannot Complete --></label>
+        <name>Cannot_Complete</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- End Work --></label>
+        <name>End_Work</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- End Work --></label>
+        <name>End_Work_Opps_Tasks</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Form --></label>
+        <name>Frac_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Form --></label>
+        <name>Gas_Calibration_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- JSA Form --></label>
+        <name>JSA_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LDAR --></label>
+        <name>LDAR</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Maintenance Assessment Form --></label>
+        <name>Maintenance_Assessment_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Form --></label>
+        <name>Oil_Calibration_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Form --></label>
+        <name>Pigging_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Procedures --></label>
+        <name>Procedures</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Request More Info --></label>
+        <name>Request_More_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SPCC Inspection Form --></label>
+        <name>SPCC_Inspection_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SPCC Site Inspection --></label>
+        <name>SPCC_Site_Inspection</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Start Work --></label>
+        <name>Start_Work</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Water Transfer Skid PM --></label>
+        <name>Water_Transfer_Skid_PM</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Well Stop Form --></label>
+        <name>Well_Stop_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Work Permit --></label>
+        <name>Work_Permit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Artificial Lift --></label>
+        <name>Artificial_Lift</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Corrective Maintenance --></label>
+        <name>Corrective_Maintenance</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Downtime --></label>
+        <name>Downtime</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ESG Data --></label>
+        <name>ESG_Data</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IOC Tasks --></label>
+        <name>IOC_Tasks</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- All Work that&apos;s classified as non Corrective. ( Installs, Cap Ex, Projects) --></description>
+        <label><!-- Non Corrective Maintenance --></label>
+        <name>Non_Corrective_Maintenance</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Non-Downtime --></label>
+        <name>Non_Downtime</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Predictive Maintenance --></label>
+        <name>Predictive_Maintenance</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Preventative Maintenance --></label>
+        <name>Preventative_Maintenance</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Well Stops --></label>
+        <name>Well_Stops</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Work Order Request --></label>
+        <name>Work_Order_Request</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please enter a reason for deferring/rejecting this Work Order Request. --></errorMessage>
+        <name>Approver_Notes_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Time Completed must be later than Time Started --></errorMessage>
+        <name>Time_Completed_Less_Time_Started</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Operations_Handbook --></label>
+        <name>Operations_Handbook</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Operations_Handbook_Button --></label>
+        <name>Operations_Handbook_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Contractor_Report --></label>
+        <name>View_Contractor_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

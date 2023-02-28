@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meters</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>Location__c</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>Proving_Maintenance_Plan__c</columns>
+    <columns>Proving_Maintenance_Plan_Name__c</columns>
+    <columns>Calibration_Maintenance_Plan__c</columns>
+    <columns>Calibration_Maintenance_Plan_Name__c</columns>
+    <columns>Last_Calibration__c</columns>
+    <columns>Geolocation__Latitude__s</columns>
+    <columns>Geolocation__Longitude__s</columns>
+    <columns>Location</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Asset_Type__c</field>
+        <operation>contains</operation>
+        <value>Meter,Meter Coriolis,Meter Orifice,Meter Turbine,Meter Ultrasonic,Meter Unknown</value>
+    </filters>
+    <filters>
+        <field>Location__c</field>
+        <operation>equals</operation>
+        <value>Area 71</value>
+    </filters>
+    <label>Meters</label>
+</ListView>

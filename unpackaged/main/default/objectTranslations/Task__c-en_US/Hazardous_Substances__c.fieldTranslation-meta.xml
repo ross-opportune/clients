@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Hazardous Substances --></label>
+        <name>Hazardous_Substances__c</name>
+        <picklistValues>
+            <masterLabel>Drain or purge equipment</masterLabel>
+            <translation><!-- Drain or purge equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow SDS controls</masterLabel>
+            <translation><!-- Follow SDS controls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement health hazard controls (Lead, Asbestos, Benzene, H2S, Iron Sulfide, Sulfur Dioxide, NORM)</masterLabel>
+            <translation><!-- Implement health hazard controls (Lead, Asbestos, Benzene, H2S, Iron Sulfide, Sulfur Dioxide, NORM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test or analyze material</masterLabel>
+            <translation><!-- Test or analyze material --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tag ID of Repair - If Required --></label>
+        <name>Tag_ID_of_Repair_If_Required__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SPCC_Inspections</fullName>
+    <columns>Name</columns>
+    <columns>CreatedDate</columns>
+    <columns>SuggestedMaintenanceDate</columns>
+    <columns>Asset</columns>
+    <columns>Status</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Maintenance_Plan_Number__c</field>
+        <operation>contains</operation>
+        <value>MP-0074,MP-0065,MP-0066,MP-0067,MP-0068,MP-0069,MP-0070,MP-0071,MP-0072,MP-0073</value>
+    </filters>
+    <label>SPCC Inspections</label>
+</ListView>

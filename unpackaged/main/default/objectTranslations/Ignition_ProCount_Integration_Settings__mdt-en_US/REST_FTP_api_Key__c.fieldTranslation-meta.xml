@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the value to communicate with the Heroku app --></help>
+        <label><!-- REST_FTP_api_Key --></label>
+        <name>REST_FTP_api_Key__c</name>
+    </CustomFieldTranslation>

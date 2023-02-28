@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check Oil in SWD Pump and record results --></help>
+        <label><!-- Oil Level in SWD Pump --></label>
+        <name>Oil_Level_in_SWD_Pump__c</name>
+    </CustomFieldTranslation>
